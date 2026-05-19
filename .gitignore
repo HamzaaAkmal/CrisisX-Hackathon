@@ -1,0 +1,9 @@
+.DS_Store
+DerivedData/
+.build/
+.env
+.env.*
+*.xcuserstate
+*.xcscmblueprint
+Config/Local.xcconfig
+com.agenticpulse.crisis/com.agenticpulse.crisis.xcodeproj/xcuserdata/
