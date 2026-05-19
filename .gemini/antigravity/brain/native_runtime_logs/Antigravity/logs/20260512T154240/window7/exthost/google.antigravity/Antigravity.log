@@ -1,0 +1,31 @@
+2026-05-12 19:04:30.574 [info] I0512 19:04:30.574147 85756 server.go:1236] Starting language server process with pid 85756
+2026-05-12 19:04:30.575 [info] I0512 19:04:30.575015 85756 server.go:301] Setting GOMAXPROCS to 4
+2026-05-12 19:04:30.577 [info] I0512 19:04:30.577138 85756 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-12 19:04:30.577 [info] I0512 19:04:30.577608 85756 server.go:454] Language server listening on random port at 56323 for HTTPS (gRPC)
+2026-05-12 19:04:30.577 [info] I0512 19:04:30.577627 85756 server.go:461] Language server listening on random port at 56324 for HTTP
+2026-05-12 19:04:31.171 [info] I0512 19:04:31.171143 85756 server.go:433] Created extension server client at port 56322
+2026-05-12 19:04:31.198 [info] I0512 19:04:31.197704 85756 cascade_manager.go:773] Reactive state is disabled
+2026-05-12 19:04:31.219 [info] (Antigravity) 2026-05-12 19:04:31.218 [INFO]: Language server started
+2026-05-12 19:04:31.240 [info] I0512 19:04:31.232535 85756 server.go:1693] initialized server successfully in 658.24225ms
+2026-05-12 19:04:31.313 [info] (Antigravity) 2026-05-12 19:04:31.313 [INFO]: LS lspClient started successfully
+2026-05-12 19:04:32.443 [info] I0512 19:04:32.442824 85756 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6e018934d05ae708
+2026-05-12 19:04:33.036 [info] I0512 19:04:33.036715 85756 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3fa36ba40fcc4599
+2026-05-12 19:04:33.589 [info] I0512 19:04:33.589547 85756 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf4fff1fad9920b43
+2026-05-12 19:06:08.984 [info] I0512 19:06:08.984148 85996 server.go:1236] Starting language server process with pid 85996
+2026-05-12 19:06:08.984 [info] I0512 19:06:08.984286 85996 server.go:301] Setting GOMAXPROCS to 4
+2026-05-12 19:06:08.985 [info] I0512 19:06:08.984959 85996 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-12 19:06:08.985 [info] I0512 19:06:08.985043 85996 server.go:454] Language server listening on random port at 56528 for HTTPS (gRPC)
+2026-05-12 19:06:08.985 [info] I0512 19:06:08.985066 85996 server.go:461] Language server listening on random port at 56529 for HTTP
+2026-05-12 19:06:09.542 [info] I0512 19:06:09.542244 85996 server.go:433] Created extension server client at port 56527
+2026-05-12 19:06:09.562 [info] I0512 19:06:09.562625 85996 cascade_manager.go:773] Reactive state is disabled
+2026-05-12 19:06:09.578 [info] (Antigravity) 2026-05-12 19:06:09.577 [INFO]: Language server started
+2026-05-12 19:06:09.593 [info] I0512 19:06:09.585254 85996 server.go:1693] initialized server successfully in 600.953667ms
+2026-05-12 19:06:09.704 [info] (Antigravity) 2026-05-12 19:06:09.704 [INFO]: LS lspClient started successfully
+2026-05-12 19:06:10.407 [info] I0512 19:06:10.407668 85996 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x675b006d2aa1ebc6
+2026-05-12 19:06:11.038 [info] I0512 19:06:11.038182 85996 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb8d69af0ccca1b71
+2026-05-12 19:06:11.666 [info] I0512 19:06:11.665620 85996 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbd5152f6358ad981
+2026-05-12 19:06:47.634 [info] (Antigravity) 2026-05-12 19:06:47.634 [INFO]: [Terminal] Command completed: git clone https://github.com/SuyanShrestha/LocalEyes.git exit code 0
+2026-05-12 19:06:48.055 [info] E0512 19:06:48.055367 85996 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-12 19:06:48.064 [info] E0512 19:06:48.064362 85996 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-12 19:06:48.066 [info] E0512 19:06:48.066901 85996 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-12 19:06:48.079 [info] E0512 19:06:48.079824 85996 log.go:398] while decoding file, failed to detect charset with sufficient confidence

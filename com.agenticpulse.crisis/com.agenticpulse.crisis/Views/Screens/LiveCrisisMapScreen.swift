@@ -44,13 +44,22 @@ struct LiveCrisisMapScreen: View {
                     }
                 }
 
-                if showSkeleton {
+                if let error = app.repository.lastError {
+                    EmptyState(
+                        icon: "exclamationmark.triangle.fill",
+                        title: "Supabase sync failed",
+                        message: error
+                    )
+                    .padding(.vertical, 4)
+                } else if showSkeleton {
                     DashboardSkeletonList()
                 } else if app.repository.incidents.isEmpty {
                     EmptyState(
                         icon: "antenna.radiowaves.left.and.right",
-                        title: "No live incidents yet",
-                        message: "Submit a real report or generate a backend API signal from Settings."
+                        title: app.repository.signals.isEmpty ? "Supabase connected, no data yet" : "Signals loaded, no incidents yet",
+                        message: app.repository.signals.isEmpty
+                            ? "The CIRO tables are reachable but currently empty. Submit a report or generate a backend API signal from Settings."
+                            : "Signals are present. Open Inbox or keep the agent pipeline running to create incidents."
                     )
                     .padding(.vertical, 4)
                 } else {

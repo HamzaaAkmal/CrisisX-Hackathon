@@ -1,0 +1,16 @@
+2026-05-16 12:58:33.029 [info] (Antigravity) 2026-05-16 12:58:33.022 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-05-16 12:58:33.029 [info] (Antigravity) 2026-05-16 12:58:33.022 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-05-16 12:58:33.795 [info] I0516 12:58:33.795332  1843 server.go:1236] Starting language server process with pid 1843
+2026-05-16 12:58:33.795 [info] I0516 12:58:33.795548  1843 server.go:301] Setting GOMAXPROCS to 4
+2026-05-16 12:58:33.796 [info] I0516 12:58:33.796539  1843 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-16 12:58:33.796 [info] I0516 12:58:33.796662  1843 server.go:454] Language server listening on random port at 49624 for HTTPS (gRPC)
+2026-05-16 12:58:33.796 [info] I0516 12:58:33.796688  1843 server.go:461] Language server listening on random port at 49625 for HTTP
+2026-05-16 12:58:34.356 [info] I0516 12:58:34.355754  1843 server.go:433] Created extension server client at port 49622
+2026-05-16 12:58:34.612 [info] I0516 12:58:34.611874  1843 cascade_manager.go:773] Reactive state is disabled
+2026-05-16 12:58:34.630 [info] (Antigravity) 2026-05-16 12:58:34.630 [INFO]: Language server started
+2026-05-16 12:58:34.653 [info] I0516 12:58:34.646303  1843 server.go:1693] initialized server successfully in 850.731625ms
+2026-05-16 12:58:34.706 [info] (Antigravity) 2026-05-16 12:58:34.706 [INFO]: LS lspClient started successfully
+2026-05-16 12:58:36.194 [info] I0516 12:58:36.193811  1843 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x805354997c8d4f5d
+2026-05-16 12:58:37.126 [info] I0516 12:58:37.125906  1843 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xec6e5db5934a083c
+2026-05-16 13:03:35.735 [info] I0516 13:03:35.734754  1843 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7d6b797d0e8c312c
+2026-05-16 13:03:36.324 [info] I0516 13:03:36.324444  1843 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3fa21f6917b4566

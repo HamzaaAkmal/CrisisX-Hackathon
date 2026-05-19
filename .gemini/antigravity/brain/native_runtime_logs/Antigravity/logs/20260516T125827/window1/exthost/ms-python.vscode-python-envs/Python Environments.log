@@ -1,0 +1,62 @@
+2026-05-16 12:58:32.983 [info] Python-envs extension version: 1.20.1
+2026-05-16 12:58:32.983 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-16 12:58:32.983 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-16 12:58:32.983 [info] [pet] Starting Python Locator /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-16 12:58:32.983 [error] [pet] Process error: A system error occurred (spawn /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-16 12:58:32.983 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-05-16 12:58:33.500 [info] [pet] Starting Python Locator /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-16 12:58:33.500 [info] [pet] Python Environment Tools restarted successfully
+2026-05-16 12:58:33.501 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/Users/apple/Desktop/clicky-main"],"environmentDirectories":["/Users/apple/Desktop/clicky-main/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/Users/apple/Library/Application Support/Antigravity/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-16 12:58:33.501 [error] [pet] Process error: A system error occurred (spawn /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-16 12:59:03.502 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-05-16 12:59:03.503 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-05-16 12:59:03.503 [warning] [pet] Request timed out, killing hung process for restart
+2026-05-16 12:59:03.504 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-16 12:59:03.504 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-05-16 12:59:03.504 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-05-16 12:59:05.506 [info] [pet] Starting Python Locator /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-16 12:59:05.506 [info] [pet] Python Environment Tools restarted successfully
+2026-05-16 12:59:05.508 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/Users/apple/Desktop/clicky-main"],"environmentDirectories":["/Users/apple/Desktop/clicky-main/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/Users/apple/Library/Application Support/Antigravity/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-16 12:59:05.508 [error] [pet] Process error: A system error occurred (spawn /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-16 12:59:35.514 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-05-16 12:59:35.515 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-05-16 12:59:35.515 [warning] [pet] Request timed out, killing hung process for restart
+2026-05-16 12:59:35.515 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-16 12:59:35.516 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-05-16 12:59:35.516 [info] Conda not found, turning off conda features. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-05-16 12:59:39.522 [info] [pet] Starting Python Locator /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-16 12:59:39.522 [info] [pet] Python Environment Tools restarted successfully
+2026-05-16 12:59:39.522 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/Users/apple/Desktop/clicky-main"],"environmentDirectories":["/Users/apple/Desktop/clicky-main/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/Users/apple/Library/Application Support/Antigravity/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-16 12:59:39.523 [error] [pet] Process error: A system error occurred (spawn /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-16 13:00:09.525 [warning] [pet] Configure request timed out, killing hung process for restart
+2026-05-16 13:00:09.525 [error] [pet] configure: Configuration error Request 'configure' timed out after 30000ms
+2026-05-16 13:00:09.525 [warning] [pet] Request timed out, killing hung process for restart
+2026-05-16 13:00:09.526 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-16 13:00:09.526 [info] Poetry not found, turning off poetry features. [Error: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:534062)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)]
+2026-05-16 13:00:09.528 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-05-16 13:00:09.530 [error] [interpreterSelection] Failed to set environment for /Users/apple/Desktop/clicky-main: Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+2026-05-16 13:00:09.534 [info] [interpreterSelection] global: none (source: autoDiscovery)

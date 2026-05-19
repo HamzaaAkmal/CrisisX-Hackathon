@@ -1,0 +1,101 @@
+2026-05-12 15:42:40.593 [info] [LS Main] Starting language server from: /Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm
+2026-05-12 15:42:40.645 [info] [LS Main] Args: --csrf_token f4d964ef-88d0-430b-9acb-134d3414efdc --extension_server_port 51787 --extension_server_csrf_token 04ffcae8-588b-4aa1-b6c0-3005b419857c --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-12 15:42:40.707 [info] [LS Main] Process spawned with PID: 92707
+2026-05-12 15:42:41.658 [error] [LS Main stderr] I0512 15:42:41.643565 92707 server.go:1236] Starting language server process with pid 92707
+
+2026-05-12 15:42:41.660 [error] [LS Main stderr] I0512 15:42:41.659863 92707 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-12 15:42:41.664 [error] [LS Main stderr] I0512 15:42:41.664696 92707 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-12 15:42:41.671 [error] [LS Main stderr] I0512 15:42:41.670622 92707 server.go:454] Language server listening on random port at 51793 for HTTPS (gRPC)
+I0512 15:42:41.670656 92707 server.go:461] Language server listening on random port at 51794 for HTTP
+
+2026-05-12 15:42:41.837 [error] No LS client info found for local authority
+2026-05-12 15:42:42.611 [error] [LS Main stderr] I0512 15:42:42.611158 92707 server.go:433] Created extension server client at port 51787
+
+2026-05-12 15:42:42.764 [error] [LS Main stderr] I0512 15:42:42.761549 92707 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-12 15:42:43.215 [info] [LS Main] LS started on port 51793
+2026-05-12 15:42:43.223 [error] [LS Main stderr] I0512 15:42:43.217661 92707 server.go:1693] initialized server successfully in 1.557974667s
+
+2026-05-12 15:42:43.256 [error] [LS Main stderr] 2026/05/12 15:42:43 http: TLS handshake error from 127.0.0.1:51816: EOF
+2026/05/12 15:42:43 http: TLS handshake error from 127.0.0.1:51817: read tcp 127.0.0.1:51793->127.0.0.1:51817: read: connection reset by peer
+
+2026-05-12 15:42:43.263 [error] [LS Main stderr] 2026/05/12 15:42:43 http: TLS handshake error from 127.0.0.1:51814: EOF
+2026/05/12 15:42:43 http: TLS handshake error from 127.0.0.1:51815: EOF
+
+2026-05-12 15:42:44.730 [error] [LS Main stderr] I0512 15:42:44.719881 92707 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8db9f4a9d5d3bdbc
+
+2026-05-12 15:42:45.891 [error] [LS Main stderr] I0512 15:42:45.891701 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb9f86d7c5c68660c
+
+2026-05-12 15:42:46.157 [error] [LS Main stderr] I0512 15:42:46.157566 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd5aebad38a40fd65
+
+2026-05-12 15:42:48.107 [error] [LS Main stderr] I0512 15:42:48.106693 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x702c123e77b1e105
+
+2026-05-12 15:42:49.655 [error] [LS Main stderr] I0512 15:42:49.655408 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x380c2aaecb72f76b
+
+2026-05-12 15:42:50.309 [error] [LS Main stderr] I0512 15:42:50.309212 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xced5000ecebbc85d
+
+2026-05-12 15:42:56.947 [error] [LS Main stderr] I0512 15:42:56.947305 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcb42f42a3a637372
+
+2026-05-12 15:43:02.110 [error] [LS Main stderr] I0512 15:43:02.110341 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x655ab290ea9c69aa
+
+2026-05-12 15:43:07.545 [error] [LS Main stderr] I0512 15:43:07.545028 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6c98312bc24399d6
+
+2026-05-12 15:43:08.154 [error] [LS Main stderr] I0512 15:43:08.154258 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4c56cc47817a1a9b
+
+2026-05-12 15:43:11.139 [error] [LS Main stderr] I0512 15:43:11.139505 92707 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb8e209bd5b4841f8
+
+2026-05-12 15:43:11.139 [error] [LS Main stderr] W0512 15:43:11.139803 92707 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:11.139 [error] [LS Main stderr] W0512 15:43:11.139839 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:11.139803 92707 log_context.go:118] Cache(availableModels): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:11.139880 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:35.094 [error] [LS Main stderr] W0512 15:43:35.093556 92707 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:35.093627 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:35.093646 92707 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:35.093668 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:35.093929 92707 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:35.093960 92707 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:35.096 [error] [LS Main stderr] W0512 15:43:35.093983 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:35.094066 92707 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:35.094069 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:35.094072 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:37.508 [error] [LS Main stderr] W0512 15:43:37.507635 92707 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:37.507678 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:37.507863 92707 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:37.507880 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:37.507900 92707 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:37.507965 92707 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:37.508000 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:37.508106 92707 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:37.508324 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:37.508364 92707 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:37.508371 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:40.437 [error] [LS Main stderr] W0512 15:43:40.436890 92707 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:40.437048 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:40.437092 92707 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:40.437105 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0512 15:43:40.437272 92707 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0512 15:43:40.437362 92707 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:40.437417 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:40.437445 92707 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:40.437461 92707 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0512 15:43:40.437466 92707 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-05-12 15:43:43.693 [error] [LS Main stderr] I0512 15:43:43.692020 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe0522ac139a88ded
+
+2026-05-12 15:43:44.490 [error] [LS Main stderr] I0512 15:43:44.488414 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcecd70fa8f8b9caa
+
+2026-05-12 15:43:45.102 [error] [LS Main stderr] I0512 15:43:45.102432 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfd9f0ff93630f133
+
+2026-05-12 15:44:00.023 [error] [LS Main stderr] I0512 15:44:00.023012 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc9581574ede3da6
+
+2026-05-12 15:44:00.749 [error] [LS Main stderr] I0512 15:44:00.749147 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6f4ae34b4e6450a2
+
+2026-05-12 15:44:01.485 [error] [LS Main stderr] I0512 15:44:01.485757 92707 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe38d8522fcf50b4c
+

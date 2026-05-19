@@ -1,0 +1,16 @@
+2026-05-12 18:37:17.718 [info] I0512 18:37:17.718537 69872 server.go:1236] Starting language server process with pid 69872
+2026-05-12 18:37:17.719 [info] I0512 18:37:17.718966 69872 server.go:301] Setting GOMAXPROCS to 4
+2026-05-12 18:37:17.720 [info] I0512 18:37:17.720349 69872 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-12 18:37:17.720 [info] I0512 18:37:17.720679 69872 server.go:454] Language server listening on random port at 53958 for HTTPS (gRPC)
+2026-05-12 18:37:17.720 [info] I0512 18:37:17.720699 69872 server.go:461] Language server listening on random port at 53959 for HTTP
+2026-05-12 18:37:18.443 [info] I0512 18:37:18.442895 69872 server.go:433] Created extension server client at port 53957
+2026-05-12 18:37:18.586 [info] I0512 18:37:18.586728 69872 cascade_manager.go:773] Reactive state is disabled
+2026-05-12 18:37:18.697 [info] (Antigravity) 2026-05-12 18:37:18.696 [INFO]: Language server started
+2026-05-12 18:37:18.719 [info] I0512 18:37:18.710943 69872 server.go:1693] initialized server successfully in 992.258ms
+2026-05-12 18:37:18.847 [info] (Antigravity) 2026-05-12 18:37:18.847 [INFO]: LS lspClient started successfully
+2026-05-12 18:37:19.291 [info] I0512 18:37:19.290789 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3456aba3e426e4bb
+2026-05-12 18:37:20.554 [info] I0512 18:37:20.554078 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf18748ea1108f38d
+2026-05-12 18:37:21.191 [info] I0512 18:37:21.191007 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xaa1f27345bcf8c39
+2026-05-12 18:43:19.758 [info] I0512 18:43:19.758052 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8d5d8975abcbfe5d
+2026-05-12 18:43:19.856 [info] I0512 18:43:19.856474 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb543ad4d8f460423
+2026-05-12 18:43:20.491 [info] I0512 18:43:20.491001 69872 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x49c0b0878526e059

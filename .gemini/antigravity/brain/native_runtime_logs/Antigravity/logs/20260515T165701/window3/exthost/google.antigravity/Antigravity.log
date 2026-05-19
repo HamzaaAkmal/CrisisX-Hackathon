@@ -1,0 +1,120 @@
+2026-05-15 17:18:00.259 [info] I0515 17:18:00.259499  8241 server.go:1236] Starting language server process with pid 8241
+2026-05-15 17:18:00.260 [info] I0515 17:18:00.260013  8241 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 17:18:00.262 [info] I0515 17:18:00.262205  8241 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 17:18:00.262 [info] I0515 17:18:00.262512  8241 server.go:454] Language server listening on random port at 51087 for HTTPS (gRPC)
+2026-05-15 17:18:00.262 [info] I0515 17:18:00.262529  8241 server.go:461] Language server listening on random port at 51088 for HTTP
+2026-05-15 17:18:00.814 [info] I0515 17:18:00.813994  8241 server.go:433] Created extension server client at port 51084
+2026-05-15 17:18:01.630 [info] I0515 17:18:01.629571  8241 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 17:18:01.723 [info] (Antigravity) 2026-05-15 17:18:01.722 [INFO]: Language server started
+2026-05-15 17:18:01.740 [info] I0515 17:18:01.735459  8241 server.go:1693] initialized server successfully in 1.475740291s
+2026-05-15 17:18:01.770 [info] (Antigravity) 2026-05-15 17:18:01.770 [INFO]: LS lspClient started successfully
+2026-05-15 17:18:02.913 [info] I0515 17:18:02.912370  8241 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x234415627837dd1d
+2026-05-15 17:18:03.447 [info] I0515 17:18:03.447630  8241 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1fd66d5dc46a9554
+2026-05-15 17:18:10.880 [info] I0515 17:18:10.875539  8412 server.go:1236] Starting language server process with pid 8412
+2026-05-15 17:18:10.880 [info] I0515 17:18:10.875684  8412 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 17:18:10.880 [info] I0515 17:18:10.876451  8412 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 17:18:10.880 [info] I0515 17:18:10.876516  8412 server.go:454] Language server listening on random port at 51121 for HTTPS (gRPC)
+2026-05-15 17:18:10.880 [info] I0515 17:18:10.876531  8412 server.go:461] Language server listening on random port at 51122 for HTTP
+2026-05-15 17:18:11.407 [info] I0515 17:18:11.407527  8412 server.go:433] Created extension server client at port 51119
+2026-05-15 17:18:11.419 [info] I0515 17:18:11.419508  8412 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 17:18:11.439 [info] (Antigravity) 2026-05-15 17:18:11.439 [INFO]: Language server started
+2026-05-15 17:18:11.450 [info] I0515 17:18:11.445865  8412 server.go:1693] initialized server successfully in 570.161042ms
+2026-05-15 17:18:11.470 [info] (Antigravity) 2026-05-15 17:18:11.470 [INFO]: LS lspClient started successfully
+2026-05-15 17:18:12.614 [info] I0515 17:18:12.614659  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3214053c461d542f
+2026-05-15 17:18:13.326 [info] I0515 17:18:13.326232  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd99cd5dc881b11aa
+2026-05-15 17:24:12.496 [info] I0515 17:24:12.495486  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3c162dbd49ee0b3c
+2026-05-15 17:24:12.586 [info] I0515 17:24:12.586333  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb50b20f126c6c66f
+2026-05-15 17:30:12.220 [info] I0515 17:30:12.220042  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1256f6af0447ed2b
+2026-05-15 17:30:12.656 [info] I0515 17:30:12.656345  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x93311d335916ca7a
+2026-05-15 17:36:12.440 [info] I0515 17:36:12.439577  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xaa616fe28ac68936
+2026-05-15 17:36:12.879 [info] I0515 17:36:12.879155  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x768af661c01f5bd0
+2026-05-15 17:42:12.715 [info] I0515 17:42:12.715196  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc33367ccedaf94da
+2026-05-15 17:42:12.768 [info] I0515 17:42:12.768514  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x314b75715d6ee354
+2026-05-15 17:48:12.193 [info] I0515 17:48:12.193066  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe446a95d77ec7404
+2026-05-15 17:48:12.772 [info] I0515 17:48:12.771548  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc099189659e2547a
+2026-05-15 17:54:12.352 [info] I0515 17:54:12.352518  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd073f5276b9ad5b7
+2026-05-15 17:54:12.968 [info] I0515 17:54:12.967709  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x19109dc17a668d1
+2026-05-15 17:57:12.891 [info] I0515 17:57:12.891302  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xada7aeee33e4b436
+2026-05-15 17:57:13.422 [info] I0515 17:57:13.422229  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa0af96bff29f98f
+2026-05-15 18:03:12.198 [info] I0515 18:03:12.198381  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x47e29fbb19746d50
+2026-05-15 18:03:12.834 [info] I0515 18:03:12.834302  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xed5c20069dcc72d0
+2026-05-15 18:09:12.255 [info] I0515 18:09:12.254722  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7ec750f6db2f9ff0
+2026-05-15 18:09:12.707 [info] I0515 18:09:12.706518  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x807d7f30a77301dc
+2026-05-15 18:15:12.299 [info] I0515 18:15:12.299106  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x503a24dd56bbf57b
+2026-05-15 18:15:12.926 [info] I0515 18:15:12.924827  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7ed7aa591570c7e5
+2026-05-15 18:19:15.413 [info] E0515 18:19:15.413547  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.419 [info] E0515 18:19:15.419782  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.422 [info] E0515 18:19:15.422244  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.422 [info] E0515 18:19:15.422883  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.424 [info] E0515 18:19:15.424524  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.425 [info] E0515 18:19:15.425593  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.426 [info] E0515 18:19:15.426880  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.427 [info] E0515 18:19:15.427424  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.428 [info] E0515 18:19:15.428371  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:19:15.429 [info] E0515 18:19:15.429103  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.889 [info] E0515 18:20:08.889496  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.892 [info] E0515 18:20:08.892517  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.895 [info] E0515 18:20:08.895336  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.895 [info] E0515 18:20:08.895856  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.896 [info] E0515 18:20:08.896759  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.897 [info] E0515 18:20:08.897461  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.898 [info] E0515 18:20:08.898303  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.898 [info] E0515 18:20:08.898631  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.899 [info] E0515 18:20:08.899381  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:08.899 [info] E0515 18:20:08.899938  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.059 [info] E0515 18:20:25.059015  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.060 [info] E0515 18:20:25.060675  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.062 [info] E0515 18:20:25.062352  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.062 [info] E0515 18:20:25.062733  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.063 [info] E0515 18:20:25.063492  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.064 [info] E0515 18:20:25.064103  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.064 [info] E0515 18:20:25.064832  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.065 [info] E0515 18:20:25.065106  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.065 [info] E0515 18:20:25.065678  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:20:25.066 [info] E0515 18:20:25.066095  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:12.283 [info] I0515 18:21:12.283327  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd0f842208e46fb2f
+2026-05-15 18:21:12.901 [info] I0515 18:21:12.901312  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf1a8548d28ae16e5
+2026-05-15 18:21:55.277 [info] E0515 18:21:55.276898  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.279 [info] E0515 18:21:55.279208  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.282 [info] E0515 18:21:55.282023  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.282 [info] E0515 18:21:55.282525  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.283 [info] E0515 18:21:55.283400  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.284 [info] E0515 18:21:55.284091  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.284 [info] E0515 18:21:55.284889  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.285 [info] E0515 18:21:55.285251  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.285 [info] E0515 18:21:55.285881  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:21:55.286 [info] E0515 18:21:55.286340  8412 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 18:27:12.939 [info] I0515 18:27:12.939268  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7e3b92c1ed0f20dd
+2026-05-15 18:27:12.945 [info] I0515 18:27:12.944028  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3a1f496a63166ab5
+2026-05-15 18:33:12.246 [info] I0515 18:33:12.245790  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2f58a9f0b39bc1e9
+2026-05-15 18:33:12.779 [info] I0515 18:33:12.778931  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3ca341b81c6c594d
+2026-05-15 18:39:12.295 [info] I0515 18:39:12.294997  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa48c4977d49fc8c8
+2026-05-15 18:39:12.894 [info] I0515 18:39:12.894233  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7fd9f33311d6ab6d
+2026-05-15 18:45:12.319 [info] I0515 18:45:12.318624  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xaaa86673401d4834
+2026-05-15 18:45:12.923 [info] I0515 18:45:12.922590  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf90b59c7afac2c15
+2026-05-15 18:51:12.376 [info] I0515 18:51:12.375835  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xad9d37c19922a267
+2026-05-15 18:51:13.215 [info] I0515 18:51:13.214636  8412 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xda406617481c1615
+2026-05-15 18:51:34.285 [info] I0515 18:51:34.285117  8412 server.go:1956] Exit requested on language server process 8412
+2026-05-15 18:51:34.286 [info] I0515 18:51:34.285475  8412 server.go:1897] Language server shutting down
+2026-05-15 18:51:39.400 [info] I0515 18:51:39.400187 50217 server.go:1236] Starting language server process with pid 50217
+2026-05-15 18:51:39.400 [info] I0515 18:51:39.400500 50217 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 18:51:39.402 [info] I0515 18:51:39.402053 50217 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 18:51:39.402 [info] I0515 18:51:39.402367 50217 server.go:454] Language server listening on random port at 61331 for HTTPS (gRPC)
+2026-05-15 18:51:39.402 [info] I0515 18:51:39.402385 50217 server.go:461] Language server listening on random port at 61332 for HTTP
+2026-05-15 18:51:39.944 [info] I0515 18:51:39.944038 50217 server.go:433] Created extension server client at port 61329
+2026-05-15 18:51:39.976 [info] I0515 18:51:39.976558 50217 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 18:51:40.020 [info] (Antigravity) 2026-05-15 18:51:40.019 [INFO]: Language server started
+2026-05-15 18:51:40.040 [info] I0515 18:51:40.033577 50217 server.go:1693] initialized server successfully in 633.227709ms
+2026-05-15 18:51:40.204 [info] (Antigravity) 2026-05-15 18:51:40.204 [INFO]: LS lspClient started successfully
+2026-05-15 18:51:41.199 [info] I0515 18:51:41.199382 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x598cf3f5342120da
+2026-05-15 18:51:42.012 [info] I0515 18:51:42.011643 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf26d5e0e288f3e34
+2026-05-15 18:52:42.491 [info] I0515 18:52:42.491881 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x34282f3134f9b595
+2026-05-15 18:52:42.962 [info] I0515 18:52:42.962253 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1d7deff3f1f0c93f
+2026-05-15 18:58:44.100 [info] I0515 18:58:44.100330 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xabdb31f0f89520bd
+2026-05-15 18:58:44.930 [info] I0515 18:58:44.929999 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xedcda22b57351078
+2026-05-15 19:04:40.798 [info] I0515 19:04:40.798546 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe2d9da011bc0af5f
+2026-05-15 19:04:41.318 [info] I0515 19:04:41.317874 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1ee800ddc4e2ed66
+2026-05-15 19:10:40.731 [info] I0515 19:10:40.730447 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x63c5be5f2239937d
+2026-05-15 19:10:41.316 [info] I0515 19:10:41.315708 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6bf6e0a64c74566b
+2026-05-15 19:16:40.980 [info] I0515 19:16:40.980303 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf15d1ac78b6a4e73
+2026-05-15 19:16:41.852 [info] I0515 19:16:41.851816 50217 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x85cd9f306207305

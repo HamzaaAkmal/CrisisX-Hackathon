@@ -1,0 +1,44 @@
+2026-05-16 11:23:01.181 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-16 11:23:01.181 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:54291
+2026-05-16 11:23:01.181 [info] update#setState idle
+2026-05-16 11:23:31.107 [info] update#setState checking for updates
+2026-05-16 11:23:31.796 [info] update#setState idle
+2026-05-16 11:26:37.702 [warning] [perf] profiling STARTED e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:26:42.730 [warning] [perf] profiling DONE e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:26:59.242 [warning] [perf] profiling STARTED e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:27:04.265 [warning] [perf] profiling DONE e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:27:20.231 [warning] [perf] profiling STARTED e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:27:25.252 [warning] [perf] profiling DONE e6d1fc6d-ce8d-4502-9fee-f8dba3df6024
+2026-05-16 11:35:42.014 [warning] [perf] profiling STARTED 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 11:35:47.049 [warning] [perf] profiling DONE 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 11:36:02.314 [warning] [perf] profiling STARTED 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 11:36:07.342 [warning] [perf] profiling DONE 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 11:36:24.275 [warning] [perf] profiling STARTED 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 11:36:29.300 [warning] [perf] profiling DONE 23285a47-2dd8-427a-80ca-5478660fe107
+2026-05-16 12:23:31.115 [info] update#setState checking for updates
+2026-05-16 12:23:31.700 [info] update#setState idle
+2026-05-16 12:24:17.826 [warning] [perf] profiling STARTED fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:24:22.873 [warning] [perf] profiling DONE fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:24:42.289 [warning] [perf] profiling STARTED fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:24:47.492 [warning] [perf] profiling DONE fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:25:10.924 [warning] [perf] profiling STARTED fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:25:16.030 [warning] [perf] profiling DONE fff0de6a-14f2-440b-9f30-44c58348bd9c
+2026-05-16 12:33:49.184 [warning] [perf] profiling STARTED 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:33:54.371 [warning] [perf] profiling DONE 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:34:11.613 [warning] [perf] profiling STARTED 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:34:16.710 [warning] [perf] profiling DONE 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:34:34.483 [warning] [perf] profiling STARTED 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:34:39.596 [warning] [perf] profiling DONE 66e0b2ed-b42e-4b6a-8025-5a57d083bbae
+2026-05-16 12:40:47.632 [warning] [perf] profiling STARTED 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:40:59.428 [warning] [perf] profiling DONE 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:41:15.695 [warning] [perf] profiling STARTED 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:41:20.726 [warning] [perf] profiling DONE 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:41:36.445 [warning] [perf] profiling STARTED 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:41:41.484 [warning] [perf] profiling DONE 6e260e5a-0ca2-4ed8-a4bc-bbe0d5032c02
+2026-05-16 12:48:54.233 [warning] [perf] profiling STARTED e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:48:59.282 [warning] [perf] profiling DONE e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:49:15.293 [warning] [perf] profiling STARTED e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:49:20.362 [warning] [perf] profiling DONE e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:49:36.412 [warning] [perf] profiling STARTED e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:49:41.459 [warning] [perf] profiling DONE e417686a-f31e-4cfb-9d9b-8041bfd2d201
+2026-05-16 12:51:10.272 [info] Extension host with pid 6103 exited with code: 0, signal: unknown.

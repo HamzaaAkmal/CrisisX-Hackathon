@@ -1,0 +1,13 @@
+2026-05-15 16:32:48.036 [info] [LS Main] Starting language server from: /Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm
+2026-05-15 16:32:48.321 [info] [LS Main] Args: --csrf_token 7ef28c79-c240-46f7-8fcc-8557bc999760 --extension_server_port 49160 --extension_server_csrf_token 54dd7074-b903-4441-8c82-fd86404f6b1b --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-15 16:32:48.827 [info] [LS Main] Process spawned with PID: 1075
+2026-05-15 16:32:49.716 [error] No LS client info found for local authority
+2026-05-15 16:32:51.319 [error] [LS Main stderr] I0515 16:32:51.319372  1075 server.go:1236] Starting language server process with pid 1075
+
+2026-05-15 16:32:51.321 [error] [LS Main stderr] I0515 16:32:51.319985  1075 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-15 16:32:51.324 [error] [LS Main stderr] I0515 16:32:51.324675  1075 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-15 16:32:51.325 [error] [LS Main stderr] I0515 16:32:51.325731  1075 server.go:454] Language server listening on random port at 49174 for HTTPS (gRPC)
+I0515 16:32:51.325756  1075 server.go:461] Language server listening on random port at 49175 for HTTP
+

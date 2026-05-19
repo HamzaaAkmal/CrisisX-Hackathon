@@ -1,0 +1,20 @@
+2026-05-19 18:06:49.362 [warning] Dir "/Users/apple/Desktop/Crisis/.pixi/envs" is not watchable (directory does not exist)
+2026-05-19 18:06:49.404 [info] Starting Environment refresh
+2026-05-19 18:06:49.429 [info] > hatch env show --json
+2026-05-19 18:06:49.429 [info] cwd: .
+2026-05-19 18:06:49.432 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-19 18:06:49.432 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-19 18:06:49.433 [info] Starting Environment refresh
+2026-05-19 18:06:49.460 [info] > pyenv which python
+2026-05-19 18:06:49.460 [info] cwd: .
+2026-05-19 18:06:49.580 [info] Environments refresh finished (event): 177 milliseconds
+2026-05-19 18:06:49.580 [info] Environments refresh finished (event): 147 milliseconds
+2026-05-19 18:06:49.580 [info] Environments refresh paths discovered: 177 milliseconds
+2026-05-19 18:06:49.580 [info] Environments refresh paths discovered: 147 milliseconds
+2026-05-19 18:06:49.581 [info] Environment refresh took 179 milliseconds
+2026-05-19 18:06:49.582 [info] Environment refresh took 150 milliseconds
+2026-05-19 18:06:49.585 [info] > pyenv which python
+2026-05-19 18:06:49.585 [info] cwd: .
+2026-05-19 18:06:49.871 [error] Unable to find workspace for given file
+2026-05-19 18:06:49.893 [info] Python interpreter path: ~/.pyenv/versions/3.11.0/bin/python
+2026-05-19 18:06:49.895 [info] Editor support is inactive since language server is set to None.

@@ -1,0 +1,41 @@
+2026-05-19 18:26:55.231 [info] Extension host with pid 36524 started
+2026-05-19 18:26:55.231 [info] Skipping acquiring lock for /Users/apple/Library/Application Support/Antigravity/User/workspaceStorage/3141217bf160fa67ebfc0c8fe5409193.
+2026-05-19 18:26:55.253 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2026-05-19 18:26:55.280 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-19 18:26:55.316 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-19 18:26:55.356 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-19 18:26:55.579 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-19 18:26:55.883 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-19 18:26:55.944 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-19 18:26:56.129 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-19 18:26:56.303 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/Users/apple/Desktop/clicky-main/output_labeled_test.png'
+	at dr.e (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19194)
+	at Object.stat (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:17140)
+2026-05-19 18:26:58.810 [info] Eager extensions activated
+2026-05-19 18:26:58.852 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 18:26:58.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 18:26:58.865 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 18:26:58.890 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-05-19 18:26:58.928 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-19 18:26:59.088 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-19 18:26:59.126 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-19 18:26:59.139 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-19 18:26:59.822 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 18:26:59.830 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 18:26:59.881 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 18:27:00.632 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-19 18:27:08.878 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-19 18:47:42.839 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-19 18:47:43.007 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-19 18:47:43.028 [info] Extension host with pid 36524 exiting with code 0

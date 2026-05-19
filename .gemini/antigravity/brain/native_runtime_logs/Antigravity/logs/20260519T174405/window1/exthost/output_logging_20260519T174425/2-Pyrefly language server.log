@@ -1,0 +1,26 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO File /Users/apple/Desktop/Crisis/generate_package.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/Crisis/generate_package.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.51s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.50s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (0 created, 0 modified, 1 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.08
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/Crisis/generate_package.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/Crisis/generate_package.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.01

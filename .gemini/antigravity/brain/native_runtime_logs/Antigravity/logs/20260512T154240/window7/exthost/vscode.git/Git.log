@@ -1,0 +1,90 @@
+2026-05-12 19:04:30.094 [info] [main] Log level: Info
+2026-05-12 19:04:30.094 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-12 19:04:30.094 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-12 19:04:30.094 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 19:04:30.094 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 19:06:06.335 [info] [main] Log level: Info
+2026-05-12 19:06:06.335 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-12 19:06:06.359 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-12 19:06:06.359 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 19:06:06.539 [info] > git rev-parse --show-toplevel [178ms]
+2026-05-12 19:06:06.539 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:06.540 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 19:06:06.552 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-12 19:06:06.552 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:07.447 [info] > git rev-parse --show-toplevel [16ms]
+2026-05-12 19:06:07.447 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:07.455 [info] > git rev-parse --show-toplevel [8ms]
+2026-05-12 19:06:07.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:08.551 [info] [main] Log level: Info
+2026-05-12 19:06:08.551 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-12 19:06:08.569 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-12 19:06:08.569 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 19:06:08.749 [info] > git rev-parse --show-toplevel [17ms]
+2026-05-12 19:06:08.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:08.750 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 19:06:08.759 [info] > git rev-parse --show-toplevel [7ms]
+2026-05-12 19:06:08.759 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:08.948 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-12 19:06:08.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:10.574 [info] > git rev-parse --show-toplevel [8ms]
+2026-05-12 19:06:10.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 19:06:42.981 [info] > git rev-parse --show-toplevel [15ms]
+2026-05-12 19:06:43.003 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [20ms]
+2026-05-12 19:06:43.010 [info] [Model][openRepository] Opened repository (path): /Users/apple/Desktop/Hackathon-Google/LocalEyes
+2026-05-12 19:06:43.010 [info] [Model][openRepository] Opened repository (real path): /Users/apple/Desktop/Hackathon-Google/LocalEyes
+2026-05-12 19:06:43.010 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-12 19:06:43.015 [warning] [Git][getHEAD] Failed to parse HEAD file: Repository is using reftable format.
+2026-05-12 19:06:43.031 [info] > git config --get commit.template [19ms]
+2026-05-12 19:06:43.037 [info] > git symbolic-ref --short HEAD [22ms]
+2026-05-12 19:06:43.037 [info] fatal: No such ref: HEAD
+2026-05-12 19:06:43.044 [info] > git rev-parse HEAD [6ms]
+2026-05-12 19:06:43.044 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2026-05-12 19:06:43.051 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-05-12 19:06:43.052 [info] > git status -z -uall [7ms]
+2026-05-12 19:06:43.067 [info] > git config --get commit.template [12ms]
+2026-05-12 19:06:43.074 [info] > git symbolic-ref --short HEAD [20ms]
+2026-05-12 19:06:43.074 [info] fatal: No such ref: HEAD
+2026-05-12 19:06:43.088 [info] > git rev-parse HEAD [13ms]
+2026-05-12 19:06:43.088 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2026-05-12 19:06:43.094 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-05-12 19:06:43.094 [info] > git status -z -uall [6ms]
+2026-05-12 19:06:43.551 [info] > git check-ignore -v -z --stdin [13ms]
+2026-05-12 19:06:44.380 [info] > git config --get commit.template [15ms]
+2026-05-12 19:06:44.380 [info] > git symbolic-ref --short HEAD [18ms]
+2026-05-12 19:06:44.380 [info] fatal: No such ref: HEAD
+2026-05-12 19:06:44.392 [info] > git rev-parse HEAD [11ms]
+2026-05-12 19:06:44.392 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2026-05-12 19:06:44.403 [info] > git status -z -uall [10ms]
+2026-05-12 19:06:44.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-05-12 19:06:49.427 [info] > git symbolic-ref --short HEAD [15ms]
+2026-05-12 19:06:49.428 [info] > git config --get commit.template [15ms]
+2026-05-12 19:06:49.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [13ms]
+2026-05-12 19:06:49.442 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/apple/Desktop/Hackathon-Google/LocalEyes/.git/refs/remotes/origin/main'
+2026-05-12 19:06:49.451 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2026-05-12 19:06:49.463 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-05-12 19:06:49.490 [info] > git status -z -uall [38ms]
+2026-05-12 19:06:49.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [6ms]
+2026-05-12 19:06:49.513 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2026-05-12 19:06:49.513 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-12 19:06:49.521 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2026-05-12 19:06:49.527 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2026-05-12 19:06:49.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [5ms]
+2026-05-12 19:06:49.539 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2026-05-12 19:06:49.545 [info] > git config --get commit.template [5ms]
+2026-05-12 19:06:49.545 [info] > git symbolic-ref --short HEAD [6ms]
+2026-05-12 19:06:49.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [6ms]
+2026-05-12 19:06:49.551 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/apple/Desktop/Hackathon-Google/LocalEyes/.git/refs/remotes/origin/main'
+2026-05-12 19:06:49.556 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-05-12 19:06:49.563 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-05-12 19:06:49.582 [info] > git status -z -uall [25ms]
+2026-05-12 19:06:49.590 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2026-05-12 19:06:49.591 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2026-05-12 19:06:49.597 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 713e9ab929711535d9938282b3b87f49b3e13e4b...refs/remotes/origin/main -- [5ms]
+2026-05-12 19:06:49.598 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 713e9ab929711535d9938282b3b87f49b3e13e4b...refs/remotes/origin/main -- [7ms]

@@ -1,0 +1,20 @@
+2026-05-13 20:10:53.408 [info] I0513 20:10:53.407793 67066 server.go:1236] Starting language server process with pid 67066
+2026-05-13 20:10:53.408 [info] I0513 20:10:53.408164 67066 server.go:301] Setting GOMAXPROCS to 4
+2026-05-13 20:10:53.411 [info] I0513 20:10:53.411121 67066 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-13 20:10:53.411 [info] I0513 20:10:53.411471 67066 server.go:454] Language server listening on random port at 60272 for HTTPS (gRPC)
+2026-05-13 20:10:53.411 [info] I0513 20:10:53.411490 67066 server.go:461] Language server listening on random port at 60273 for HTTP
+2026-05-13 20:10:54.005 [info] I0513 20:10:54.005473 67066 server.go:433] Created extension server client at port 60271
+2026-05-13 20:10:54.028 [info] I0513 20:10:54.028583 67066 cascade_manager.go:773] Reactive state is disabled
+2026-05-13 20:10:54.070 [info] (Antigravity) 2026-05-13 20:10:54.069 [INFO]: Language server started
+2026-05-13 20:10:54.090 [info] I0513 20:10:54.083567 67066 server.go:1693] initialized server successfully in 675.608917ms
+2026-05-13 20:10:54.283 [info] (Antigravity) 2026-05-13 20:10:54.283 [INFO]: LS lspClient started successfully
+2026-05-13 20:10:55.794 [info] I0513 20:10:55.794644 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x857aadf7f5af5823
+2026-05-13 20:10:56.477 [info] I0513 20:10:56.477168 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x14b6003855b5333
+2026-05-13 20:10:57.075 [info] I0513 20:10:57.075505 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x67d7e6fa108a0120
+2026-05-13 20:16:54.880 [info] I0513 20:16:54.880412 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1e756c57b3228a62
+2026-05-13 20:16:55.075 [info] I0513 20:16:55.075507 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x576d63657f24b48a
+2026-05-13 20:16:55.623 [info] I0513 20:16:55.623334 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x920a16218f198d9
+2026-05-13 20:42:28.373 [info] I0513 20:42:28.372825 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8727013a672a7b5
+2026-05-13 20:42:29.035 [info] I0513 20:42:29.035180 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xce95ee0d37e15d96
+2026-05-13 20:42:29.520 [info] I0513 20:42:29.520519 67066 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfc7257150fab3af7
+2026-05-13 20:42:49.395 [info] E0513 20:42:49.394462 67066 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.34:60606->142.250.187.10:443: read: operation timed out

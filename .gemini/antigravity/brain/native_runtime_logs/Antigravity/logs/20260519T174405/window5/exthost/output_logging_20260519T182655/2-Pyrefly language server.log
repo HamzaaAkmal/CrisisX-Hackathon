@@ -1,0 +1,39 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.11, task time: 0.23
+ INFO Language server processed event `DidOpenTextDocument` in 7.59s (0.14s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.02s (7.73s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (7.75s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.01
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (7.72s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Language server processed event `DidOpenTextDocument` in 0.04s (7.73s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.01, task time: 0.00
+ INFO Language server processed event `LspResponse` in 0.04s (7.66s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.07s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.07s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/kimi_brain.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.38
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.38, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.38, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.37, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.37, task time: 0.00

@@ -1,0 +1,15 @@
+2026-05-12 15:42:43.721 [info] Deleted marked for removal extension from disk meta.pyrefly /Users/apple/.antigravity/extensions/meta.pyrefly-0.63.1-darwin-arm64
+2026-05-13 10:55:50.837 [info] Getting Manifest... meta.pyrefly
+2026-05-13 10:55:51.917 [info] Installing extension: meta.pyrefly {"productVersion":{"version":"1.107.0","date":"2026-04-16T08:28:19.366Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/Users/apple/.antigravity/extensions/extensions.json","path":"/Users/apple/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-05-13 10:55:58.133 [info] Extracted extension to file:///Users/apple/.antigravity/extensions/meta.pyrefly-1.0.0-darwin-arm64: meta.pyrefly
+2026-05-13 10:55:58.144 [info] Renamed to /Users/apple/.antigravity/extensions/meta.pyrefly-1.0.0-darwin-arm64
+2026-05-13 10:55:58.176 [info] Marked extension as removed meta.pyrefly-0.64.1-darwin-arm64
+2026-05-13 10:55:58.182 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/Users/apple/.antigravity/extensions/extensions.json
+2026-05-13 10:55:58.183 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at _a.value (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at gf.L (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async gf.installGalleryExtensions (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async gf.installFromGallery (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)

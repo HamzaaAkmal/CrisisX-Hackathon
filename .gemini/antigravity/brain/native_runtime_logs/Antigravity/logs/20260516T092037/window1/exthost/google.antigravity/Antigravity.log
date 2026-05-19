@@ -1,0 +1,21 @@
+2026-05-16 09:20:40.346 [info] I0516 09:20:40.344809  1560 server.go:1236] Starting language server process with pid 1560
+2026-05-16 09:20:40.347 [info] I0516 09:20:40.345148  1560 server.go:301] Setting GOMAXPROCS to 4
+2026-05-16 09:20:40.347 [info] I0516 09:20:40.345900  1560 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-16 09:20:40.347 [info] I0516 09:20:40.345959  1560 server.go:454] Language server listening on random port at 49541 for HTTPS (gRPC)
+2026-05-16 09:20:40.347 [info] I0516 09:20:40.345977  1560 server.go:461] Language server listening on random port at 49542 for HTTP
+2026-05-16 09:20:40.887 [info] I0516 09:20:40.887264  1560 server.go:433] Created extension server client at port 49539
+2026-05-16 09:20:40.907 [info] I0516 09:20:40.907285  1560 cascade_manager.go:773] Reactive state is disabled
+2026-05-16 09:20:40.945 [info] (Antigravity) 2026-05-16 09:20:40.945 [INFO]: Language server started
+2026-05-16 09:20:40.955 [info] I0516 09:20:40.953918  1560 server.go:1693] initialized server successfully in 608.768708ms
+2026-05-16 09:20:40.986 [info] (Antigravity) 2026-05-16 09:20:40.985 [INFO]: LS lspClient started successfully
+2026-05-16 09:20:42.023 [info] I0516 09:20:42.023585  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaa8b072e4368581e
+2026-05-16 09:20:42.510 [info] I0516 09:20:42.509989  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4677a76c25434f95
+2026-05-16 09:25:13.872 [info] (Antigravity) 2026-05-16 09:25:13.872 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 09:26:43.267 [info] I0516 09:26:43.266838  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xafd59cd2144b6248
+2026-05-16 09:26:43.895 [info] I0516 09:26:43.895006  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfef85d20628b10e8
+2026-05-16 09:28:03.259 [info] (Antigravity) 2026-05-16 09:28:03.259 [INFO]: [Terminal] Command completed: git reset --hard origin/master exit code 0
+2026-05-16 09:28:06.083 [info] (Antigravity) 2026-05-16 09:28:06.083 [INFO]: [Terminal] Command completed: git clean -fd exit code 0
+2026-05-16 09:30:14.758 [info] (Antigravity) 2026-05-16 09:30:14.758 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 09:30:57.122 [info] (Antigravity) 2026-05-16 09:30:57.122 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 09:32:41.689 [info] I0516 09:32:41.689160  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa05647fcb9c190b7
+2026-05-16 09:32:42.287 [info] I0516 09:32:42.287290  1560 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x45a614fee75d5d86

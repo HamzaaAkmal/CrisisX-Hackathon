@@ -1,0 +1,19 @@
+2026-05-12 19:07:32.440 [info] Extension host with pid 90402 started
+2026-05-12 19:07:32.440 [info] Skipping acquiring lock for /Users/apple/Library/Application Support/Antigravity/User/workspaceStorage/c8e6c31d4aa17e20cf2ee5c5ea25055a.
+2026-05-12 19:07:32.448 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-12 19:07:32.451 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-05-12 19:07:32.471 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-12 19:07:32.499 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-12 19:07:32.561 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-12 19:07:32.768 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-12 19:07:32.891 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-12 19:07:32.917 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-12 19:07:34.472 [info] Eager extensions activated
+2026-05-12 19:07:34.478 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-12 19:07:34.482 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-12 19:07:34.484 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-12 19:07:37.541 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-05-12 19:07:37.547 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-05-12 19:07:37.555 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-05-12 19:11:08.487 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-12 19:11:08.504 [info] Extension host with pid 90402 exiting with code 0

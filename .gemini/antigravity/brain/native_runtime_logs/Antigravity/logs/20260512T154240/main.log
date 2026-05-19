@@ -1,0 +1,205 @@
+2026-05-12 15:42:40.592 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-12 15:42:40.592 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:51788
+2026-05-12 15:42:40.592 [info] update#setState idle
+2026-05-12 15:43:10.485 [info] update#setState checking for updates
+2026-05-12 15:43:11.222 [info] update#setState idle
+2026-05-12 15:44:14.211 [info] Extension host with pid 92717 exited with code: 0, signal: unknown.
+2026-05-12 16:43:10.534 [info] update#setState checking for updates
+2026-05-12 16:43:11.096 [info] update#setState idle
+2026-05-12 17:43:10.592 [info] update#setState checking for updates
+2026-05-12 17:43:11.228 [info] update#setState idle
+2026-05-12 18:17:34.128 [info] Extension host with pid 97881 exited with code: 0, signal: unknown.
+2026-05-12 18:43:10.642 [info] update#setState checking for updates
+2026-05-12 18:43:11.288 [info] update#setState idle
+2026-05-12 18:43:42.894 [info] Extension host with pid 69823 exited with code: 0, signal: unknown.
+2026-05-12 19:06:05.050 [info] Extension host with pid 85729 exited with code: 0, signal: unknown.
+2026-05-12 19:06:07.511 [info] Extension host with pid 85876 exited with code: 0, signal: unknown.
+2026-05-12 19:06:54.272 [info] Extension host with pid 85935 exited with code: 0, signal: unknown.
+2026-05-12 19:11:08.505 [info] Extension host with pid 90402 exited with code: 0, signal: unknown.
+2026-05-12 19:11:11.800 [info] Extension host with pid 86051 exited with code: 0, signal: unknown.
+2026-05-12 19:43:10.714 [info] update#setState checking for updates
+2026-05-12 19:43:11.287 [info] update#setState idle
+2026-05-12 20:43:10.751 [info] update#setState checking for updates
+2026-05-12 20:43:11.317 [info] update#setState idle
+2026-05-12 21:43:10.725 [info] update#setState checking for updates
+2026-05-12 21:43:12.198 [info] update#setState idle
+2026-05-12 22:43:10.699 [info] update#setState checking for updates
+2026-05-12 22:43:11.339 [info] update#setState idle
+2026-05-12 23:46:04.477 [info] update#setState checking for updates
+2026-05-12 23:46:06.170 [info] update#setState idle
+2026-05-13 00:58:38.386 [info] update#setState checking for updates
+2026-05-13 00:58:40.063 [info] update#setState idle
+2026-05-13 02:04:08.413 [info] update#setState checking for updates
+2026-05-13 02:04:10.524 [info] update#setState idle
+2026-05-13 03:11:22.213 [info] update#setState checking for updates
+2026-05-13 03:11:23.448 [info] update#setState idle
+2026-05-13 04:11:42.583 [info] update#setState checking for updates
+2026-05-13 04:11:43.550 [info] update#setState idle
+2026-05-13 04:51:07.621 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-13 04:52:40.957 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-13 05:11:42.524 [info] update#setState checking for updates
+2026-05-13 05:11:43.057 [info] update#setState idle
+2026-05-13 06:24:09.993 [info] update#setState checking for updates
+2026-05-13 06:24:11.144 [info] update#setState idle
+2026-05-13 07:26:00.927 [info] update#setState checking for updates
+2026-05-13 07:26:02.183 [info] update#setState idle
+2026-05-13 08:26:00.869 [info] update#setState checking for updates
+2026-05-13 08:26:01.411 [info] update#setState idle
+2026-05-13 09:19:44.052 [info] Extension host with pid 33052 exited with code: 0, signal: unknown.
+2026-05-13 09:19:45.118 [info] Extension host with pid 33097 exited with code: 0, signal: unknown.
+2026-05-13 09:26:00.820 [info] update#setState checking for updates
+2026-05-13 09:26:01.472 [info] update#setState idle
+2026-05-13 10:26:00.805 [info] update#setState checking for updates
+2026-05-13 10:26:01.361 [info] update#setState idle
+2026-05-13 10:57:16.970 [warning] [perf] profiling STARTED ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 10:57:22.003 [warning] [perf] profiling DONE ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 10:57:37.862 [warning] [perf] profiling STARTED ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 10:57:42.890 [warning] [perf] profiling DONE ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 10:57:58.865 [warning] [perf] profiling STARTED ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 10:58:03.904 [warning] [perf] profiling DONE ad9edf90-e54d-4c96-8106-1a3f9d7026b9
+2026-05-13 11:19:08.895 [warning] [perf] profiling STARTED 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:19:13.914 [warning] [perf] profiling DONE 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:19:31.865 [warning] [perf] profiling STARTED 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:19:36.886 [warning] [perf] profiling DONE 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:19:52.836 [warning] [perf] profiling STARTED 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:19:57.855 [warning] [perf] profiling DONE 294938d7-a58e-435c-9066-4d46e9236650
+2026-05-13 11:26:00.825 [info] update#setState checking for updates
+2026-05-13 11:26:01.438 [info] update#setState idle
+2026-05-13 12:26:00.857 [info] update#setState checking for updates
+2026-05-13 12:26:01.461 [info] update#setState idle
+2026-05-13 13:26:00.875 [info] update#setState checking for updates
+2026-05-13 13:26:01.450 [info] update#setState idle
+2026-05-13 14:27:11.792 [info] update#setState checking for updates
+2026-05-13 14:27:13.452 [info] update#setState idle
+2026-05-13 15:27:11.831 [info] update#setState checking for updates
+2026-05-13 15:27:12.536 [info] update#setState idle
+2026-05-13 16:27:11.787 [info] update#setState checking for updates
+2026-05-13 16:27:12.374 [info] update#setState idle
+2026-05-13 16:28:00.544 [info] Extension host with pid 89020 exited with code: 0, signal: unknown.
+2026-05-13 17:27:11.756 [info] update#setState checking for updates
+2026-05-13 17:27:12.248 [info] update#setState idle
+2026-05-13 18:08:43.187 [info] Extension host with pid 77247 exited with code: 0, signal: unknown.
+2026-05-13 18:27:11.721 [info] update#setState checking for updates
+2026-05-13 18:27:12.233 [info] update#setState idle
+2026-05-13 19:00:30.140 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-13 19:27:11.710 [info] update#setState checking for updates
+2026-05-13 19:27:12.301 [info] update#setState idle
+2026-05-13 20:37:09.665 [info] update#setState checking for updates
+2026-05-13 20:37:10.511 [warning] [perf] profiling STARTED 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:37:11.228 [info] update#setState idle
+2026-05-13 20:41:48.281 [warning] [perf] profiling DONE 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:42:06.264 [warning] [perf] profiling STARTED 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:42:11.281 [warning] [perf] profiling DONE 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:42:27.391 [warning] [perf] profiling STARTED 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:42:32.411 [warning] [perf] profiling DONE 332eff3e-b2b5-4414-ba24-cdbcc4cf592e
+2026-05-13 20:47:52.429 [info] Extension host with pid 67021 exited with code: 0, signal: unknown.
+2026-05-13 21:37:09.756 [info] update#setState checking for updates
+2026-05-13 21:37:14.049 [info] update#setState idle
+2026-05-13 22:37:09.812 [info] update#setState checking for updates
+2026-05-13 22:37:10.528 [info] update#setState idle
+2026-05-13 23:38:14.633 [info] update#setState checking for updates
+2026-05-13 23:38:15.766 [info] update#setState idle
+2026-05-14 00:43:14.607 [info] update#setState checking for updates
+2026-05-14 00:43:15.937 [info] update#setState idle
+2026-05-14 01:55:11.570 [info] update#setState checking for updates
+2026-05-14 01:55:12.763 [info] update#setState idle
+2026-05-14 02:58:16.494 [info] update#setState checking for updates
+2026-05-14 02:58:18.026 [info] update#setState idle
+2026-05-14 04:07:12.482 [info] update#setState checking for updates
+2026-05-14 04:07:13.724 [info] update#setState idle
+2026-05-14 04:24:34.493 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-14 04:42:03.370 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-14 05:08:12.337 [info] update#setState checking for updates
+2026-05-14 05:08:13.953 [info] update#setState idle
+2026-05-14 06:08:12.291 [info] update#setState checking for updates
+2026-05-14 06:08:12.884 [info] update#setState idle
+2026-05-14 06:09:45.743 [warning] [perf] profiling STARTED 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:09:50.769 [warning] [perf] profiling DONE 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:10:06.181 [warning] [perf] profiling STARTED 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:10:11.201 [warning] [perf] profiling DONE 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:10:27.174 [warning] [perf] profiling STARTED 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:10:32.198 [warning] [perf] profiling DONE 6cd6f5df-82e2-45a5-943e-367611dd1a21
+2026-05-14 06:24:13.562 [warning] [perf] profiling STARTED 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 06:24:18.579 [warning] [perf] profiling DONE 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 06:24:38.170 [warning] [perf] profiling STARTED 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 06:24:43.189 [warning] [perf] profiling DONE 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 06:24:59.170 [warning] [perf] profiling STARTED 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 06:25:04.187 [warning] [perf] profiling DONE 7c4166b3-3040-4323-9ce3-e4ff9fb34ac7
+2026-05-14 07:15:50.279 [info] update#setState checking for updates
+2026-05-14 07:15:51.929 [info] update#setState idle
+2026-05-14 08:15:50.388 [info] update#setState checking for updates
+2026-05-14 08:15:50.920 [info] update#setState idle
+2026-05-14 09:15:50.390 [info] update#setState checking for updates
+2026-05-14 09:15:50.908 [info] update#setState idle
+2026-05-14 10:08:03.750 [info] Extension host with pid 27839 exited with code: 0, signal: unknown.
+2026-05-14 10:15:50.395 [info] update#setState checking for updates
+2026-05-14 10:15:50.983 [info] update#setState idle
+2026-05-14 11:15:50.391 [info] update#setState checking for updates
+2026-05-14 11:15:50.953 [info] update#setState idle
+2026-05-14 12:15:50.419 [info] update#setState checking for updates
+2026-05-14 12:15:51.258 [info] update#setState idle
+2026-05-14 13:15:50.418 [info] update#setState checking for updates
+2026-05-14 13:15:50.449 [error] UpdateService error: The internet connection appears to be offline.
+2026-05-14 13:15:50.449 [info] update#setState idle
+2026-05-14 14:15:50.355 [info] update#setState checking for updates
+2026-05-14 14:15:51.257 [info] update#setState idle
+2026-05-14 14:25:46.985 [info] Extension host with pid 21076 exited with code: 0, signal: unknown.
+2026-05-14 15:15:50.325 [info] update#setState checking for updates
+2026-05-14 15:15:51.107 [info] update#setState idle
+2026-05-14 16:15:50.299 [info] update#setState checking for updates
+2026-05-14 16:15:51.083 [info] update#setState idle
+2026-05-14 17:17:31.016 [info] update#setState checking for updates
+2026-05-14 17:17:32.936 [info] update#setState idle
+2026-05-14 18:24:34.015 [info] update#setState checking for updates
+2026-05-14 18:24:35.553 [info] update#setState idle
+2026-05-14 19:17:58.111 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-14 19:34:18.046 [info] update#setState checking for updates
+2026-05-14 19:34:20.308 [info] update#setState idle
+2026-05-14 19:52:06.983 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-14 20:36:27.628 [info] update#setState checking for updates
+2026-05-14 20:36:27.710 [error] UpdateService error: The internet connection appears to be offline.
+2026-05-14 20:36:27.711 [info] update#setState idle
+2026-05-14 21:40:38.920 [info] update#setState checking for updates
+2026-05-14 21:40:39.030 [error] UpdateService error: The internet connection appears to be offline.
+2026-05-14 21:40:39.030 [info] update#setState idle
+2026-05-14 21:44:41.815 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-14 22:40:38.973 [info] update#setState checking for updates
+2026-05-14 22:40:39.492 [info] update#setState idle
+2026-05-14 23:53:47.815 [info] update#setState checking for updates
+2026-05-14 23:53:49.107 [info] update#setState idle
+2026-05-15 00:54:46.819 [info] update#setState checking for updates
+2026-05-15 00:54:48.007 [info] update#setState idle
+2026-05-15 00:56:31.401 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-15 01:55:44.736 [info] update#setState checking for updates
+2026-05-15 01:55:47.753 [info] update#setState idle
+2026-05-15 02:06:57.185 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-15 02:57:14.586 [info] update#setState checking for updates
+2026-05-15 02:57:15.835 [info] update#setState idle
+2026-05-15 04:07:32.559 [info] update#setState checking for updates
+2026-05-15 04:07:33.750 [info] update#setState idle
+2026-05-15 05:08:32.450 [info] update#setState checking for updates
+2026-05-15 05:08:33.673 [info] update#setState idle
+2026-05-15 06:09:32.418 [info] update#setState checking for updates
+2026-05-15 06:09:33.386 [info] update#setState idle
+2026-05-15 07:10:32.322 [info] update#setState checking for updates
+2026-05-15 07:10:33.494 [info] update#setState idle
+2026-05-15 07:45:16.383 [info] Extension host with pid 49482 exited with code: 0, signal: unknown.
+2026-05-15 08:10:32.366 [info] update#setState checking for updates
+2026-05-15 08:10:38.905 [info] update#setState idle
+2026-05-15 09:10:32.373 [info] update#setState checking for updates
+2026-05-15 09:10:33.003 [info] update#setState idle
+2026-05-15 10:10:32.360 [info] update#setState checking for updates
+2026-05-15 10:10:33.441 [info] update#setState idle
+2026-05-15 11:10:32.389 [info] update#setState checking for updates
+2026-05-15 11:10:32.931 [info] update#setState idle
+2026-05-15 12:10:32.475 [info] update#setState checking for updates
+2026-05-15 12:10:33.406 [info] update#setState idle
+2026-05-15 13:18:37.957 [info] update#setState checking for updates
+2026-05-15 13:18:42.935 [info] update#setState idle
+2026-05-15 13:41:27.143 [warning] No ptyHost heartbeat after 6 seconds
+2026-05-15 14:18:38.098 [info] update#setState checking for updates
+2026-05-15 14:18:38.698 [info] update#setState idle
+2026-05-15 15:18:38.168 [info] update#setState checking for updates
+2026-05-15 15:18:39.273 [info] update#setState idle
+2026-05-15 16:18:38.244 [info] update#setState checking for updates
+2026-05-15 16:18:38.945 [info] update#setState idle

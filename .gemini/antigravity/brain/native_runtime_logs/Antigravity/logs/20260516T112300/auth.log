@@ -1,0 +1,22 @@
+2026-05-16 11:23:01.180 [info] [Auth] Auth state changed to: uninitialized
+2026-05-16 11:23:01.253 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-16 11:23:01.254 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-16 11:23:11.670 [info] [Auth] Auth state changed to: signedIn
+2026-05-16 11:23:11.671 [info] [Auth] Auth state changed to: signedIn
+2026-05-16 11:23:11.671 [info] [Auth] AntigravityAuthMainService initialized
+2026-05-16 11:23:53.433 [info] [Auth] Auth state changed to: signedOut
+2026-05-16 11:23:53.470 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 11:24:08.617 [info] [Auth] Localhost server listening on port 54490
+2026-05-16 11:24:08.654 [info] [Auth] Login URL:  https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs&state=26a789b4-7be3-4d08-9616-1df6e9b9ac75&prompt=consent&response_type=code&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A54490%2Foauth-callback
+2026-05-16 11:25:36.548 [info] [Auth] Localhost server stopped
+2026-05-16 11:25:36.549 [info] [Auth] Localhost server listening on port 54622
+2026-05-16 11:25:36.584 [info] [Auth] Login URL:  https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs&state=32f8761d-ddc2-4d7b-b4df-46af88557e93&prompt=consent&response_type=code&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A54622%2Foauth-callback
+2026-05-16 11:25:46.798 [info] [Auth] Localhost server stopped
+2026-05-16 11:25:46.798 [info] [Auth] Localhost server listening on port 54646
+2026-05-16 11:25:46.826 [info] [Auth] Login URL:  https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs&state=a6eac51b-7a32-4046-ae1f-0fd99ee7bea5&prompt=consent&response_type=code&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A54646%2Foauth-callback
+2026-05-16 11:25:53.870 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-16 11:25:59.406 [info] [Auth] Auth state changed to: signedIn
+2026-05-16 11:25:59.407 [info] [Auth] Localhost server stopped
+2026-05-16 11:25:59.413 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 12:23:01.568 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 12:23:02.860 [info] OAuth token changed, executing antigravity.handleAuthRefresh

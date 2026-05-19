@@ -1,0 +1,106 @@
+2026-05-15 16:57:06.567 [info] Render performance baseline is 23ms
+2026-05-15 17:18:01.745 [info] Render performance baseline is 22ms
+2026-05-15 17:18:12.826 [info] Render performance baseline is 21ms
+2026-05-15 17:24:34.995 [warning] Renderer reported VERY LONG TASK (447ms), starting profiling session '7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7'
+2026-05-15 18:51:41.004 [info] Render performance baseline is 39ms
+2026-05-15 20:26:35.396 [info] Render performance baseline is 18ms
+2026-05-15 20:42:46.180 [warning] Renderer reported VERY LONG TASK (351ms), starting profiling session '0633062c-844d-4ecd-8334-6b16ecb7784c'
+2026-05-15 21:49:31.168 [warning] Renderer reported VERY LONG TASK (219ms), starting profiling session '2bfbaa4b-851a-4061-8434-350ae64ebef8'
+2026-05-15 22:14:31.008 [info] Render performance baseline is 30ms
+2026-05-15 22:30:07.776 [warning] Renderer reported VERY LONG TASK (406ms), starting profiling session 'db2e6c1f-8a4b-4578-9f57-e45b13427fda'
+2026-05-15 22:37:56.717 [warning] Renderer reported VERY LONG TASK (327ms), starting profiling session 'd783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f'
+2026-05-15 23:27:23.841 [warning] Renderer reported VERY LONG TASK (338ms), starting profiling session '3c3b01ca-9c41-4639-b35b-3673862e25ba'
+2026-05-15 23:38:01.527 [warning] Renderer reported VERY LONG TASK (866ms), starting profiling session 'd732f94b-dcbe-4754-b156-a78661f88083'
+2026-05-16 00:21:03.971 [warning] Renderer reported VERY LONG TASK (320ms), starting profiling session '81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7'
+2026-05-16 00:34:28.041 [warning] Renderer reported VERY LONG TASK (581ms), starting profiling session '35e9d128-aa51-4062-9b31-dde7b3c92a03'
+2026-05-16 01:13:59.540 [warning] Renderer reported VERY LONG TASK (354ms), starting profiling session 'b06b70ea-46f0-469d-ac56-adb3203f9c54'
+2026-05-16 07:19:01.080 [warning] Renderer reported VERY LONG TASK (304ms), starting profiling session '4dfc9768-ddd1-4b8c-a952-9771e84f9503'
+2026-05-16 08:36:32.460 [warning] Renderer reported VERY LONG TASK (343ms), starting profiling session '2e8edd79-ba9d-4e93-9cd9-204790d586d7'
+2026-05-16 08:36:37.880 [error] 
+	 at aa (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:38078)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:63851)
+	 at e (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:54457)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at Om (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:47345)
+	 at Eac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:56958)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at dac (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:45313)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at ZJr (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39571)
+	 at mtn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:42563)
+	 at Z_t (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3270:39181)
+2026-05-16 08:36:37.880 [error] 
+	 at rgo (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:4166:552266)
+2026-05-16 08:36:37.894 [info] Stored profile to DISK 'file:///var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/renderer-37d54f.cpuprofile.json' 2e8edd79-ba9d-4e93-9cd9-204790d586d7
+2026-05-16 08:44:08.194 [warning] Renderer reported VERY LONG TASK (554ms), starting profiling session 'bde7a8d9-0821-455b-a6cb-328416b200b1'
+2026-05-16 09:07:42.885 [warning] Renderer reported VERY LONG TASK (425ms), starting profiling session '26f8dfdf-6e10-405b-88f9-354887a2e9ff'
+2026-05-16 09:09:21.020 [info] Render performance baseline is 37ms
+2026-05-16 09:09:26.609 [info] Render performance baseline is 24ms

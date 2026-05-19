@@ -1,0 +1,126 @@
+2026-05-15 16:57:02.372 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-15 16:57:02.372 [info] update#setState idle
+2026-05-15 16:57:02.372 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:49156
+2026-05-15 16:57:06.999 [info] Extension host with pid 956 exited with code: 0, signal: unknown.
+2026-05-15 16:57:32.255 [info] update#setState checking for updates
+2026-05-15 16:57:32.833 [info] update#setState idle
+2026-05-15 17:18:07.284 [info] Extension host with pid 8200 exited with code: 0, signal: unknown.
+2026-05-15 17:18:09.442 [info] Extension host with pid 8300 exited with code: 0, signal: unknown.
+2026-05-15 17:24:35.277 [warning] [perf] profiling STARTED 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:24:40.309 [warning] [perf] profiling DONE 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:24:56.053 [warning] [perf] profiling STARTED 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:25:01.083 [warning] [perf] profiling DONE 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:25:17.072 [warning] [perf] profiling STARTED 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:25:22.102 [warning] [perf] profiling DONE 7964b2a0-1e1c-4ad7-a40b-b2b8ad22bab7
+2026-05-15 17:57:32.312 [info] update#setState checking for updates
+2026-05-15 17:57:32.876 [info] update#setState idle
+2026-05-15 18:51:34.335 [info] Extension host with pid 8379 exited with code: 0, signal: unknown.
+2026-05-15 18:51:36.818 [info] Extension host with pid 50183 exited with code: 0, signal: unknown.
+2026-05-15 18:57:32.322 [info] update#setState checking for updates
+2026-05-15 18:57:32.928 [info] update#setState idle
+2026-05-15 19:21:27.411 [info] Extension host with pid 50201 exited with code: 0, signal: unknown.
+2026-05-15 19:57:32.301 [info] update#setState checking for updates
+2026-05-15 19:57:32.838 [info] update#setState idle
+2026-05-15 20:42:46.378 [warning] [perf] profiling STARTED 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:42:51.401 [warning] [perf] profiling DONE 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:43:06.991 [warning] [perf] profiling STARTED 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:43:12.016 [warning] [perf] profiling DONE 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:43:27.992 [warning] [perf] profiling STARTED 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:43:33.019 [warning] [perf] profiling DONE 0633062c-844d-4ecd-8334-6b16ecb7784c
+2026-05-15 20:57:32.297 [info] update#setState checking for updates
+2026-05-15 20:57:32.871 [info] update#setState idle
+2026-05-15 21:49:31.341 [warning] [perf] profiling STARTED 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:49:36.370 [warning] [perf] profiling DONE 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:49:52.010 [warning] [perf] profiling STARTED 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:49:57.037 [warning] [perf] profiling DONE 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:50:12.967 [warning] [perf] profiling STARTED 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:50:17.994 [warning] [perf] profiling DONE 2bfbaa4b-851a-4061-8434-350ae64ebef8
+2026-05-15 21:57:32.301 [info] update#setState checking for updates
+2026-05-15 21:57:32.865 [info] update#setState idle
+2026-05-15 22:13:58.044 [info] Extension host with pid 86050 exited with code: 0, signal: unknown.
+2026-05-15 22:30:08.168 [warning] [perf] profiling STARTED db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:30:13.209 [warning] [perf] profiling DONE db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:30:29.010 [warning] [perf] profiling STARTED db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:30:34.054 [warning] [perf] profiling DONE db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:30:49.304 [warning] [perf] profiling STARTED db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:30:54.344 [warning] [perf] profiling DONE db2e6c1f-8a4b-4578-9f57-e45b13427fda
+2026-05-15 22:37:57.018 [warning] [perf] profiling STARTED d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:38:02.070 [warning] [perf] profiling DONE d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:38:18.027 [warning] [perf] profiling STARTED d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:38:23.075 [warning] [perf] profiling DONE d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:38:38.375 [warning] [perf] profiling STARTED d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:38:43.417 [warning] [perf] profiling DONE d783f2d9-588c-4cbe-aa1b-2b4f3cb07f2f
+2026-05-15 22:57:32.296 [info] update#setState checking for updates
+2026-05-15 22:57:32.876 [info] update#setState idle
+2026-05-15 23:27:24.281 [warning] [perf] profiling STARTED 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:27:29.338 [warning] [perf] profiling DONE 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:27:45.054 [warning] [perf] profiling STARTED 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:27:50.094 [warning] [perf] profiling DONE 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:28:06.071 [warning] [perf] profiling STARTED 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:28:11.155 [warning] [perf] profiling DONE 3c3b01ca-9c41-4639-b35b-3673862e25ba
+2026-05-15 23:38:02.179 [warning] [perf] profiling STARTED d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:38:07.225 [warning] [perf] profiling DONE d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:38:22.746 [warning] [perf] profiling STARTED d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:38:27.802 [warning] [perf] profiling DONE d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:38:43.331 [warning] [perf] profiling STARTED d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:38:48.358 [warning] [perf] profiling DONE d732f94b-dcbe-4754-b156-a78661f88083
+2026-05-15 23:57:32.295 [info] update#setState checking for updates
+2026-05-15 23:57:32.902 [info] update#setState idle
+2026-05-16 00:21:04.652 [warning] [perf] profiling STARTED 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:21:10.230 [warning] [perf] profiling DONE 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:21:42.711 [warning] [perf] profiling STARTED 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:21:47.761 [warning] [perf] profiling DONE 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:22:04.521 [warning] [perf] profiling STARTED 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:22:09.949 [warning] [perf] profiling DONE 81e05665-1a39-48a8-a3e9-f5c6a6ecf6b7
+2026-05-16 00:34:28.544 [warning] [perf] profiling STARTED 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:34:33.673 [warning] [perf] profiling DONE 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:36:11.771 [warning] [perf] profiling STARTED 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:36:16.812 [warning] [perf] profiling DONE 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:36:33.087 [warning] [perf] profiling STARTED 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:36:38.134 [warning] [perf] profiling DONE 35e9d128-aa51-4062-9b31-dde7b3c92a03
+2026-05-16 00:57:45.462 [info] update#setState checking for updates
+2026-05-16 00:57:54.895 [error] UpdateService error: The internet connection appears to be offline.
+2026-05-16 00:57:54.895 [info] update#setState idle
+2026-05-16 01:13:59.853 [warning] [perf] profiling STARTED b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 01:14:28.748 [warning] [perf] profiling DONE b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 01:14:45.149 [warning] [perf] profiling STARTED b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 01:14:50.201 [warning] [perf] profiling DONE b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 01:15:06.130 [warning] [perf] profiling STARTED b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 01:15:11.184 [warning] [perf] profiling DONE b06b70ea-46f0-469d-ac56-adb3203f9c54
+2026-05-16 02:05:55.406 [info] update#setState checking for updates
+2026-05-16 02:05:55.521 [error] UpdateService error: The internet connection appears to be offline.
+2026-05-16 02:05:55.521 [info] update#setState idle
+2026-05-16 03:14:25.351 [info] update#setState checking for updates
+2026-05-16 03:15:13.869 [info] update#setState idle
+2026-05-16 04:15:54.273 [info] update#setState checking for updates
+2026-05-16 04:15:55.682 [info] update#setState idle
+2026-05-16 05:16:06.215 [info] update#setState checking for updates
+2026-05-16 05:16:08.307 [info] update#setState idle
+2026-05-16 06:21:03.088 [info] update#setState checking for updates
+2026-05-16 06:21:04.151 [info] update#setState idle
+2026-05-16 07:19:01.323 [warning] [perf] profiling STARTED 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 07:36:05.004 [info] update#setState checking for updates
+2026-05-16 07:36:05.113 [warning] [perf] profiling DONE 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 07:36:06.131 [info] update#setState idle
+2026-05-16 07:47:14.973 [warning] [perf] profiling STARTED 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 07:47:20.023 [warning] [perf] profiling DONE 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 07:47:35.992 [warning] [perf] profiling STARTED 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 07:47:41.046 [warning] [perf] profiling DONE 4dfc9768-ddd1-4b8c-a952-9771e84f9503
+2026-05-16 08:36:05.047 [info] update#setState checking for updates
+2026-05-16 08:36:05.676 [info] update#setState idle
+2026-05-16 08:36:32.741 [warning] [perf] profiling STARTED 2e8edd79-ba9d-4e93-9cd9-204790d586d7
+2026-05-16 08:36:37.778 [warning] [perf] profiling DONE 2e8edd79-ba9d-4e93-9cd9-204790d586d7
+2026-05-16 08:44:08.464 [warning] [perf] profiling STARTED bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 08:44:13.491 [warning] [perf] profiling DONE bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 08:44:29.730 [warning] [perf] profiling STARTED bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 08:44:34.760 [warning] [perf] profiling DONE bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 08:44:50.713 [warning] [perf] profiling STARTED bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 08:44:55.747 [warning] [perf] profiling DONE bde7a8d9-0821-455b-a6cb-328416b200b1
+2026-05-16 09:07:43.285 [warning] [perf] profiling STARTED 26f8dfdf-6e10-405b-88f9-354887a2e9ff
+2026-05-16 09:07:48.328 [warning] [perf] profiling DONE 26f8dfdf-6e10-405b-88f9-354887a2e9ff
+2026-05-16 09:08:05.035 [warning] [perf] profiling STARTED 26f8dfdf-6e10-405b-88f9-354887a2e9ff
+2026-05-16 09:08:10.078 [warning] [perf] profiling DONE 26f8dfdf-6e10-405b-88f9-354887a2e9ff
+2026-05-16 09:08:25.491 [warning] [perf] profiling STARTED 26f8dfdf-6e10-405b-88f9-354887a2e9ff
+2026-05-16 09:08:25.998 [info] Extension host with pid 44650 exited with code: 0, signal: unknown.
+2026-05-16 09:09:22.686 [info] Extension host with pid 99486 exited with code: 0, signal: unknown.
+2026-05-16 09:12:10.498 [info] Extension host with pid 99547 exited with code: 0, signal: unknown.

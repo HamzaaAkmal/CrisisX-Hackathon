@@ -1,0 +1,15 @@
+2026-05-16 17:27:59.934 [info] I0516 17:27:59.933955 66473 server.go:1236] Starting language server process with pid 66473
+2026-05-16 17:27:59.935 [info] I0516 17:27:59.935486 66473 server.go:301] Setting GOMAXPROCS to 4
+2026-05-16 17:27:59.942 [info] I0516 17:27:59.939452 66473 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-16 17:27:59.943 [info] I0516 17:27:59.942465 66473 server.go:454] Language server listening on random port at 50349 for HTTPS (gRPC)
+2026-05-16 17:27:59.943 [info] I0516 17:27:59.942630 66473 server.go:461] Language server listening on random port at 50350 for HTTP
+2026-05-16 17:28:00.671 [info] I0516 17:28:00.669593 66473 server.go:433] Created extension server client at port 50343
+2026-05-16 17:28:00.691 [info] I0516 17:28:00.691129 66473 cascade_manager.go:773] Reactive state is disabled
+2026-05-16 17:28:00.712 [info] (Antigravity) 2026-05-16 17:28:00.711 [INFO]: Language server started
+2026-05-16 17:28:00.723 [info] I0516 17:28:00.719648 66473 server.go:1693] initialized server successfully in 785.137167ms
+2026-05-16 17:28:00.785 [info] (Antigravity) 2026-05-16 17:28:00.785 [INFO]: LS lspClient started successfully
+2026-05-16 17:28:01.810 [info] I0516 17:28:01.809440 66473 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9becef6b726faa44
+2026-05-16 17:28:02.307 [info] I0516 17:28:02.306923 66473 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc3c35a727d20630a
+2026-05-16 17:34:01.502 [info] I0516 17:34:01.501600 66473 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6139fea1e9731041
+2026-05-16 17:34:02.654 [info] I0516 17:34:02.653933 66473 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd2b7ce6c3eeedf4b
+2026-05-16 17:39:04.119 [info] I0516 17:39:04.119288 66473 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2910997aa88426a0

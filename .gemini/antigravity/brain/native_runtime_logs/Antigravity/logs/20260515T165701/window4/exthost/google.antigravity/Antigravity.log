@@ -1,0 +1,283 @@
+2026-05-15 20:26:33.895 [info] I0515 20:26:33.895064 86152 server.go:1236] Starting language server process with pid 86152
+2026-05-15 20:26:33.895 [info] I0515 20:26:33.895901 86152 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 20:26:33.897 [info] I0515 20:26:33.897553 86152 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 20:26:33.899 [info] I0515 20:26:33.899171 86152 server.go:454] Language server listening on random port at 54921 for HTTPS (gRPC)
+2026-05-15 20:26:33.899 [info] I0515 20:26:33.899203 86152 server.go:461] Language server listening on random port at 54922 for HTTP
+2026-05-15 20:26:34.491 [info] I0515 20:26:34.491537 86152 server.go:433] Created extension server client at port 54917
+2026-05-15 20:26:34.512 [info] I0515 20:26:34.512207 86152 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 20:26:34.552 [info] (Antigravity) 2026-05-15 20:26:34.551 [INFO]: Language server started
+2026-05-15 20:26:34.578 [info] I0515 20:26:34.566013 86152 server.go:1693] initialized server successfully in 670.829375ms
+2026-05-15 20:26:34.716 [info] (Antigravity) 2026-05-15 20:26:34.716 [INFO]: LS lspClient started successfully
+2026-05-15 20:26:35.744 [info] I0515 20:26:35.740807 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5923bb43ed7fa3ed
+2026-05-15 20:26:36.555 [info] I0515 20:26:36.555324 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x32dc716b1cd50c3d
+2026-05-15 20:32:35.371 [info] I0515 20:32:35.370750 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8aea5e691a75149b
+2026-05-15 20:32:35.922 [info] I0515 20:32:35.921916 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1904585aeb34b69b
+2026-05-15 20:37:37.575 [info] I0515 20:37:37.574940 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4b9a327049faea05
+2026-05-15 20:37:38.542 [info] I0515 20:37:38.541780 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa2ac7e666e2d999a
+2026-05-15 20:42:33.907 [info] W0515 20:42:33.907149 86152 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: no such host
+2026-05-15 20:42:33.907 [info] W0515 20:42:33.907210 86152 log_context.go:118] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: no such host
+2026-05-15 20:42:34.554 [info] ERROR: logging before google.Init: E0515 20:42:34.552483     116 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+2026-05-15 20:42:35.002 [info] E0515 20:42:35.002336 86152 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+2026-05-15 20:42:39.556 [info] ERROR: logging before google.Init: E0515 20:42:39.556544     116 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+2026-05-15 20:42:40.004 [info] E0515 20:42:40.004488 86152 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+2026-05-15 20:42:44.562 [info] ERROR: logging before google.Init: E0515 20:42:44.561539     116 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+2026-05-15 20:42:45.007 [info] E0515 20:42:45.007193 86152 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+2026-05-15 20:43:57.457 [info] W0515 20:43:57.457093 86152 log_context.go:118] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:55610->142.250.202.42:443: read: can't assign requested address
+2026-05-15 20:43:57.457 [info] W0515 20:43:57.457144 86152 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:55610->142.250.202.42:443: read: can't assign requested address
+2026-05-15 20:43:58.197 [info] E0515 20:43:58.196537 86152 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:55221->142.251.38.42:443: read: can't assign requested address
+2026-05-15 20:44:48.377 [info] I0515 20:44:48.376681 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc3a1316fa46fc36f
+2026-05-15 20:44:48.681 [info] I0515 20:44:48.681420 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd537032b60f0b134
+2026-05-15 20:47:39.492 [info] I0515 20:47:39.492032 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9b42bcb3b500e390
+2026-05-15 20:47:46.052 [info] I0515 20:47:46.052380 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x234e0cb17517e0ec
+2026-05-15 20:48:42.007 [info] W0515 20:48:42.006701 86152 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": EOF
+2026-05-15 20:48:42.007 [info] W0515 20:48:42.006758 86152 log_context.go:118] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": EOF
+2026-05-15 20:53:35.720 [info] I0515 20:53:35.720270 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x22e114a672fa07a2
+2026-05-15 20:53:35.862 [info] I0515 20:53:35.862208 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x603c95d45a815ac4
+2026-05-15 20:59:36.222 [info] I0515 20:59:36.221736 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc6fc90fbd6de5c7a
+2026-05-15 20:59:36.964 [info] I0515 20:59:36.964717 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5f8d9a31f3c7eb46
+2026-05-15 21:05:35.306 [info] I0515 21:05:35.306462 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd28540aae6c20268
+2026-05-15 21:05:35.785 [info] I0515 21:05:35.785503 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x72b468567ab03ffc
+2026-05-15 21:11:35.748 [info] I0515 21:11:35.747938 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xed910888b8b1b5e9
+2026-05-15 21:11:36.024 [info] I0515 21:11:36.024032 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf5103fe4e9d77d29
+2026-05-15 21:17:35.274 [info] I0515 21:17:35.274306 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfe6b45bbd6e7e73f
+2026-05-15 21:17:35.877 [info] I0515 21:17:35.876872 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7263bc297028feba
+2026-05-15 21:22:36.244 [info] I0515 21:22:36.243598 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x138d893c8d95ff38
+2026-05-15 21:28:35.344 [info] I0515 21:28:35.343494 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf08086c651869165
+2026-05-15 21:28:35.877 [info] I0515 21:28:35.877655 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4a7140504eb7a92d
+2026-05-15 21:34:35.369 [info] I0515 21:34:35.368946 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x44495387f37d4854
+2026-05-15 21:34:36.088 [info] I0515 21:34:36.088264 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xee02d1bf6d62fc56
+2026-05-15 21:40:35.484 [info] I0515 21:40:35.483842 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc9289c7dee20483
+2026-05-15 21:40:36.354 [info] I0515 21:40:36.353752 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe2ba06b2f95c605e
+2026-05-15 21:46:35.218 [info] I0515 21:46:35.217513 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x792c6dda5e8b3e32
+2026-05-15 21:46:35.920 [info] I0515 21:46:35.920393 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x550b75b1fb76111
+2026-05-15 21:47:35.827 [info] I0515 21:47:35.826492 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6776d3721e62eb1
+2026-05-15 21:47:36.296 [info] I0515 21:47:36.295050 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc52070f9e04534d9
+2026-05-15 21:53:35.366 [info] I0515 21:53:35.366196 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x662346596bcebace
+2026-05-15 21:53:36.264 [info] I0515 21:53:36.264081 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x33960d57572a18e3
+2026-05-15 21:59:35.273 [info] I0515 21:59:35.273116 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4325c14772372602
+2026-05-15 21:59:35.857 [info] I0515 21:59:35.857450 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7e4619ae7ccbad1b
+2026-05-15 22:05:35.339 [info] I0515 22:05:35.339527 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd411c61068d73c45
+2026-05-15 22:05:36.143 [info] I0515 22:05:36.143567 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa80ca772bb77ab6e
+2026-05-15 22:11:35.996 [info] I0515 22:11:35.996383 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7beda3a93fcf0c26
+2026-05-15 22:11:36.087 [info] I0515 22:11:36.087275 86152 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x632be22eaed63c75
+2026-05-15 22:14:01.792 [info] I0515 22:14:01.792166 44719 server.go:1236] Starting language server process with pid 44719
+2026-05-15 22:14:01.792 [info] I0515 22:14:01.792501 44719 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 22:14:01.794 [info] I0515 22:14:01.794816 44719 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 22:14:01.795 [info] I0515 22:14:01.795234 44719 server.go:454] Language server listening on random port at 60423 for HTTPS (gRPC)
+2026-05-15 22:14:01.795 [info] I0515 22:14:01.795258 44719 server.go:461] Language server listening on random port at 60424 for HTTP
+2026-05-15 22:14:02.334 [info] I0515 22:14:02.334684 44719 server.go:433] Created extension server client at port 60422
+2026-05-15 22:14:02.355 [info] I0515 22:14:02.355616 44719 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 22:14:02.401 [info] (Antigravity) 2026-05-15 22:14:02.400 [INFO]: Language server started
+2026-05-15 22:14:02.413 [info] I0515 22:14:02.408825 44719 server.go:1693] initialized server successfully in 616.487042ms
+2026-05-15 22:14:02.439 [info] (Antigravity) 2026-05-15 22:14:02.439 [INFO]: LS lspClient started successfully
+2026-05-15 22:14:03.749 [info] I0515 22:14:03.749646 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8a861a02434a077
+2026-05-15 22:14:04.269 [info] I0515 22:14:04.268965 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa2e335c0f1927c88
+2026-05-15 22:20:07.515 [info] I0515 22:20:07.514472 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x552dce074e379098
+2026-05-15 22:20:09.742 [info] I0515 22:20:09.741554 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe3cdb4cd549a8d23
+2026-05-15 22:26:05.962 [info] I0515 22:26:05.960066 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9b027d4f55b457e
+2026-05-15 22:26:06.492 [info] I0515 22:26:06.491979 44719 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3dd2157fd84b2b00
+2026-05-15 22:28:11.384 [info] (Antigravity) 2026-05-15 22:28:11.384 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-05-15 22:28:27.268 [info] I0515 22:28:27.268744 44719 server.go:1871] Got signal terminated, shutting down
+2026-05-15 22:28:27.269 [info] I0515 22:28:27.268935 44719 server.go:1897] Language server shutting down
+2026-05-15 22:28:27.290 [info] (Antigravity) 2026-05-15 22:28:27.290 [INFO]: Language server exited with code 0
+2026-05-15 22:28:27.567 [info] I0515 22:28:27.566737 46532 server.go:1236] Starting language server process with pid 46532
+2026-05-15 22:28:27.567 [info] I0515 22:28:27.567047 46532 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 22:28:27.568 [info] I0515 22:28:27.568732 46532 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 22:28:27.569 [info] I0515 22:28:27.569047 46532 server.go:454] Language server listening on fixed port at 60423 for HTTPS (gRPC)
+2026-05-15 22:28:27.569 [info] I0515 22:28:27.569074 46532 server.go:461] Language server listening on fixed port at 61145 for HTTP
+2026-05-15 22:28:28.126 [info] I0515 22:28:28.125812 46532 server.go:433] Created extension server client at port 60422
+2026-05-15 22:28:28.137 [info] I0515 22:28:28.137203 46532 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 22:28:28.159 [info] E0515 22:28:28.159758 46532 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-05-15 22:28:28.162 [info] E0515 22:28:28.161926 46532 server.go:544] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-05-15 22:28:28.162 [info] W0515 22:28:28.161956 46532 client.go:167] failed to set auth token
+2026-05-15 22:28:28.163 [info] (Antigravity) 2026-05-15 22:28:28.163 [INFO]: Language server started
+2026-05-15 22:28:28.176 [info] W0515 22:28:28.162777 46532 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-05-15 22:28:28.176 [info] W0515 22:28:28.162794 46532 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-05-15 22:28:28.176 [info] E0515 22:28:28.162813 46532 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-05-15 22:28:28.176 [info] W0515 22:28:28.162900 46532 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-05-15 22:28:28.176 [info] I0515 22:28:28.176023 46532 server.go:1693] initialized server successfully in 609.143ms
+2026-05-15 22:28:28.186 [info] (Antigravity) 2026-05-15 22:28:28.186 [INFO]: LS lspClient started successfully
+2026-05-15 22:28:46.308 [info] I0515 22:28:46.308001 46532 server.go:1871] Got signal terminated, shutting down
+2026-05-15 22:28:46.308 [info] I0515 22:28:46.308064 46532 server.go:1897] Language server shutting down
+2026-05-15 22:28:46.322 [info] (Antigravity) 2026-05-15 22:28:46.322 [INFO]: Language server exited with code 0
+2026-05-15 22:28:46.400 [info] I0515 22:28:46.400437 46548 server.go:1236] Starting language server process with pid 46548
+2026-05-15 22:28:46.401 [info] I0515 22:28:46.400710 46548 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 22:28:46.401 [info] I0515 22:28:46.401641 46548 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 22:28:46.401 [info] I0515 22:28:46.401807 46548 server.go:454] Language server listening on fixed port at 60423 for HTTPS (gRPC)
+2026-05-15 22:28:46.401 [info] I0515 22:28:46.401844 46548 server.go:461] Language server listening on fixed port at 61179 for HTTP
+2026-05-15 22:28:46.987 [info] I0515 22:28:46.986900 46548 server.go:433] Created extension server client at port 60422
+2026-05-15 22:28:46.994 [info] I0515 22:28:46.994656 46548 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 22:28:47.012 [info] E0515 22:28:47.012437 46548 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-05-15 22:28:47.017 [info] E0515 22:28:47.014343 46548 server.go:544] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-05-15 22:28:47.017 [info] W0515 22:28:47.014375 46548 client.go:167] failed to set auth token
+2026-05-15 22:28:47.017 [info] W0515 22:28:47.016038 46548 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-05-15 22:28:47.018 [info] (Antigravity) 2026-05-15 22:28:47.018 [INFO]: Language server started
+2026-05-15 22:28:47.020 [info] I0515 22:28:47.020259 46548 server.go:1693] initialized server successfully in 619.534667ms
+2026-05-15 22:28:47.022 [info] W0515 22:28:47.021687 46548 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-05-15 22:28:47.022 [info] W0515 22:28:47.021714 46548 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-05-15 22:28:47.022 [info] E0515 22:28:47.021745 46548 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-05-15 22:28:47.036 [info] (Antigravity) 2026-05-15 22:28:47.036 [INFO]: LS lspClient started successfully
+2026-05-15 22:28:49.313 [info] I0515 22:28:49.313390 46548 server.go:1871] Got signal terminated, shutting down
+2026-05-15 22:28:49.313 [info] I0515 22:28:49.313441 46548 server.go:1897] Language server shutting down
+2026-05-15 22:28:49.326 [info] (Antigravity) 2026-05-15 22:28:49.326 [INFO]: Language server exited with code 0
+2026-05-15 22:28:49.403 [info] I0515 22:28:49.402831 46554 server.go:1236] Starting language server process with pid 46554
+2026-05-15 22:28:49.403 [info] I0515 22:28:49.403094 46554 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 22:28:49.405 [info] I0515 22:28:49.405599 46554 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 22:28:49.405 [info] I0515 22:28:49.405790 46554 server.go:454] Language server listening on fixed port at 60423 for HTTPS (gRPC)
+2026-05-15 22:28:49.405 [info] I0515 22:28:49.405864 46554 server.go:461] Language server listening on fixed port at 61196 for HTTP
+2026-05-15 22:28:50.007 [info] I0515 22:28:50.007707 46554 server.go:433] Created extension server client at port 60422
+2026-05-15 22:28:50.018 [info] I0515 22:28:50.017926 46554 cascade_manager.go:773] Reactive state is disabled
+2026-05-15 22:28:50.041 [info] (Antigravity) 2026-05-15 22:28:50.040 [INFO]: Language server started
+2026-05-15 22:28:50.043 [info] I0515 22:28:50.043128 46554 server.go:1693] initialized server successfully in 640.026834ms
+2026-05-15 22:28:50.055 [info] (Antigravity) 2026-05-15 22:28:50.055 [INFO]: LS lspClient started successfully
+2026-05-15 22:28:51.312 [info] I0515 22:28:51.311206 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x963f33cc5626a3a
+2026-05-15 22:28:52.607 [info] I0515 22:28:52.606755 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xed3dc49478b6d32b
+2026-05-15 22:34:51.306 [info] I0515 22:34:51.306294 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6b3eac6ae24410e7
+2026-05-15 22:34:52.315 [info] I0515 22:34:52.314665 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1b5463ff76b0d8f7
+2026-05-15 22:40:50.615 [info] I0515 22:40:50.614795 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6c01582470feb25
+2026-05-15 22:40:51.268 [info] I0515 22:40:51.267604 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xad08140026a2dc79
+2026-05-15 22:45:53.432 [info] I0515 22:45:53.432555 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4081634d783703dd
+2026-05-15 22:45:53.723 [info] I0515 22:45:53.722876 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7e7e386903d9b8cf
+2026-05-15 22:50:55.977 [info] I0515 22:50:55.976556 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x43119181c1e8aa71
+2026-05-15 22:56:51.104 [info] I0515 22:56:51.103623 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x245aa498435acbd9
+2026-05-15 22:56:51.597 [info] I0515 22:56:51.596805 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xeb2610d0a9b276ab
+2026-05-15 23:02:01.347 [info] I0515 23:02:01.346994 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2cfe5407eb3637c6
+2026-05-15 23:02:05.237 [info] I0515 23:02:05.236958 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5fb085fe6076935f
+2026-05-15 23:07:50.811 [info] I0515 23:07:50.810935 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xad179472ad15382c
+2026-05-15 23:07:51.323 [info] I0515 23:07:51.323283 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdcd1deac368b7adc
+2026-05-15 23:13:50.762 [info] I0515 23:13:50.762107 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdb3f6fcd6e07cfa2
+2026-05-15 23:13:51.483 [info] I0515 23:13:51.483385 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1f0851fe7304f5
+2026-05-15 23:19:50.814 [info] I0515 23:19:50.810849 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6f096aa3f7bb9c91
+2026-05-15 23:19:52.305 [info] I0515 23:19:52.305140 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf02710cdbe24f87d
+2026-05-15 23:25:50.543 [info] I0515 23:25:50.542661 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x742838a08b3c9fab
+2026-05-15 23:25:51.417 [info] I0515 23:25:51.417563 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa3963e0eac50d11e
+2026-05-15 23:26:01.525 [info] E0515 23:26:01.525004 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:26:02.784 [info] E0515 23:26:02.783273 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:26:02.789 [info] E0515 23:26:02.789016 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:27:51.603 [info] I0515 23:27:51.602348 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4843ae20d9aa03e3
+2026-05-15 23:27:53.262 [info] I0515 23:27:53.262666 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb8cc956429763bff
+2026-05-15 23:32:54.511 [info] I0515 23:32:54.510819 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc44e8c8985c0d6e6
+2026-05-15 23:32:57.188 [info] I0515 23:32:57.188077 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbf8a97a4787faf7
+2026-05-15 23:34:59.997 [info] (Antigravity) 2026-05-15 23:34:59.997 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-15 23:38:51.107 [info] I0515 23:38:51.107145 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa63861a9f04b8975
+2026-05-15 23:38:51.655 [info] I0515 23:38:51.655302 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8c7afaef942b691f
+2026-05-15 23:41:45.590 [info] E0515 23:41:45.589962 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:41:45.594 [info] E0515 23:41:45.593890 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:41:45.596 [info] E0515 23:41:45.596036 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:41:45.598 [info] E0515 23:41:45.598875 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:41:45.601 [info] E0515 23:41:45.601696 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-15 23:44:50.711 [info] I0515 23:44:50.710603 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfc5c5765431cfae6
+2026-05-15 23:44:51.642 [info] I0515 23:44:51.642652 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x44c9f01468a59ec5
+2026-05-15 23:50:50.559 [info] I0515 23:50:50.558548 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf976f6bc993d1f8d
+2026-05-15 23:50:51.304 [info] I0515 23:50:51.304698 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8ddb2c62d8dc53f0
+2026-05-15 23:52:07.476 [info] (Antigravity) 2026-05-15 23:52:07.476 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-15 23:55:52.239 [info] I0515 23:55:52.238606 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x20ed4b0c898b8bf
+2026-05-15 23:55:52.416 [info] I0515 23:55:52.416641 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6527b5cf5c286847
+2026-05-16 00:01:50.817 [info] I0516 00:01:50.815579 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x58908d045d4e9485
+2026-05-16 00:01:51.283 [info] I0516 00:01:51.282762 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2b665004ad0f87b9
+2026-05-16 00:07:50.779 [info] I0516 00:07:50.779078 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdb803c1e311f9b62
+2026-05-16 00:07:51.663 [info] I0516 00:07:51.663168 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcd697d5a39373dbd
+2026-05-16 00:12:59.898 [info] E0516 00:12:59.898309 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 00:13:05.372 [info] E0516 00:13:05.372778 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 00:13:05.377 [info] E0516 00:13:05.377341 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 00:13:51.252 [info] I0516 00:13:51.252463 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe02952e16bd77af3
+2026-05-16 00:13:51.747 [info] I0516 00:13:51.747352 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf86afc02027501e6
+2026-05-16 00:19:50.563 [info] I0516 00:19:50.563430 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe02427f786ec56d0
+2026-05-16 00:19:51.259 [info] I0516 00:19:51.259707 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x10487c8e67920447
+2026-05-16 00:25:51.233 [info] I0516 00:25:51.218029 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf78113dfcdf5bd1e
+2026-05-16 00:25:51.787 [info] I0516 00:25:51.787132 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb15be3c5513f8da
+2026-05-16 00:27:51.035 [info] I0516 00:27:51.030458 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x92b86ddeecfda989
+2026-05-16 00:27:51.508 [info] I0516 00:27:51.508570 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe11c30b21efa3be2
+2026-05-16 00:33:51.093 [info] I0516 00:33:51.093271 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1a2ac3be009e3c7d
+2026-05-16 00:33:51.235 [info] I0516 00:33:51.234954 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe49066bf584d7e59
+2026-05-16 00:39:51.264 [info] I0516 00:39:51.245800 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa74767edf834a559
+2026-05-16 00:39:51.785 [info] I0516 00:39:51.784694 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd2866eafbbc006f6
+2026-05-16 00:57:56.478 [info] ERROR: logging before google.Init: E0516 00:57:56.476977      16 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+2026-05-16 00:57:56.766 [info] E0516 00:57:56.766374 46554 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+2026-05-16 00:58:01.483 [info] ERROR: logging before google.Init: E0516 00:58:01.482790      16 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+2026-05-16 00:58:01.769 [info] E0516 00:58:01.769335 46554 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+2026-05-16 00:58:19.409 [info] E0516 00:58:19.408672 46554 client.go:55] Post "https://play.googleapis.com/log": unexpected EOF
+2026-05-16 01:13:59.177 [info] E0516 01:13:59.177415 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:51167->142.250.202.170:443: read: operation timed out
+2026-05-16 01:14:00.008 [info] W0516 01:14:00.007864 46554 log_context.go:118] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:50991->142.251.38.42:443: read: operation timed out
+2026-05-16 01:14:00.008 [info] W0516 01:14:00.007909 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:50991->142.251.38.42:443: read: operation timed out
+2026-05-16 01:14:50.624 [info] E0516 01:14:50.623869 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": EOF
+2026-05-16 01:16:20.144 [info] E0516 01:16:20.143478 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": EOF
+2026-05-16 01:32:58.009 [info] I0516 01:32:58.008772 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x19ab2eb8ad26c65e
+2026-05-16 01:32:58.337 [info] I0516 01:32:58.337379 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1dd7d15f1d90a4c0
+2026-05-16 02:22:12.979 [info] E0516 02:22:12.979162 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:51684->142.250.184.106:443: read: operation timed out
+2026-05-16 02:42:06.868 [info] E0516 02:42:06.867672 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:51685->142.250.184.106:443: read: operation timed out
+2026-05-16 02:42:19.528 [info] W0516 02:42:19.528280 46554 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": read tcp 192.168.100.38:51291->142.250.202.202:443: read: operation timed out
+2026-05-16 02:42:19.529 [info] W0516 02:42:19.528401 46554 log_context.go:118] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": read tcp 192.168.100.38:51291->142.250.202.202:443: read: operation timed out
+2026-05-16 02:42:19.529 [info] W0516 02:42:19.528454 46554 log_context.go:118] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": read tcp 192.168.100.38:51291->142.250.202.202:443: read: operation timed out
+2026-05-16 02:42:36.540 [info] I0516 02:42:36.539714 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe8038884137f547
+2026-05-16 02:42:37.318 [info] I0516 02:42:37.318368 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x63d1193460a869cc
+2026-05-16 03:31:06.316 [info] E0516 03:31:06.315756 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52082->74.125.90.74:443: read: operation timed out
+2026-05-16 04:15:55.429 [info] E0516 04:15:55.429030 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52081->74.125.90.74:443: read: operation timed out
+2026-05-16 04:54:04.312 [info] W0516 04:54:04.311394 46554 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.313 [info] W0516 04:54:04.311537 46554 log_context.go:118] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:52274->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.313 [info] W0516 04:54:04.311583 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:52274->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.313 [info] W0516 04:54:04.311641 46554 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.313 [info] W0516 04:54:04.311682 46554 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.313 [info] W0516 04:54:04.311625 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.314 [info] W0516 04:54:04.311758 46554 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.314 [info] W0516 04:54:04.311788 46554 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:04.314 [info] E0516 04:54:04.311821 46554 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:52273->142.251.38.10:443: read: operation timed out
+2026-05-16 04:54:05.583 [info] I0516 04:54:05.583179 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x508c63ca672e9975
+2026-05-16 04:54:06.293 [info] I0516 04:54:06.292745 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x30227e0343a57156
+2026-05-16 05:16:08.571 [info] E0516 05:16:08.571474 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52547->142.251.38.10:443: read: operation timed out
+2026-05-16 05:34:08.212 [info] E0516 05:34:08.212315 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52548->142.251.38.10:443: read: operation timed out
+2026-05-16 05:34:25.248 [info] E0516 05:34:25.247571 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+2026-05-16 05:45:38.293 [info] I0516 05:45:38.293220 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8e20ceaddeea6034
+2026-05-16 05:45:41.727 [info] I0516 05:45:41.726902 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf3d0ebd29172a306
+2026-05-16 06:42:25.754 [info] E0516 06:42:25.754177 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52886->142.250.186.234:443: read: operation timed out
+2026-05-16 07:02:48.787 [info] I0516 07:02:48.787194 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x66cf2c724af1c2a1
+2026-05-16 07:02:49.471 [info] I0516 07:02:49.470795 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0f4a117190552c3
+2026-05-16 07:36:05.183 [info] E0516 07:36:05.183201 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:52884->142.250.186.234:443: read: operation timed out
+2026-05-16 07:47:19.270 [info] W0516 07:47:19.270380 46554 log_context.go:118] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:52887->142.250.186.234:443: read: operation timed out
+2026-05-16 07:47:19.272 [info] W0516 07:47:19.270459 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:52887->142.250.186.234:443: read: operation timed out
+2026-05-16 07:47:19.272 [info] W0516 07:47:19.270508 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 192.168.100.38:52887->142.250.186.234:443: read: operation timed out
+2026-05-16 07:51:37.249 [info] W0516 07:51:37.248806 46554 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:37.249 [info] W0516 07:51:37.249052 46554 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:37.249 [info] W0516 07:51:37.249125 46554 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:37.249 [info] W0516 07:51:37.249011 46554 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:37.250 [info] W0516 07:51:37.249178 46554 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:37.250 [info] W0516 07:51:37.249201 46554 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53076->142.250.186.10:443: read: operation timed out
+2026-05-16 07:51:43.071 [info] E0516 07:51:43.070841 46554 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.100.38:53085->142.250.186.234:443: read: operation timed out
+2026-05-16 07:52:08.419 [info] W0516 07:52:08.419002 46554 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53272->142.250.202.234:443: read: operation timed out
+2026-05-16 07:52:08.420 [info] W0516 07:52:08.419151 46554 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53272->142.250.202.234:443: read: operation timed out
+2026-05-16 07:52:08.420 [info] E0516 07:52:08.419225 46554 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": read tcp 192.168.100.38:53272->142.250.202.234:443: read: operation timed out
+2026-05-16 07:52:18.264 [info] I0516 07:52:18.264203 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x94bfee2cffbeedc1
+2026-05-16 07:52:18.854 [info] I0516 07:52:18.854448 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5370f46f8ec5c092
+2026-05-16 07:58:17.752 [info] I0516 07:58:17.751337 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4f99cf826a0de7ff
+2026-05-16 07:58:18.138 [info] I0516 07:58:18.137784 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x590b6784fc7f644b
+2026-05-16 08:04:17.774 [info] I0516 08:04:17.773844 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x301a11c2a46d92e2
+2026-05-16 08:04:17.864 [info] I0516 08:04:17.864301 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x56a423e83664f6c3
+2026-05-16 08:04:33.158 [info] (Antigravity) 2026-05-16 08:04:33.158 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 08:04:39.004 [info] (Antigravity) 2026-05-16 08:04:39.004 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 08:10:17.315 [info] I0516 08:10:17.315251 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2845a42130c5f82
+2026-05-16 08:10:18.017 [info] I0516 08:10:18.017134 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x846c38572aa380e2
+2026-05-16 08:16:17.617 [info] I0516 08:16:17.617335 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5bc92593c61f3b66
+2026-05-16 08:16:18.419 [info] I0516 08:16:18.419537 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x483df4471ba60922
+2026-05-16 08:22:17.545 [info] I0516 08:22:17.545405 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x91ba0f19fe2fecbd
+2026-05-16 08:22:18.149 [info] I0516 08:22:18.149385 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ab1065b5a8d01fc
+2026-05-16 08:28:17.822 [info] I0516 08:28:17.822231 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfecf0a55670e2796
+2026-05-16 08:28:18.158 [info] I0516 08:28:18.158015 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x52dad37250b4ce84
+2026-05-16 08:34:17.603 [info] I0516 08:34:17.603487 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfc986db576f7e9e5
+2026-05-16 08:34:18.132 [info] I0516 08:34:18.132613 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe82076525f46cfa3
+2026-05-16 08:40:17.513 [info] I0516 08:40:17.512757 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7f9db063aa9ae5bd
+2026-05-16 08:40:17.954 [info] I0516 08:40:17.954152 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5d557a4cc6744f90
+2026-05-16 08:46:17.499 [info] I0516 08:46:17.498439 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1ee3d0129a1a9042
+2026-05-16 08:46:18.203 [info] I0516 08:46:18.202937 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5ab1e86987114e32
+2026-05-16 08:47:17.692 [info] I0516 08:47:17.691833 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdf8390742ae24545
+2026-05-16 08:47:18.200 [info] I0516 08:47:18.200614 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc7f2076b47c3876c
+2026-05-16 08:53:17.736 [info] I0516 08:53:17.736170 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x87bd6a9cbabc117d
+2026-05-16 08:53:18.035 [info] I0516 08:53:18.035558 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbf88ac498e89072
+2026-05-16 08:59:17.745 [info] I0516 08:59:17.744767 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1a24fc8adea24a1
+2026-05-16 08:59:18.565 [info] I0516 08:59:18.565514 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb21f7fbcd42f8d3e
+2026-05-16 09:04:34.239 [info] E0516 09:04:34.239619 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 09:04:34.242 [info] E0516 09:04:34.242656 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 09:04:34.243 [info] E0516 09:04:34.243498 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 09:04:34.244 [info] E0516 09:04:34.244883 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 09:04:48.475 [info] E0516 09:04:48.475523 46554 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-16 09:05:17.679 [info] I0516 09:05:17.678906 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xef76395fdc5802bc
+2026-05-16 09:05:18.232 [info] I0516 09:05:18.231829 46554 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa4db1df3538c355b

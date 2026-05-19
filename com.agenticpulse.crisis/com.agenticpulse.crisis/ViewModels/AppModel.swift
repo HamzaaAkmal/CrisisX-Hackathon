@@ -26,7 +26,14 @@ final class AppModel: ObservableObject {
         session = supabase.session
         if session != nil {
             Task {
-                await repository.start()
+                do {
+                    try await supabase.refreshSessionIfNeeded()
+                    session = supabase.session
+                    await repository.start()
+                } catch {
+                    authError = error.localizedDescription
+                    signOut()
+                }
             }
         }
     }

@@ -1,0 +1,17 @@
+2026-05-15 17:22:06.426 [warning] Dir "/Users/apple/Desktop/clicky-main/.pixi/envs" is not watchable (directory does not exist)
+2026-05-15 17:22:06.448 [info] Starting Environment refresh
+2026-05-15 17:22:06.448 [info] Starting Environment refresh
+2026-05-15 17:22:06.454 [info] > hatch env show --json
+2026-05-15 17:22:06.454 [info] cwd: .
+2026-05-15 17:22:06.455 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-15 17:22:06.455 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-15 17:22:06.499 [info] Environments refresh finished (event): 52 milliseconds
+2026-05-15 17:22:06.499 [info] Environments refresh finished (event): 51 milliseconds
+2026-05-15 17:22:06.499 [info] Environments refresh paths discovered: 52 milliseconds
+2026-05-15 17:22:06.499 [info] Environments refresh paths discovered: 51 milliseconds
+2026-05-15 17:22:06.501 [info] Environment refresh took 54 milliseconds
+2026-05-15 17:22:06.502 [info] Environment refresh took 54 milliseconds
+2026-05-15 17:22:06.504 [info] > pyenv which python
+2026-05-15 17:22:06.504 [info] cwd: .
+2026-05-15 17:22:06.583 [info] Python interpreter path: ~/.pyenv/versions/3.11.0/bin/python
+2026-05-15 17:22:06.585 [info] Editor support is inactive since language server is set to None.

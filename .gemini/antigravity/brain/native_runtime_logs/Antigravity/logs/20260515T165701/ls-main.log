@@ -1,0 +1,22 @@
+2026-05-15 16:57:02.373 [info] [LS Main] Starting language server from: /Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm
+2026-05-15 16:57:02.410 [info] [LS Main] Args: --csrf_token 15f3e363-cd74-4193-96b5-9fce82e12cb2 --extension_server_port 49155 --extension_server_csrf_token 80c28d90-7be6-4251-ae70-9853d0bd22d0 --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-15 16:57:02.552 [info] [LS Main] Process spawned with PID: 940
+2026-05-15 16:57:03.376 [error] No LS client info found for local authority
+2026-05-15 16:57:05.379 [error] [LS Main stderr] I0515 16:57:05.379219   940 server.go:1236] Starting language server process with pid 940
+
+2026-05-15 16:57:05.387 [error] [LS Main stderr] I0515 16:57:05.384570   940 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-15 16:57:05.397 [error] [LS Main stderr] I0515 16:57:05.397098   940 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-15 16:57:05.398 [error] [LS Main stderr] I0515 16:57:05.398082   940 server.go:454] Language server listening on random port at 49186 for HTTPS (gRPC)
+I0515 16:57:05.398104   940 server.go:461] Language server listening on random port at 49187 for HTTP
+
+2026-05-15 16:57:06.454 [error] [LS Main stderr] I0515 16:57:06.012185   940 server.go:433] Created extension server client at port 49155
+
+2026-05-15 16:57:06.547 [error] [LS Main stderr] I0515 16:57:06.543346   940 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-15 16:57:06.602 [info] [LS Main] LS started on port 49186
+2026-05-15 16:57:06.606 [error] [LS Main stderr] I0515 16:57:06.606348   940 server.go:1693] initialized server successfully in 1.222733458s
+
+2026-05-15 16:57:06.612 [error] [LS Main stderr] 2026/05/15 16:57:06 http: TLS handshake error from 127.0.0.1:49219: read tcp 127.0.0.1:49186->127.0.0.1:49219: read: connection reset by peer
+

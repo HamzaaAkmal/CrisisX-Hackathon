@@ -1,163 +1,227 @@
-# CrisisAI powered by AgenticPulse
+# CrisisAI (CIRO) Technical Documentation
 
-CrisisAI is a SwiftUI iOS app and Supabase backend for CIRO: Crisis Intelligence & Response Orchestrator. It implements a real-time, agentic crisis intelligence flow for Challenge 3 without hardcoded incident outputs or static UI fixtures.
+## 1. Project Overview
 
-The app lets authenticated users submit crisis reports, watches Supabase Realtime for live state changes, and displays incidents, evidence, response actions, traces, mock alerts, mock tickets, route options, and simulation metrics.
+### Problem statement
+During disasters and emergency situations, people often struggle to access reliable and timely information. Reports from different sources can be confusing or unverified, leading to poor awareness and delayed decisions. This project provides a centralized platform that validates crisis-related information and helps improve public awareness and preparedness.
 
-## Architecture
+### Purpose of the solution
+CrisisAI provides a real-time, agentic crisis intelligence workflow that turns user or backend-generated signals into incidents, evidence, response actions, and simulation outcomes. It keeps all decisions and tool calls traceable in Supabase and streams updates live to the iOS client.
 
-- **iOS app:** SwiftUI, light blue design system, bottom tab UX, Google Maps SDK for iOS, Keychain-backed Supabase email auth, Supabase REST, and Supabase Realtime WebSocket subscriptions.
-- **Supabase database:** Migration at `supabase/migrations/202605170001_ciro_schema.sql`.
-- **Agent backend:** Supabase Edge Function at `supabase/functions/ciro-agent/index.ts`.
-- **AI provider:** DigitalOcean GenAI OpenAI-compatible chat completions at `https://inference.do-ai.run/v1/chat/completions`, model `kimi-k2.6`, `tool_choice: "auto"`.
-- **External context tools:** Google Geocoding/Routes, Exa search/news, and OpenWeather.
-- **Safety boundary:** Response execution is simulated only in app-owned Supabase tables. The system never claims to contact real emergency services or change real Google Maps traffic.
+### Real-world use case
+A crisis operations desk can collect public reports (English, Urdu, Roman Urdu), confirm context with weather and news sources, cluster nearby signals into incidents, and propose coordinated response actions. Operators review a full agent trace and simulated outcomes before any real-world escalation.
 
-## Screens
+### Core objectives
+- Normalize and geocode crisis signals with explicit agent traces.
+- Enrich incidents with weather, news, and route evidence.
+- Plan safe response actions and simulate outcomes without real-world execution.
+- Stream live incident state to the mobile UI with full auditability.
 
-- Login / Signup through Supabase email auth
-- Live Crisis Map
-- Report Crisis
-- Signal Inbox
-- Incident Detail
-- Response Plan
-- Agent Trace
-- Simulation Outcome
-- Settings
+## 2. System Design
 
-## Required Keys
+### Overall solution design
+The system is split into a SwiftUI client and a Supabase backend. The client handles authentication, report submission, and live visualization. The backend runs an orchestrated agent pipeline inside a Supabase Edge Function, writing all artifacts to Postgres and streaming them back via Realtime.
 
-Do not commit secrets. The app reads client config from Xcode build settings / environment / generated Info.plist keys.
+### Data flow
+1. User submits a report in the iOS app (Report Crisis).
+2. The app writes a row to `signals` and calls `ciro-agent` with `start_processing`.
+3. The Edge Function queues an `agent_runs` record, then processes the pipeline asynchronously.
+4. Agents write `normalized_signals`, `incidents`, `incident_evidence`, `response_actions`, `simulation_runs`, `mock_alerts`, `emergency_tickets`, and `tool_calls`.
+5. Supabase Realtime pushes table changes; the app refreshes and renders updates.
 
-### iOS app
+### Component interaction
+- `AppModel` owns auth state and initializes `CrisisRepository`.
+- `CrisisRepository` loads and merges data, invokes the Edge Function, and manages pipeline heartbeat polling.
+- `SupabaseService` is a thin REST client for Auth, PostgREST, and Functions.
+- `SupabaseRealtimeService` uses a WebSocket subscription to trigger data reloads.
 
-- `SUPABASE_ANON_KEY`
-- `GOOGLE_MAPS_IOS_API_KEY`
-- `SUPABASE_URL` is optional; the app defaults to `https://rkxhbbrcrfikbanjvuig.supabase.co`.
+### User interaction flow
+- Login/Signup via Supabase email auth.
+- Submit a report and watch the Agent Pipeline sheet for live steps.
+- Review incidents on the map and open Incident Detail.
+- Inspect Response Plan, Agent Trace, and Simulation Outcome per incident.
+- Trigger backend-generated signals or simulations from Settings.
 
-In Xcode, add user-defined build settings for `SUPABASE_ANON_KEY` and `GOOGLE_MAPS_IOS_API_KEY` on the app target. The project maps those into `SupabaseAnonKey` and `GoogleMapsAPIKey` Info.plist keys.
+## 3. Architecture Overview
 
-For local development this repo also supports `Config/Local.xcconfig`, which is ignored by git and wired into the app target. Put only client-safe values there: `SUPABASE_ANON_KEY` and `GOOGLE_MAPS_IOS_API_KEY`.
+### Architecture pattern used
+The iOS app follows MVVM with a service layer:
+- Models: `Models/CrisisModels.swift`
+- ViewModels: `ViewModels/AppModel.swift`, `ViewModels/CrisisRepository.swift`
+- Views: `Views/*`
+- Services: `Services/SupabaseService.swift`, `Services/SupabaseRealtimeService.swift`
 
-### Supabase Edge Function
+The backend is a single Edge Function with a layered agent pipeline and a structured tool execution layer.
 
-Set these with Supabase secrets:
+### Frontend structure
+- Entry: `com_agenticpulse_crisisApp.swift` initializes Google Maps and injects `AppModel`.
+- `ContentView` switches between Auth and main shell based on session.
+- Tabbed navigation: Map, Report, Inbox, Settings.
+- Shared UI components and skeleton loaders in `Views/Components`.
+- Map rendering via Google Maps SDK (with a fallback static view if missing).
 
-```bash
-supabase secrets set \
-  SUPABASE_URL=https://rkxhbbrcrfikbanjvuig.supabase.co \
-  SUPABASE_ANON_KEY=your-supabase-anon-key \
-  SUPABASE_SERVICE_ROLE_KEY=your-service-role-key \
-  MODEL_ACCESS_KEY=your-digitalocean-genai-key \
-  GOOGLE_MAPS_API_KEY=your-google-server-api-key \
-  EXA_API_KEY=your-exa-api-key \
-  OPENWEATHER_API_KEY=your-openweather-key
-```
+### Backend structure
+- Supabase Edge Function: `supabase/functions/ciro-agent/index.ts`.
+- Agent pipeline with explicit logging and tool calls stored in Postgres.
+- Background execution using EdgeRuntime `waitUntil` to keep the app responsive.
 
-Use separate Google keys if you restrict iOS bundle identifiers and server API access differently.
+### Database and storage handling
+- Postgres tables model signals, normalized signals, incidents, evidence, actions, simulations, and audit logs.
+- Realtime is enabled for all crisis-relevant tables.
+- RLS is enabled on all tables; client writes are scoped to authenticated users.
+- Session tokens are stored in iOS Keychain (`KeychainStore`).
 
-## Supabase Setup
+### State management
+- SwiftUI `@Published` properties in `AppModel` and `CrisisRepository`.
+- UI updates driven by Combine and Realtime-triggered reloads.
+- Repository merges incoming data by primary key to avoid duplication.
 
-1. Enable Supabase Auth email provider in the Supabase dashboard.
-2. Run the schema migration:
+### Service layers
+- `SupabaseService`: REST calls for Auth, PostgREST CRUD, and Functions.
+- `SupabaseRealtimeService`: WebSocket subscription to table changes.
+- Edge Function tool handlers for geocoding, weather, routes, and news.
 
-```bash
-supabase link --project-ref rkxhbbrcrfikbanjvuig
-supabase db push
-```
+### Scalability considerations
+- Database indexes on status, timestamps, and location fields for high-volume reads.
+- Async agent orchestration with stale-run recovery and queued processing.
+- UI data loads are bounded (`limit` queries) and throttled reloads (450ms).
 
-Or paste `supabase/migrations/202605170001_ciro_schema.sql` into the Supabase SQL editor.
+## 4. Technologies Used
 
-3. Deploy the Edge Function:
+| Area | Technology | Purpose |
+| --- | --- | --- |
+| Mobile | Swift, SwiftUI | iOS client and UI state management |
+| Mapping | Google Maps SDK for iOS | Live map rendering and markers |
+| Backend | Supabase Edge Functions (Deno) | Agent pipeline and tool execution |
+| Database | Supabase Postgres | Crisis data, logs, and simulation artifacts |
+| Realtime | Supabase Realtime WebSocket | Live updates in the app |
+| AI Model | Groq OpenAI-compatible API (Llama 3.3 70B) | Agent reasoning and structured outputs |
+| External APIs | Google Geocoding, Google Routes, OpenWeather, Exa Search | Context and evidence enrichment |
 
-```bash
-supabase functions deploy ciro-agent --project-ref rkxhbbrcrfikbanjvuig
-```
+## 5. APIs and Integrations
 
-4. Confirm Realtime is enabled. The migration adds all CIRO tables to `supabase_realtime` where available.
+### Real APIs used
+- Supabase Auth REST: `/auth/v1/*` for sign-in/up.
+- Supabase PostgREST: `/rest/v1/*` for table reads and writes.
+- Supabase Functions: `/functions/v1/ciro-agent` for orchestration.
+- Google Geocoding and Routes APIs for location resolution and route candidates.
+- OpenWeather for live weather context.
+- Exa Search for web/news corroboration.
 
-## Agent Workflow
+### Mock APIs used
+- Mock alerts and mock emergency tickets are stored in `mock_alerts` and `emergency_tickets` and never sent externally.
 
-When a user submits a report:
+### Third-party integrations
+- Google Maps SDK for iOS (map rendering).
+- Groq OpenAI-compatible chat completions for agent reasoning.
 
-1. The app inserts a row into `signals`.
-2. Supabase Realtime updates the UI.
-3. The app invokes `ciro-agent` with `action: "process_signal"`.
-4. The backend creates an `agent_runs` row.
-5. Agents run in order:
-   - Signal Normalizer Agent
-   - Geo Resolver Agent
-   - Evidence Agent
-   - Crisis Detector Agent
-   - Severity Agent
-   - Response Planner Agent
-   - Simulation Agent
-   - Trace Agent
-6. Every agent writes to `agent_logs`; every tool call writes to `tool_calls`.
-7. Incidents, evidence, actions, mock alerts, mock emergency tickets, blocked segments, route options, and metrics are persisted in Supabase and streamed back into the app.
+### Authentication methods
+- Supabase email/password auth on the client.
+- JWT passed to the Edge Function; service role key used server-side for privileged writes.
+- Session tokens stored in Keychain.
 
-## Structured Tools
+### Data handling strategy
+- All agent outputs are stored in normalized tables with structured JSON payloads.
+- Tool calls are logged with arguments, latency, and results for auditability.
+- System health is tracked in `system_status`.
 
-The backend defines OpenAI-compatible tools for:
+## 6. Agents / Intelligent Modules
 
-- `geocode_locations`
-- `fetch_weather`
-- `search_latest_web_news`
-- `compute_route_alternatives`
-- `upsert_incident`
-- `create_response_action`
-- `run_simulation`
-- `create_mock_emergency_ticket`
-- `create_mock_alert`
-- `write_agent_log`
+### Agent pipeline
+The Edge Function runs a deterministic pipeline with explicit logging:
+1. Signal Normalizer Agent
+2. Geo Resolver Agent
+3. Evidence Agent
+4. Crisis Detector Agent
+5. Severity Agent
+6. Response Planner Agent
+7. Simulation Agent
+8. Trace Agent
 
-## Google Antigravity Usage
+### Automation and decision systems
+- Rule-based severity scoring blended with AI reasoning (`rulesSeverity`).
+- Incident clustering against nearby signals and active incidents.
+- Automatic creation of simulated response actions, tickets, alerts, and metrics.
+- Recovery paths for stale runs and planner failure (`fallbackResponsePlan`).
 
-Open the repository folder in Google Antigravity and use it as a reviewable agent workspace:
+### Monitoring systems
+- `system_status` includes orchestrator health and recovery hints.
+- Agent logs and tool calls provide a full audit trail.
 
-1. Ask the agent to inspect `README.md`, the migration, and `supabase/functions/ciro-agent/index.ts`.
-2. Keep destructive command approval on; database changes should be limited to `supabase db push` after reviewing the SQL.
-3. Use Antigravity’s browser/dev workflow to open the Supabase dashboard, verify tables and Realtime, then run the iOS app in Xcode.
-4. Use the Agent Trace screen as the app-side audit trail for each backend run.
+## 7. Core Features
 
-Official starting point: [Google Antigravity codelab](https://codelabs.developers.google.com/getting-started-google-antigravity).
+### Main functionalities
+- Secure login and session persistence.
+- Crisis report submission with category and urgency.
+- Live map visualization of signals, incidents, routes, and blocked segments.
+- Incident detail view with evidence, actions, trace, and simulation outcomes.
+- Backend-generated test signals and manual simulation triggers.
 
-## Demo Steps
+### Security implementation
+- RLS enabled on all tables.
+- Client uses anon key only; server uses service role key.
+- Keychain storage for access tokens.
 
-1. Run the Supabase migration and deploy the function.
-2. Set all Edge Function secrets.
-3. Add `SUPABASE_ANON_KEY` and `GOOGLE_MAPS_IOS_API_KEY` to Xcode build settings.
-4. Build and run CrisisAI.
-5. Signup or login with email/password.
-6. Submit a real report from **Report Crisis**.
-7. Watch **Signal Inbox** and **Live Crisis Map** update through Realtime.
-8. Open the incident and inspect **Response Plan**, **Agent Trace**, and **Simulation Outcome**.
-9. In **Settings**, use Backend API Signal to create a test signal through live backend tools.
+### Performance optimization
+- Query limits and ordered reads for large tables.
+- Realtime-triggered reload with throttling.
+- Skeleton loaders to avoid blocking UI during initial load.
 
-## Assumptions
+### Error handling
+- Uniform error surface via `APIError`.
+- Edge Function marks runs as failed and updates `system_status` on errors.
+- Stale run recovery for pipelines exceeding heartbeat thresholds.
 
-- The mobile app calls Supabase directly with the anon key and user JWT.
-- Secret AI/API keys live only in Supabase Edge Function environment variables.
-- The Edge Function uses service role access for server-side orchestration and writes.
-- Response actions are operational recommendations and mock execution records, not real dispatch.
-- Google Maps displays app-owned overlays; real traffic is read through Routes API but never modified.
+### Background services
+- Edge Function uses background tasks to continue long-running agent pipelines.
+- Client shows a heartbeat-based progress sheet for long workflows.
 
-## Verification
+### Notifications and alerts
+- Alerts and tickets are simulated and stored in Supabase tables; no real dispatch.
 
-Local checks run:
+## 8. Technical Implementation Details
 
-```bash
-deno check supabase/functions/ciro-agent/index.ts
-xcodebuild -project com.agenticpulse.crisis/com.agenticpulse.crisis.xcodeproj \
-  -scheme com.agenticpulse.crisis \
-  -destination 'generic/platform=iOS Simulator' build
-```
+### Folder structure
+- `Core/`: configuration, theming, JSON handling, Keychain, and error types.
+- `Models/`: data models aligned with Supabase tables.
+- `Services/`: Supabase REST and Realtime networking.
+- `ViewModels/`: session + repository state and orchestration.
+- `Views/`: SwiftUI screens and components.
+- `supabase/`: SQL migrations and Edge Function.
 
-The Xcode build succeeds with the Google Maps iOS Swift package pinned to `10.13.0`.
+### Important modules
+- `CrisisRepository`: primary data hub; load/merge, pipeline calls, and simulations.
+- `SupabaseService`: Auth, PostgREST, Functions with timeout handling.
+- `SupabaseRealtimeService`: WebSocket subscriptions for table changes.
+- `ciro-agent` Edge Function: full agent pipeline and tool execution.
 
-## References
+### Key classes/services
+- `AppModel`: app lifecycle, auth, and repository bootstrap.
+- `CrisisRepository`: orchestrates read/write operations and pipeline state.
+- `KeychainStore`: secure local session persistence.
 
-- [Google Maps SDK for iOS Swift Package Manager setup](https://developers.google.com/maps/documentation/ios-sdk/map-with-marker)
-- [Google Maps SDK for iOS SwiftUI guidance](https://developers.google.com/maps/documentation/ios-sdk/map)
-- [Exa Search API](https://docs.exa.ai/reference/search)
-- [Google Antigravity codelab](https://codelabs.developers.google.com/getting-started-google-antigravity)
+### Design decisions
+- Asynchronous pipeline in Edge Function to avoid blocking the mobile UI.
+- Strict logging of every agent and tool call for audit trails.
+- Simulation-only actions to keep the system safe and compliant.
+
+### Why specific technologies were selected
+- Supabase offers Postgres + Realtime + Edge Functions in a single managed stack.
+- SwiftUI enables rapid, reactive UI updates for live data.
+- Google Maps SDK provides reliable map rendering and overlays.
+
+## 10. Future Improvements
+
+- Implement pagination and incremental loading for large data sets.
+- Add role-based UI and permissions to match `profiles.role`.
+- Expand system status with per-agent KPIs and queue metrics.
+- Introduce background refresh and local caching for offline readiness.
+- Align AI provider configuration between documentation and Edge Function settings.
+- Add integration points for real dispatch systems while keeping strict safety boundaries.
+
+## 11. Company
+- Agentic Pulse
+  ## Team
+- Hamza Akmal
+- Abdullah Saif
+- Kamran Ashraf

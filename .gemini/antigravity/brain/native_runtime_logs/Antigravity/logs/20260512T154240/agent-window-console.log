@@ -1,0 +1,36 @@
+2026-05-12 19:06:24.260 [info] [Manager] [DEBUG bootstrap-window] cssModules: undefined (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-12 19:06:24.260 [info] [Manager] [DEBUG bootstrap-window] esModule: jetskiAgent/main (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-12 19:06:24.260 [info] [Manager] [DEBUG bootstrap-window] baseUrl: [object URL] (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-12 19:06:24.260 [info] [Manager] [DEBUG bootstrap-window] new URL: vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-12 19:06:24.737 [info] [Manager] [FileWatch:undefined] connecting... (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3662)
+2026-05-12 19:07:01.167 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-12 19:07:19.343 [info] [Manager] Autofocus processing was blocked because a document already has a focused element. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-12 19:07:23.779 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-12 19:09:45.624 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:2776)
+2026-05-12 19:09:56.766 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-12 19:10:54.183 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:54.400 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:54.537 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:54.629 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:54.748 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:55.920 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:57.808 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:57.986 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:58.660 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)
+2026-05-12 19:10:59.186 [info] [Manager] Error: Minified Lexical error #14; visit https://lexical.dev/docs/error?code=14 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3891)

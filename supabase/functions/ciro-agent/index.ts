@@ -1,9 +1,14 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 import { createClient, SupabaseClient } from "https://esm.sh/@supabase/supabase-js@2.46.1";
 
-const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
-const MODEL = "llama-3.3-70b-versatile";
-const MODEL_TIMEOUT_MS = 30_000;
+const PRIMARY_MODEL_API_URL = "https://api.groq.com/openai/v1/chat/completions";
+const PRIMARY_MODEL = "llama-3.3-70b-versatile";
+const PRIMARY_MODEL_KEY_ENV = "GROQ_API_KEY";
+const PRIMARY_MODEL_TIMEOUT_MS = 45_000;
+const FALLBACK_MODEL_API_URL = "https://inference.do-ai.run/v1/chat/completions";
+const FALLBACK_MODEL = "kimi-k2.6";
+const FALLBACK_MODEL_KEY_ENV = "MODEL_ACCESS_KEY";
+const FALLBACK_MODEL_TIMEOUT_MS = 30_000;
 const STALE_RUN_MS = 120_000;
 
 const corsHeaders = {
@@ -126,6 +131,12 @@ function stringOrDefault(value: unknown, fallback: string): string {
   return typeof value === "string" && value.trim().length > 0 ? value : fallback;
 }
 
+function sanitizedAlias(value: string): string {
+  return value
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, value));
 }
@@ -147,8 +158,8 @@ function haversineMeters(aLat: number, aLng: number, bLat: number, bLng: number)
 }
 
 async function getAuthedUser(req: Request): Promise<{ id: string; email?: string }> {
-  const url = requireEnv("iSUPABASE_URL");
-  const anon = requireEnv("iSUPABASE_ANON_KEY");
+  const url = requireEnv("SUPABASE_URL");
+  const anon = requireEnv("SUPABASE_ANON_KEY");
   const authorization = req.headers.get("Authorization");
   if (!authorization) {
     throw new HttpError(401, "Missing Authorization header");
@@ -166,7 +177,7 @@ async function getAuthedUser(req: Request): Promise<{ id: string; email?: string
 }
 
 function adminClient(): SupabaseClient {
-  return createClient(requireEnv("iSUPABASE_URL"), requireEnv("iSUPABASE_SERVICE_ROLE_KEY"), {
+  return createClient(requireEnv("SUPABASE_URL"), requireEnv("SUPABASE_SERVICE_ROLE_KEY"), {
     auth: { persistSession: false },
   });
 }
@@ -179,12 +190,25 @@ class HttpError extends Error {
   }
 }
 
-async function chatCompletion(messages: ChatMessage[], tools: unknown[]) {
+type ModelProvider = {
+  name: string;
+  apiUrl: string;
+  model: string;
+  apiKeyEnv: string;
+  timeoutMs: number;
+};
+
+function isModelTimeout(error: unknown): boolean {
+  const message = error instanceof Error ? `${error.name} ${error.message}` : String(error);
+  return /model_timeout|timeout|abort/i.test(message);
+}
+
+async function chatCompletionWithProvider(provider: ModelProvider, messages: ChatMessage[], tools: unknown[]) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort("model_timeout"), MODEL_TIMEOUT_MS);
+  const timeout = setTimeout(() => controller.abort("model_timeout"), provider.timeoutMs);
   
   const requestBody: Record<string, unknown> = {
-    model: MODEL,
+    model: provider.model,
     messages,
     temperature: 0.15,
   };
@@ -195,10 +219,10 @@ async function chatCompletion(messages: ChatMessage[], tools: unknown[]) {
     requestBody.tool_choice = "auto";
   }
   
-  const response = await fetch(GROQ_API_URL, {
+  const response = await fetch(provider.apiUrl, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${requireEnv("GROQ_API_KEY")}`,
+      Authorization: `Bearer ${requireEnv(provider.apiKeyEnv)}`,
       "Content-Type": "application/json",
     },
     signal: controller.signal,
@@ -207,9 +231,42 @@ async function chatCompletion(messages: ChatMessage[], tools: unknown[]) {
 
   const payload = await response.json().catch(() => ({}));
   if (!response.ok) {
-    throw new Error(`Groq API error ${response.status}: ${JSON.stringify(payload).slice(0, 700)}`);
+    throw new Error(`${provider.name} API error ${response.status}: ${JSON.stringify(payload).slice(0, 700)}`);
   }
   return payload?.choices?.[0]?.message;
+}
+
+async function chatCompletion(messages: ChatMessage[], tools: unknown[]) {
+  const primary: ModelProvider = {
+    name: "Groq Llama 3.3 70B",
+    apiUrl: PRIMARY_MODEL_API_URL,
+    model: PRIMARY_MODEL,
+    apiKeyEnv: PRIMARY_MODEL_KEY_ENV,
+    timeoutMs: PRIMARY_MODEL_TIMEOUT_MS,
+  };
+  const fallback: ModelProvider = {
+    name: "DigitalOcean Kimi",
+    apiUrl: FALLBACK_MODEL_API_URL,
+    model: FALLBACK_MODEL,
+    apiKeyEnv: FALLBACK_MODEL_KEY_ENV,
+    timeoutMs: FALLBACK_MODEL_TIMEOUT_MS,
+  };
+
+  try {
+    return await chatCompletionWithProvider(primary, messages, tools);
+  } catch (error) {
+    if (!isModelTimeout(error)) {
+      throw error;
+    }
+    if (!optionalEnv(fallback.apiKeyEnv)) {
+      throw new Error(`Primary model timed out and ${fallback.apiKeyEnv} is not configured for fallback recovery: ${error instanceof Error ? error.message : String(error)}`);
+    }
+    try {
+      return await chatCompletionWithProvider(fallback, messages, tools);
+    } catch (fallbackError) {
+      throw new Error(`Primary model timed out and Kimi fallback failed: ${fallbackError instanceof Error ? fallbackError.message : String(fallbackError)}`);
+    }
+  }
 }
 
 const toolDefinitions = [
@@ -1049,6 +1106,20 @@ function rulesSeverity(signal: Json, cluster: unknown[], evidence: Json): Json {
   return { severity, confidence, components: { urgency, clusterBoost, weatherBoost, newsBoost, routeBoost, raw } };
 }
 
+async function saveLocationAlias(admin: SupabaseClient, values: Json): Promise<void> {
+  const { error } = await admin
+    .from("location_aliases")
+    .insert(values);
+
+  if (!error) return;
+
+  const message = error.message ?? "";
+  if (error.code === "23505" || message.includes("duplicate key value")) {
+    return;
+  }
+  throw new Error(`Failed to save location alias: ${message}`);
+}
+
 async function processSignal(admin: SupabaseClient, userId: string, signalId: string, existingRun?: Json): Promise<Json> {
   const { data: signal, error: signalError } = await admin.from("signals").select("*").eq("id", signalId).single();
   if (signalError || !signal) throw new HttpError(404, `Signal not found: ${signalError?.message ?? signalId}`);
@@ -1119,7 +1190,7 @@ Output schema:
         category: String(normalized.category ?? signal.category ?? "unknown"),
         severity_hint: clamp(Math.round(Number(normalized.severity_hint ?? signal.urgency ?? 3)), 1, 5),
         entities: asObject(normalized.entities),
-        model: MODEL,
+        model: PRIMARY_MODEL,
         confidence: clamp(Number(normalized.confidence ?? 0), 0, 1),
       })
       .select("*")
@@ -1157,18 +1228,23 @@ Output schema:
     if (lat !== undefined && lng !== undefined) {
       await admin.from("signals").update({ latitude: lat, longitude: lng, status: "enriched" }).eq("id", signalId);
       await admin.from("normalized_signals").update({ latitude: lat, longitude: lng, status: "geocoded" }).eq("id", normalizedRow.id);
+      const savedAliases = new Set<string>();
       for (const alias of asArray<Json>(geo.aliases)) {
-        const aliasText = typeof alias.alias === "string" ? alias.alias : undefined;
-        const canonical = typeof alias.canonical_name === "string" ? alias.canonical_name : String(location.name ?? aliasText ?? "Resolved location");
-        if (aliasText) {
-          await admin.from("location_aliases").upsert({
+        const aliasText = typeof alias.alias === "string" ? sanitizedAlias(alias.alias) : undefined;
+        const canonical = sanitizedAlias(
+          typeof alias.canonical_name === "string" ? alias.canonical_name : String(location.name ?? aliasText ?? "Resolved location"),
+        );
+        const aliasKey = aliasText ? `${aliasText.toLocaleLowerCase()}|${canonical.toLocaleLowerCase()}` : "";
+        if (aliasText && !savedAliases.has(aliasKey)) {
+          savedAliases.add(aliasKey);
+          await saveLocationAlias(admin, {
             alias: aliasText,
             canonical_name: canonical,
             latitude: lat,
             longitude: lng,
             source: "geo_resolver_agent",
             evidence: { signal_id: signalId, agent_run_id: runId },
-          }, { onConflict: "alias,canonical_name" }).throwOnError();
+          });
         }
       }
     }
@@ -1237,11 +1313,13 @@ Output schema:
     await admin.from("normalized_signals").update({ status: "clustered" }).eq("id", normalizedRow.id);
 
     const ruleScore = rulesSeverity(signal, cluster, evidence);
-    const severity = await runAgent(
-      ctx,
-      "Severity Agent",
-      "score_severity",
-      `Blend deterministic scoring with AI judgment. Do not lower severity below obvious life-safety clues.
+    let severity: Json;
+    try {
+      severity = await runAgent(
+        ctx,
+        "Severity Agent",
+        "score_severity",
+        `Blend deterministic scoring with AI judgment. Do not lower severity below obvious life-safety clues.
 Output schema:
 {
   "severity": 1-5,
@@ -1251,9 +1329,19 @@ Output schema:
   "recommended_status": "active"|"monitoring"|"mitigating",
   "summary": string
 }`,
-      { signal, normalized_signal: normalizedRow, incident, evidence, cluster_size: cluster.length, rule_score: ruleScore },
-      ["write_agent_log"],
-    );
+        { signal, normalized_signal: normalizedRow, incident, evidence, cluster_size: cluster.length, rule_score: ruleScore },
+        ["write_agent_log"],
+      );
+    } catch (error) {
+      severity = fallbackSeverity(ruleScore, incident);
+      await writeRecoveryAgentLog(
+        ctx,
+        "Severity Agent",
+        "score_severity_recovery",
+        `Severity recovered after model failure: ${error instanceof Error ? error.message : String(error)}`,
+        severity,
+      );
+    }
 
     const finalSeverity = clamp(Math.round(Number(severity.severity ?? ruleScore.severity)), 1, 5);
     const finalConfidence = clamp(Number(severity.confidence ?? ruleScore.confidence), 0, 1);
@@ -1495,6 +1583,26 @@ function fallbackResponsePlan(incident: Json, evidence: Json): Json {
     coordination_notes: "Generated by deterministic recovery because the model planner did not complete in time.",
     confidence: 0.62,
     summary: "Response Planner recovered with safe simulated response actions.",
+  };
+}
+
+function fallbackSeverity(ruleScore: Json, incident: Json): Json {
+  const severity = clamp(Math.round(Number(ruleScore.severity ?? incident.severity ?? 3)), 1, 5);
+  const confidence = clamp(Number(ruleScore.confidence ?? incident.confidence ?? 0.5), 0.25, 0.96);
+  const status = severity >= 4 ? "active" : severity >= 3 ? "monitoring" : "monitoring";
+
+  return {
+    severity,
+    confidence,
+    ai_explanation: "Recovered from a model timeout using deterministic severity rules so the agent pipeline can continue.",
+    rule_components: asObject(ruleScore.components),
+    recommended_status: status,
+    recovery: {
+      source: "deterministic_severity_recovery",
+      primary_model: PRIMARY_MODEL,
+      fallback_model: FALLBACK_MODEL,
+    },
+    summary: "Severity Agent recovered with rules-based scoring.",
   };
 }
 

@@ -1,0 +1,94 @@
+2026-05-15 22:14:03.222 [warning] Dir "/Users/apple/Desktop/clicky-main/.pixi/envs" is not watchable (directory does not exist)
+2026-05-15 22:14:03.235 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-05-15 22:14:03.260 [info] Python interpreter path: ~/.pyenv/versions/3.11.0/bin/python
+2026-05-15 22:14:03.272 [info] > pyenv which python
+2026-05-15 22:14:03.272 [info] cwd: .
+2026-05-15 22:14:03.377 [info] Editor support is inactive since language server is set to None.
+2026-05-15 22:14:39.947 [info] Running installed packages checker:  {
+  id: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  sysPrefix: '/Users/apple/.pyenv/versions/3.11.0',
+  envType: 'Pyenv',
+  envName: '3.11.0',
+  envPath: '/Users/apple/.pyenv/versions/3.11.0',
+  path: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  architecture: 3,
+  sysVersion: '3.11.0 (main, Nov 11 2024, 12:47:41) [Clang 16.0.0 (clang-1600.0.26.3)]',
+  version: {
+    raw: '3.11.0',
+    major: 3,
+    minor: 11,
+    patch: 0,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.11.0 64-bit ('3.11.0')",
+  detailedDisplayName: "Python 3.11.0 64-bit ('3.11.0': pyenv)",
+  type: undefined
+} /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/requirements.txt
+2026-05-15 22:14:39.947 [info] > ~/.pyenv/versions/3.11.0/bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./leanring-buddy/clicky/requirements.txt
+2026-05-15 22:39:04.350 [info] Running installed packages checker:  {
+  id: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  sysPrefix: '/Users/apple/.pyenv/versions/3.11.0',
+  envType: 'Pyenv',
+  envName: '3.11.0',
+  envPath: '/Users/apple/.pyenv/versions/3.11.0',
+  path: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  architecture: 3,
+  sysVersion: '3.11.0 (main, Nov 11 2024, 12:47:41) [Clang 16.0.0 (clang-1600.0.26.3)]',
+  version: {
+    raw: '3.11.0',
+    major: 3,
+    minor: 11,
+    patch: 0,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.11.0 64-bit ('3.11.0')",
+  detailedDisplayName: "Python 3.11.0 64-bit ('3.11.0': pyenv)",
+  type: undefined
+} /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/requirements.txt
+2026-05-15 22:39:04.350 [info] > ~/.pyenv/versions/3.11.0/bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./leanring-buddy/clicky/requirements.txt
+2026-05-15 23:23:14.783 [info] Running installed packages checker:  {
+  id: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  sysPrefix: '/Users/apple/.pyenv/versions/3.11.0',
+  envType: 'Pyenv',
+  envName: '3.11.0',
+  envPath: '/Users/apple/.pyenv/versions/3.11.0',
+  path: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  architecture: 3,
+  sysVersion: '3.11.0 (main, Nov 11 2024, 12:47:41) [Clang 16.0.0 (clang-1600.0.26.3)]',
+  version: {
+    raw: '3.11.0',
+    major: 3,
+    minor: 11,
+    patch: 0,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.11.0 64-bit ('3.11.0')",
+  detailedDisplayName: "Python 3.11.0 64-bit ('3.11.0': pyenv)",
+  type: undefined
+} /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/requirements.txt
+2026-05-15 23:23:14.784 [info] > ~/.pyenv/versions/3.11.0/bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./leanring-buddy/clicky/requirements.txt
+2026-05-15 23:41:21.680 [info] Running installed packages checker:  {
+  id: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  sysPrefix: '/Users/apple/.pyenv/versions/3.11.0',
+  envType: 'Pyenv',
+  envName: '3.11.0',
+  envPath: '/Users/apple/.pyenv/versions/3.11.0',
+  path: '/Users/apple/.pyenv/versions/3.11.0/bin/python',
+  architecture: 3,
+  sysVersion: '3.11.0 (main, Nov 11 2024, 12:47:41) [Clang 16.0.0 (clang-1600.0.26.3)]',
+  version: {
+    raw: '3.11.0',
+    major: 3,
+    minor: 11,
+    patch: 0,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.11.0 64-bit ('3.11.0')",
+  detailedDisplayName: "Python 3.11.0 64-bit ('3.11.0': pyenv)",
+  type: undefined
+} /Users/apple/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/requirements.txt
+2026-05-15 23:41:21.680 [info] > ~/.pyenv/versions/3.11.0/bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./leanring-buddy/clicky/requirements.txt

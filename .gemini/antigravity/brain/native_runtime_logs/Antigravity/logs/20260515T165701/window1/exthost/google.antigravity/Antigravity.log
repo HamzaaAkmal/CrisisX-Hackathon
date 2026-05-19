@@ -1,0 +1,7 @@
+2026-05-15 16:57:06.477 [info] (Antigravity) 2026-05-15 16:57:06.477 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-05-15 16:57:06.477 [info] (Antigravity) 2026-05-15 16:57:06.477 [ERROR]: Failed to show status message: LanguageServerClient must be initialized first!
+2026-05-15 16:57:06.807 [info] I0515 16:57:06.807294  1039 server.go:1236] Starting language server process with pid 1039
+2026-05-15 16:57:06.807 [info] I0515 16:57:06.807554  1039 server.go:301] Setting GOMAXPROCS to 4
+2026-05-15 16:57:06.809 [info] I0515 16:57:06.808893  1039 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-15 16:57:06.809 [info] I0515 16:57:06.809104  1039 server.go:454] Language server listening on random port at 49227 for HTTPS (gRPC)
+2026-05-15 16:57:06.809 [info] I0515 16:57:06.809155  1039 server.go:461] Language server listening on random port at 49228 for HTTP

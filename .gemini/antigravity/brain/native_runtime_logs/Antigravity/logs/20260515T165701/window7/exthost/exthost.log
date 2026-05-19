@@ -1,0 +1,85 @@
+2026-05-16 09:09:18.859 [info] Extension host with pid 99486 started
+2026-05-16 09:09:18.894 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:09:18.905 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:09:18.959 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-16 09:09:19.486 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-16 09:09:20.223 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-16 09:09:22.678 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-16 09:09:22.683 [info] Extension host with pid 99486 exiting with code 0
+2026-05-16 09:09:25.026 [info] Extension host with pid 99547 started
+2026-05-16 09:09:25.026 [info] Skipping acquiring lock for /Users/apple/Library/Application Support/Antigravity/User/workspaceStorage/3141217bf160fa67ebfc0c8fe5409193.
+2026-05-16 09:09:25.034 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-16 09:09:25.056 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:09:25.081 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-16 09:09:25.191 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:09:25.223 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-16 09:09:25.319 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:09:25.331 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:09:25.337 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:09:25.370 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:09:25.459 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:09:25.494 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-05-16 09:09:25.578 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:09:25.652 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-05-16 09:09:26.014 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-16 09:09:28.361 [info] Eager extensions activated
+2026-05-16 09:09:28.417 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:09:28.424 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:09:28.428 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:09:28.446 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-16 09:09:28.456 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-16 09:10:07.178 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:08.991 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:12.238 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:14.207 [error] Error: Model is disposed!
+    at VS.lb (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3040:304)
+    at VS.getVersionId (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3042:2487)
+    at gqi.fetch (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:15087)
+    at Hk._computeFn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:34252)
+    at Hk.get (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9669)
+    at Hk.reportChanges (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at eNr.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:17819)
+    at Hk.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:11059)
+    at F6e.finish (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:104244)
+    at cDl (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:103731)
+2026-05-16 09:10:15.164 [error] Error: Model is disposed!
+    at VS.lb (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3040:304)
+    at VS.getVersionId (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3042:2487)
+    at gqi.fetch (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:15087)
+    at Hk._computeFn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:34252)
+    at Hk.get (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9669)
+    at Hk.reportChanges (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at eNr.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:17819)
+    at Hk.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:11059)
+    at F6e.finish (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:104244)
+    at cDl (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:103731)
+2026-05-16 09:10:16.095 [error] Error: Model is disposed!
+    at VS.lb (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3040:304)
+    at VS.getVersionId (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3042:2487)
+    at gqi.fetch (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:15087)
+    at Hk._computeFn (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3243:34252)
+    at Hk.get (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9669)
+    at Hk.reportChanges (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at eNr.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:17819)
+    at Hk.endUpdate (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2793:11059)
+    at F6e.finish (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:104244)
+    at cDl (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:103731)
+2026-05-16 09:10:16.193 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:23.702 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:24.723 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:39.767 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:10:41.207 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:12:10.458 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-16 09:12:10.492 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-16 09:12:10.498 [info] Extension host with pid 99547 exiting with code 0

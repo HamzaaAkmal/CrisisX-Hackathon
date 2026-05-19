@@ -1,0 +1,33 @@
+2026-05-12 19:07:32.725 [info] [main] Log level: Info
+2026-05-12 19:07:32.725 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-12 19:07:32.725 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-12 19:07:32.725 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 19:07:32.725 [info] > git rev-parse --show-toplevel [177ms]
+2026-05-12 19:07:32.741 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [15ms]
+2026-05-12 19:07:32.745 [info] [Model][openRepository] Opened repository (path): /Users/apple/Desktop/Hackathon-Google/LocalEyes
+2026-05-12 19:07:32.745 [info] [Model][openRepository] Opened repository (real path): /Users/apple/Desktop/Hackathon-Google/LocalEyes
+2026-05-12 19:07:32.745 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-12 19:07:32.753 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-12 19:07:32.754 [info] > git config --get commit.template [8ms]
+2026-05-12 19:07:32.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [12ms]
+2026-05-12 19:07:32.759 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/apple/Desktop/Hackathon-Google/LocalEyes/.git/refs/remotes/origin/main'
+2026-05-12 19:07:32.760 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-12 19:07:32.766 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2026-05-12 19:07:32.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2026-05-12 19:07:32.796 [info] > git rev-parse --show-toplevel [35ms]
+2026-05-12 19:07:32.803 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-12 19:07:32.809 [info] > git rev-parse --show-toplevel [5ms]
+2026-05-12 19:07:32.810 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 19:07:32.846 [info] > git status -z -uall [79ms]
+2026-05-12 19:07:32.866 [info] > git config --get commit.template [9ms]
+2026-05-12 19:07:32.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-05-12 19:07:32.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-05-12 19:07:32.868 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/apple/Desktop/Hackathon-Google/LocalEyes/.git/refs/remotes/origin/main'
+2026-05-12 19:07:32.874 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2026-05-12 19:07:32.875 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2026-05-12 19:07:32.882 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-05-12 19:07:32.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [8ms]
+2026-05-12 19:07:32.915 [info] > git merge-base refs/heads/main refs/remotes/origin/main [31ms]
+2026-05-12 19:07:32.960 [info] > git status -z -uall [86ms]
+2026-05-12 19:07:32.960 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 713e9ab929711535d9938282b3b87f49b3e13e4b...refs/remotes/origin/main -- [44ms]
+2026-05-12 19:07:33.307 [info] > git check-ignore -v -z --stdin [14ms]

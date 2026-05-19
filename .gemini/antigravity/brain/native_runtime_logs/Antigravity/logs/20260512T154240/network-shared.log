@@ -1,0 +1,6 @@
+2026-05-13 20:42:17.367 [error] #63: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2026-05-14 13:15:52.559 [error] #73: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2026-05-14 13:15:55.786 [error] #74: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2026-05-14 20:36:32.950 [error] #76: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2026-05-14 20:36:36.330 [error] #77: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2026-05-14 21:44:47.060 [error] #78: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED

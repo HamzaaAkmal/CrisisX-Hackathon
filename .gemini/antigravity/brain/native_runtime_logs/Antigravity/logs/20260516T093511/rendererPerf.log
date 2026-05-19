@@ -1,0 +1,6 @@
+2026-05-16 09:35:15.909 [info] Render performance baseline is 13ms
+2026-05-16 10:26:37.083 [warning] Renderer reported VERY LONG TASK (243ms), starting profiling session '14ef023b-b275-4ea8-bf32-dee8c191a9e4'
+2026-05-16 10:33:54.831 [warning] Renderer reported VERY LONG TASK (604ms), starting profiling session '61953430-1719-4477-8308-282711d7e88f'
+2026-05-16 10:45:44.108 [warning] Renderer reported VERY LONG TASK (150ms), starting profiling session '40e637c1-74a6-4770-a92f-491e692ba8a4'
+2026-05-16 10:56:11.275 [warning] Renderer reported VERY LONG TASK (224ms), starting profiling session '6efc9a6f-c199-44d1-be3c-11832e46668d'
+2026-05-16 11:02:18.667 [warning] Renderer reported VERY LONG TASK (139ms), starting profiling session 'bc66b252-c11d-4db9-ba80-9290b6449785'

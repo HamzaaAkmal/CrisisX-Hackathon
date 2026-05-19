@@ -1,0 +1,53 @@
+2026-05-18 09:02:43.356 [info] Render performance baseline is 15ms
+2026-05-18 10:46:11.476 [info] Render performance baseline is 20ms
+2026-05-18 11:05:33.780 [warning] Renderer reported VERY LONG TASK (510ms), starting profiling session 'e45dca94-9e26-4a54-aa70-002f06de1d37'
+2026-05-18 11:28:13.618 [warning] Renderer reported VERY LONG TASK (495ms), starting profiling session 'e93076df-7369-4b1e-bbfe-c4e079a4ce35'
+2026-05-18 11:43:37.855 [warning] Renderer reported VERY LONG TASK (880ms), starting profiling session '89359662-7b19-47fb-af97-dfb0c7290b9b'
+2026-05-18 11:49:43.610 [warning] Renderer reported VERY LONG TASK (278ms), starting profiling session '360c014d-4046-4a63-9929-ff0340c778b6'
+2026-05-18 11:50:36.873 [error] 
+	 at send (node:electron/js2c/sandbox_bundle:2:120135)
+	 at send
+	 at (anonymous)
+	 at send (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8457:84673)
+	 at r (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:1132)
+	 at q (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:1060)
+	 at p (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:776)
+	 at f (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5076:1670)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5076:1608)
+	 at m (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5076:1442)
+	 at call (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5076:1341)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:3071)
+	 at getCloudCodeUrl (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8516:43568)
+	 at $getCloudCodeUrl (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5114:88379)
+	 at o.value (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2765:3558)
+	 at S (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:39014)
+	 at Q (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:38928)
+	 at M (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:37872)
+	 at L (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:36949)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:35941)
+	 at C (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2267)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2457)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:10311)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-18 11:50:36.874 [error] 
+	 at wrap (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2792:91336)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-18 11:50:36.876 [error] 
+	 at update (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5811:18421)
+	 at $setEntry (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5086:24329)
+	 at S (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:39014)
+	 at Q (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:38928)
+	 at M (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:37872)
+	 at L (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:36949)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:35941)
+	 at C (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2267)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2457)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:10311)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-18 11:50:36.909 [info] Stored profile to DISK 'file:///var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/renderer-cfae75.cpuprofile.json' 360c014d-4046-4a63-9929-ff0340c778b6
+2026-05-18 12:01:30.524 [warning] Renderer reported VERY LONG TASK (251ms), starting profiling session 'ee3af42f-b85a-4226-8faa-72adf546366a'
+2026-05-18 12:22:18.656 [warning] Renderer reported VERY LONG TASK (462ms), starting profiling session '055e1421-25f6-404d-825f-f721dcfbc46b'
+2026-05-18 12:35:29.134 [warning] Renderer reported VERY LONG TASK (413ms), starting profiling session '1c47229e-de0c-42c0-bfda-609e571865d0'
+2026-05-18 12:41:34.467 [warning] Renderer reported VERY LONG TASK (320ms), starting profiling session 'f7426a1d-791f-43af-a548-d06928c50e45'
+2026-05-18 15:21:46.736 [warning] Renderer reported VERY LONG TASK (529ms), starting profiling session '905eb9d2-f18e-4af3-bfc2-cf851a84c881'
+2026-05-18 15:30:35.439 [warning] Renderer reported VERY LONG TASK (400ms), starting profiling session '311468a8-9d83-4072-9c3d-a703f9a44002'

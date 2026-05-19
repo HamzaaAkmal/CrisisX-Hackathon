@@ -1,0 +1,51 @@
+2026-05-16 09:35:14.911 [info] I0516 09:35:14.910963  3013 server.go:1236] Starting language server process with pid 3013
+2026-05-16 09:35:14.911 [info] I0516 09:35:14.911141  3013 server.go:301] Setting GOMAXPROCS to 4
+2026-05-16 09:35:14.912 [info] I0516 09:35:14.912674  3013 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-16 09:35:14.912 [info] I0516 09:35:14.912758  3013 server.go:454] Language server listening on random port at 50505 for HTTPS (gRPC)
+2026-05-16 09:35:14.912 [info] I0516 09:35:14.912776  3013 server.go:461] Language server listening on random port at 50506 for HTTP
+2026-05-16 09:35:15.456 [info] I0516 09:35:15.455630  3013 server.go:433] Created extension server client at port 50503
+2026-05-16 09:35:15.489 [info] I0516 09:35:15.489453  3013 cascade_manager.go:773] Reactive state is disabled
+2026-05-16 09:35:15.500 [info] (Antigravity) 2026-05-16 09:35:15.499 [INFO]: Language server started
+2026-05-16 09:35:15.511 [info] I0516 09:35:15.507233  3013 server.go:1693] initialized server successfully in 596.070458ms
+2026-05-16 09:35:15.728 [info] (Antigravity) 2026-05-16 09:35:15.728 [INFO]: LS lspClient started successfully
+2026-05-16 09:35:16.836 [info] I0516 09:35:16.836287  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe9b93c5e83e21443
+2026-05-16 09:35:17.815 [info] I0516 09:35:17.815501  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69f9f999f7f30483
+2026-05-16 09:41:16.364 [info] I0516 09:41:16.364335  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb1b88231fd4c77eb
+2026-05-16 09:41:16.773 [info] I0516 09:41:16.773444  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd43488e39ca08c40
+2026-05-16 09:45:16.560 [info] I0516 09:45:16.560209  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd0e4d884f6ac4db
+2026-05-16 09:45:17.058 [info] I0516 09:45:17.058024  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x224ffabd1d7e1a2e
+2026-05-16 09:51:16.633 [info] I0516 09:51:16.633700  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa29bb3fcfd864c03
+2026-05-16 09:51:17.134 [info] I0516 09:51:17.134285  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc96a8989224d53e3
+2026-05-16 09:57:16.286 [info] I0516 09:57:16.286018  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe2c49ea08732b658
+2026-05-16 09:57:16.796 [info] I0516 09:57:16.796573  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8cc7a7ca379f9c15
+2026-05-16 10:03:16.357 [info] I0516 10:03:16.357510  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa660d400566e8819
+2026-05-16 10:03:17.144 [info] I0516 10:03:17.144317  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6f079315ee7b1b8a
+2026-05-16 10:09:16.465 [info] I0516 10:09:16.465807  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x767559dab46b2549
+2026-05-16 10:09:16.903 [info] I0516 10:09:16.903744  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb78df4e3fed4ba68
+2026-05-16 10:15:16.392 [info] I0516 10:15:16.392138  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x99f3434924e622f9
+2026-05-16 10:15:16.742 [info] I0516 10:15:16.741731  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf85d0d30f411afd4
+2026-05-16 10:21:16.353 [info] I0516 10:21:16.352641  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x484b4d41ebcb1f2f
+2026-05-16 10:21:16.953 [info] I0516 10:21:16.953684  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ee3ff849b6a4829
+2026-05-16 10:27:16.342 [info] I0516 10:27:16.342634  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcf658b903ae9f568
+2026-05-16 10:27:16.846 [info] I0516 10:27:16.846457  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x51b2ec4943f7a4e0
+2026-05-16 10:32:16.958 [info] I0516 10:32:16.957937  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1387135b5f1d6fdb
+2026-05-16 10:38:16.941 [info] I0516 10:38:16.941248  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8b7f977cc5b92473
+2026-05-16 10:38:16.993 [info] I0516 10:38:16.993558  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3f5fd0538d37931
+2026-05-16 10:40:16.761 [info] I0516 10:40:16.761215  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x682ce537724ecebb
+2026-05-16 10:40:17.271 [info] I0516 10:40:17.270610  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x546fd2589d6d110a
+2026-05-16 10:45:19.161 [info] I0516 10:45:19.160519  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4f6dec928c782e80
+2026-05-16 10:45:20.969 [info] I0516 10:45:20.969124  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc585604f9c9b4e5e
+2026-05-16 10:51:17.311 [info] I0516 10:51:17.311023  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x379acf03e1600285
+2026-05-16 10:51:19.205 [info] I0516 10:51:19.204762  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x13f807842c74b8b5
+2026-05-16 10:56:21.024 [info] W0516 10:56:21.024201  3013 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+2026-05-16 10:56:21.025 [info] W0516 10:56:21.024250  3013 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+2026-05-16 10:56:21.856 [info] I0516 10:56:21.855852  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x304ecb07e2c4bf02
+2026-05-16 11:02:16.357 [info] I0516 11:02:16.357099  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x836054578a2bb5a0
+2026-05-16 11:02:16.963 [info] I0516 11:02:16.963272  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbd92eb74d4d3e85a
+2026-05-16 11:08:16.813 [info] I0516 11:08:16.813070  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd1eeae57ff687eff
+2026-05-16 11:08:16.814 [info] I0516 11:08:16.813117  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfb40a535b812fcc6
+2026-05-16 11:14:16.698 [info] I0516 11:14:16.697659  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9780fbe4a12403b2
+2026-05-16 11:14:16.823 [info] I0516 11:14:16.822718  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe6af25518f82732e
+2026-05-16 11:20:19.096 [info] I0516 11:20:19.096386  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd687f3c864aac77
+2026-05-16 11:20:21.203 [info] I0516 11:20:21.202722  3013 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8e471125ddc118ab
+2026-05-16 11:21:28.823 [info] (Antigravity) 2026-05-16 11:21:28.823 [ERROR]: LS update error: Canceled

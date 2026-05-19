@@ -1,0 +1,1 @@
+2026-05-16 13:08:52.747 [error] Failed to set sticky bit on /private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh: Error: ENOENT: no such file or directory, chmod '/private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh'

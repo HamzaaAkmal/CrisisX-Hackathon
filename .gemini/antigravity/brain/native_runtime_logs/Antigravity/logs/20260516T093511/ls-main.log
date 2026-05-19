@@ -1,0 +1,622 @@
+2026-05-16 09:35:11.959 [info] [LS Main] Starting language server from: /Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm
+2026-05-16 09:35:11.994 [info] [LS Main] Args: --csrf_token 98bfceca-5719-4862-8056-62d5b7ed01cf --extension_server_port 50470 --extension_server_csrf_token 1dc0f291-ac07-493f-be41-4a5eeda87b65 --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-16 09:35:12.022 [info] [LS Main] Process spawned with PID: 2823
+2026-05-16 09:35:12.377 [error] [LS Main stderr] I0516 09:35:12.377601  2823 server.go:1236] Starting language server process with pid 2823
+
+2026-05-16 09:35:12.378 [error] [LS Main stderr] I0516 09:35:12.378035  2823 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-16 09:35:12.378 [error] [LS Main stderr] I0516 09:35:12.378763  2823 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-16 09:35:12.379 [error] [LS Main stderr] I0516 09:35:12.379092  2823 server.go:454] Language server listening on random port at 50475 for HTTPS (gRPC)
+I0516 09:35:12.379115  2823 server.go:461] Language server listening on random port at 50476 for HTTP
+
+2026-05-16 09:35:12.788 [error] No LS client info found for local authority
+2026-05-16 09:35:13.032 [error] [LS Main stderr] I0516 09:35:13.032231  2823 server.go:433] Created extension server client at port 50470
+
+2026-05-16 09:35:13.055 [error] [LS Main stderr] I0516 09:35:13.054960  2823 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-16 09:35:13.100 [info] [LS Main] LS started on port 50475
+2026-05-16 09:35:13.103 [error] [LS Main stderr] I0516 09:35:13.102186  2823 server.go:1693] initialized server successfully in 724.410125ms
+
+2026-05-16 09:35:13.140 [error] [LS Main stderr] 2026/05/16 09:35:13 http: TLS handshake error from 127.0.0.1:50488: EOF
+
+2026-05-16 09:35:14.995 [error] [LS Main stderr] I0516 09:35:14.993910  2823 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x12207dc4765cbe81
+
+2026-05-16 09:35:15.613 [error] [LS Main stderr] I0516 09:35:15.613247  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x72d3bb32d002ec67
+
+2026-05-16 09:35:16.585 [error] [LS Main stderr] I0516 09:35:16.585694  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa21527ccfe8f3ca9
+
+2026-05-16 09:35:17.051 [error] [LS Main stderr] I0516 09:35:17.051003  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5de559ae0fa39afb
+
+2026-05-16 09:35:26.857 [error] [LS Main stderr] E0516 09:35:26.857098  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:35:26.889 [error] [LS Main stderr] I0516 09:35:26.889866  2823 planner_generator.go:283] Requesting planner with 46 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:35:33.144 [error] [LS Main stderr] I0516 09:35:33.144145  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f19f3013d34811e
+
+2026-05-16 09:35:35.146 [error] [LS Main stderr] I0516 09:35:35.146403  2823 planner_generator.go:283] Requesting planner with 47 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:35:41.218 [error] [LS Main stderr] I0516 09:35:41.217925  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xca35c3bc2f09b9c5
+
+2026-05-16 09:35:41.463 [error] [LS Main stderr] I0516 09:35:41.463038  2823 planner_generator.go:283] Requesting planner with 49 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:35:47.520 [error] [LS Main stderr] I0516 09:35:47.520478  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x61bc61d0626d840e
+
+2026-05-16 09:35:47.579 [error] [LS Main stderr] I0516 09:35:47.579514  2823 planner_generator.go:283] Requesting planner with 51 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:35:49.331 [error] [LS Main stderr] I0516 09:35:49.331319  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19a6006a977476d0
+
+2026-05-16 09:35:54.074 [error] [LS Main stderr] I0516 09:35:54.074469  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x32e5b33267cf440a
+
+2026-05-16 09:35:55.300 [error] [LS Main stderr] I0516 09:35:55.300787  2823 planner_generator.go:283] Requesting planner with 53 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:00.972 [error] [LS Main stderr] I0516 09:36:00.972149  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc4c4ab0704b18ce1
+
+2026-05-16 09:36:01.407 [error] [LS Main stderr] I0516 09:36:01.406994  2823 planner_generator.go:283] Requesting planner with 55 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:07.942 [error] [LS Main stderr] I0516 09:36:07.941545  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x53c52052ea8aa2a7
+
+2026-05-16 09:36:08.840 [error] [LS Main stderr] I0516 09:36:08.840352  2823 planner_generator.go:283] Requesting planner with 57 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:15.240 [error] [LS Main stderr] I0516 09:36:15.239555  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa79ad99fe4d276d
+
+2026-05-16 09:36:18.057 [error] [LS Main stderr] I0516 09:36:18.057267  2823 planner_generator.go:283] Requesting planner with 59 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:24.437 [error] [LS Main stderr] I0516 09:36:24.430470  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb9fb2c041ef56a93
+
+2026-05-16 09:36:24.481 [error] [LS Main stderr] I0516 09:36:24.481356  2823 planner_generator.go:283] Requesting planner with 61 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:32.435 [error] [LS Main stderr] I0516 09:36:32.434911  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x811e7d21c0abf479
+
+2026-05-16 09:36:36.745 [error] [LS Main stderr] I0516 09:36:36.745408  2823 planner_generator.go:283] Requesting planner with 63 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:43.480 [error] [LS Main stderr] I0516 09:36:43.480771  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31da96d149acf703
+
+2026-05-16 09:36:48.205 [error] [LS Main stderr] I0516 09:36:48.205433  2823 planner_generator.go:283] Requesting planner with 65 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:36:49.559 [error] [LS Main stderr] I0516 09:36:49.558676  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x18dfeb206160dd6d
+
+2026-05-16 09:36:50.300 [error] [LS Main stderr] I0516 09:36:50.300422  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x899c5ca4de42765d
+
+2026-05-16 09:36:54.170 [error] [LS Main stderr] I0516 09:36:54.170321  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x376356cb6848b864
+
+2026-05-16 09:36:54.219 [error] [LS Main stderr] I0516 09:36:54.219373  2823 planner_generator.go:283] Requesting planner with 67 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:37:02.646 [error] [LS Main stderr] I0516 09:37:02.646185  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc271304fa78adf92
+
+2026-05-16 09:37:10.494 [error] [LS Main stderr] I0516 09:37:10.494356  2823 planner_generator.go:283] Requesting planner with 69 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:37:15.965 [error] [LS Main stderr] I0516 09:37:15.964736  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa2e7c304f869500d
+
+2026-05-16 09:37:18.015 [error] [LS Main stderr] I0516 09:37:18.015839  2823 planner_generator.go:283] Requesting planner with 71 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:37:23.650 [error] [LS Main stderr] I0516 09:37:23.650201  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6f1d99e2a86a4217
+
+2026-05-16 09:37:28.703 [error] [LS Main stderr] I0516 09:37:28.703540  2823 planner_generator.go:283] Requesting planner with 73 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:37:41.837 [error] [LS Main stderr] I0516 09:37:41.837602  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfed1cca0cc1a866b
+
+2026-05-16 09:38:11.921 [error] [LS Main stderr] I0516 09:38:11.920989  2823 planner_generator.go:283] Requesting planner with 75 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:38:18.654 [error] [LS Main stderr] I0516 09:38:18.654260  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe533a839534d5e96
+
+2026-05-16 09:39:02.351 [error] [LS Main stderr] E0516 09:39:02.351542  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:39:02.397 [error] [LS Main stderr] I0516 09:39:02.388375  2823 planner_generator.go:283] Requesting planner with 78 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:39:08.261 [error] [LS Main stderr] I0516 09:39:08.261529  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6a03693a1264e1be
+
+2026-05-16 09:39:13.286 [error] [LS Main stderr] I0516 09:39:13.286733  2823 planner_generator.go:283] Requesting planner with 79 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:39:20.220 [error] [LS Main stderr] I0516 09:39:20.220496  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x378593e8864606e0
+
+2026-05-16 09:39:20.796 [error] [LS Main stderr] E0516 09:39:20.796127  2823 log.go:398] error executing cascade step: CORTEX_STEP_TYPE_RUN_COMMAND: signal: killed
+
+2026-05-16 09:39:20.815 [error] [LS Main stderr] I0516 09:39:20.815201  2823 planner_generator.go:283] Requesting planner with 81 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:39:22.276 [error] [LS Main stderr] I0516 09:39:22.276285  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe9f56e3c83651cb3
+
+2026-05-16 09:39:22.377 [error] [LS Main stderr] I0516 09:39:22.377397  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8dfe079d28d35c67
+
+2026-05-16 09:39:22.517 [error] [LS Main stderr] I0516 09:39:22.517234  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa28b59b1f1eca8a0
+
+2026-05-16 09:39:27.931 [error] [LS Main stderr] I0516 09:39:27.931535  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a4cf9ba0e31618e
+
+2026-05-16 09:39:30.950 [error] [LS Main stderr] I0516 09:39:30.950380  2823 planner_generator.go:283] Requesting planner with 83 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:39:36.937 [error] [LS Main stderr] I0516 09:39:36.936499  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6d701d26ad01b1a8
+
+2026-05-16 09:39:37.273 [error] [LS Main stderr] I0516 09:39:37.273242  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7c18123ddc931633
+
+2026-05-16 09:39:38.482 [error] [LS Main stderr] I0516 09:39:38.482623  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9419175e59d5d4f0
+
+2026-05-16 09:39:48.563 [error] [LS Main stderr] I0516 09:39:48.563286  2823 planner_generator.go:283] Requesting planner with 85 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:39:56.503 [error] [LS Main stderr] I0516 09:39:56.503042  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1eae6bc3b46282df
+
+2026-05-16 09:40:13.671 [error] [LS Main stderr] I0516 09:40:13.670326  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x258825f16ef11cb1
+
+2026-05-16 09:40:14.172 [error] [LS Main stderr] I0516 09:40:14.172118  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd272806e441fb080
+
+2026-05-16 09:40:26.559 [error] [LS Main stderr] I0516 09:40:26.558685  2823 planner_generator.go:283] Requesting planner with 87 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:40:32.914 [error] [LS Main stderr] I0516 09:40:32.914608  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xade2c43a5b2d5f6f
+
+2026-05-16 09:40:32.977 [error] [LS Main stderr] I0516 09:40:32.977441  2823 planner_generator.go:283] Requesting planner with 89 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:40:39.053 [error] [LS Main stderr] I0516 09:40:39.052694  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x902db6a2d1a7045d
+
+2026-05-16 09:41:45.469 [error] [LS Main stderr] E0516 09:41:45.468636  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:41:45.502 [error] [LS Main stderr] I0516 09:41:45.502849  2823 planner_generator.go:283] Requesting planner with 92 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:41:53.331 [error] [LS Main stderr] I0516 09:41:53.330558  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x83ac809bb08d176c
+
+2026-05-16 09:42:05.132 [error] [LS Main stderr] I0516 09:42:05.132018  2823 planner_generator.go:283] Requesting planner with 93 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:42:12.018 [error] [LS Main stderr] I0516 09:42:12.018508  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75db572842d08008
+
+2026-05-16 09:42:22.047 [error] [LS Main stderr] I0516 09:42:22.047625  2823 planner_generator.go:283] Requesting planner with 95 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:42:34.870 [error] [LS Main stderr] I0516 09:42:34.870710  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4e3dbdd7eb415d2
+
+2026-05-16 09:43:02.356 [error] [LS Main stderr] I0516 09:43:02.356428  2823 planner_generator.go:283] Requesting planner with 97 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:43:08.727 [error] [LS Main stderr] I0516 09:43:08.726960  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd5bf1c67dfd8ca1c
+
+2026-05-16 09:45:13.971 [error] [LS Main stderr] I0516 09:45:13.970956  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa5b6628ec6c27f09
+
+2026-05-16 09:45:14.495 [error] [LS Main stderr] I0516 09:45:14.495189  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9696b198261907a8
+
+2026-05-16 09:45:15.057 [error] [LS Main stderr] I0516 09:45:15.057130  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf7763f7bec96b36e
+
+2026-05-16 09:45:38.403 [error] [LS Main stderr] E0516 09:45:38.403831  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:45:38.441 [error] [LS Main stderr] I0516 09:45:38.441115  2823 planner_generator.go:283] Requesting planner with 100 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:45:45.587 [error] [LS Main stderr] I0516 09:45:45.586606  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1564e684524f68a9
+
+2026-05-16 09:45:50.417 [error] [LS Main stderr] I0516 09:45:50.417021  2823 planner_generator.go:283] Requesting planner with 101 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:45:56.410 [error] [LS Main stderr] I0516 09:45:56.410168  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe949e3c2f2a72023
+
+2026-05-16 09:45:56.459 [error] [LS Main stderr] I0516 09:45:56.459296  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x14c6293f2c3f3026
+
+2026-05-16 09:45:56.571 [error] [LS Main stderr] I0516 09:45:56.571366  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7b7dd74cf83d20b6
+
+2026-05-16 09:45:57.235 [error] [LS Main stderr] I0516 09:45:57.235726  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3c88aa24327337c8
+
+2026-05-16 09:45:58.618 [error] [LS Main stderr] I0516 09:45:58.618498  2823 planner_generator.go:283] Requesting planner with 103 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:46:06.767 [error] [LS Main stderr] I0516 09:46:06.767266  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd54cb455930f5d7
+
+2026-05-16 09:46:11.791 [error] [LS Main stderr] I0516 09:46:11.790989  2823 planner_generator.go:283] Requesting planner with 105 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:46:18.311 [error] [LS Main stderr] I0516 09:46:18.311698  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc563bec040cbf05e
+
+2026-05-16 09:50:13.708 [error] [LS Main stderr] I0516 09:50:13.708093  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3609939cdf73b0a7
+
+2026-05-16 09:50:14.201 [error] [LS Main stderr] I0516 09:50:14.200955  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8dd558155436ab0
+
+2026-05-16 09:51:27.131 [error] [LS Main stderr] E0516 09:51:27.131224  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:51:27.178 [error] [LS Main stderr] I0516 09:51:27.177830  2823 planner_generator.go:283] Requesting planner with 108 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:51:34.173 [error] [LS Main stderr] I0516 09:51:34.172864  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2c943f5befdab2a
+
+2026-05-16 09:51:34.201 [error] [LS Main stderr] I0516 09:51:34.201445  2823 planner_generator.go:283] Requesting planner with 109 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:51:42.755 [error] [LS Main stderr] I0516 09:51:42.755094  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf68f8bf9536d0471
+
+2026-05-16 09:54:22.305 [error] [LS Main stderr] E0516 09:54:22.303835  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:54:22.384 [error] [LS Main stderr] I0516 09:54:22.384389  2823 planner_generator.go:283] Requesting planner with 112 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:54:29.442 [error] [LS Main stderr] I0516 09:54:29.442125  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2c13347052e5ebf2
+
+2026-05-16 09:54:29.495 [error] [LS Main stderr] I0516 09:54:29.494908  2823 planner_generator.go:283] Requesting planner with 113 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:54:37.365 [error] [LS Main stderr] I0516 09:54:37.365082  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfac7915d7c7a63f6
+
+2026-05-16 09:55:07.389 [error] [LS Main stderr] I0516 09:55:07.389468  2823 planner_generator.go:283] Requesting planner with 115 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:55:13.870 [error] [LS Main stderr] I0516 09:55:13.870087  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb4905521e8ace27b
+
+2026-05-16 09:55:14.361 [error] [LS Main stderr] I0516 09:55:14.360853  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x381f9476cb3c650b
+
+2026-05-16 09:55:17.876 [error] [LS Main stderr] I0516 09:55:17.875718  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa9826280cdccea10
+
+2026-05-16 09:56:05.024 [error] [LS Main stderr] E0516 09:56:05.024048  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:56:05.062 [error] [LS Main stderr] I0516 09:56:05.062281  2823 planner_generator.go:283] Requesting planner with 118 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:56:14.361 [error] [LS Main stderr] I0516 09:56:14.361002  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcb69978bae464fa5
+
+2026-05-16 09:56:24.019 [error] [LS Main stderr] I0516 09:56:24.018916  2823 planner_generator.go:283] Requesting planner with 119 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:56:31.420 [error] [LS Main stderr] I0516 09:56:31.419916  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb3df36b86d5439f7
+
+2026-05-16 09:56:35.876 [error] [LS Main stderr] I0516 09:56:35.876260  2823 planner_generator.go:283] Requesting planner with 121 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:56:44.191 [error] [LS Main stderr] I0516 09:56:44.191153  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73386eb350b00544
+
+2026-05-16 09:59:00.420 [error] [LS Main stderr] E0516 09:59:00.420453  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 09:59:00.489 [error] [LS Main stderr] I0516 09:59:00.489688  2823 planner_generator.go:283] Requesting planner with 124 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:59:10.515 [error] [LS Main stderr] I0516 09:59:10.515305  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67611bed4aae8b8d
+
+2026-05-16 09:59:13.963 [error] [LS Main stderr] I0516 09:59:13.963429  2823 planner_generator.go:283] Requesting planner with 125 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 09:59:20.741 [error] [LS Main stderr] I0516 09:59:20.741329  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc218159992406197
+
+2026-05-16 10:00:13.955 [error] [LS Main stderr] I0516 10:00:13.955043  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x245ee9bc4a110a9b
+
+2026-05-16 10:00:14.608 [error] [LS Main stderr] I0516 10:00:14.608440  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf379764142395892
+
+2026-05-16 10:05:14.083 [error] [LS Main stderr] I0516 10:05:14.083497  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7921fbfa13593c15
+
+2026-05-16 10:05:14.694 [error] [LS Main stderr] I0516 10:05:14.693840  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69958244da8c1105
+
+2026-05-16 10:10:13.799 [error] [LS Main stderr] I0516 10:10:13.799200  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x62c86c7ad7069ba2
+
+2026-05-16 10:10:14.365 [error] [LS Main stderr] I0516 10:10:14.365277  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa6536b39e53611bf
+
+2026-05-16 10:11:14.427 [error] [LS Main stderr] E0516 10:11:14.427034  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:11:14.492 [error] [LS Main stderr] I0516 10:11:14.492192  2823 planner_generator.go:283] Requesting planner with 128 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:11:25.010 [error] [LS Main stderr] I0516 10:11:25.010733  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x25c0324612acfe8f
+
+2026-05-16 10:11:26.060 [error] [LS Main stderr] I0516 10:11:26.060677  2823 planner_generator.go:283] Requesting planner with 129 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:11:33.022 [error] [LS Main stderr] I0516 10:11:33.021937  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe6a7501706594e22
+
+2026-05-16 10:12:14.862 [error] [LS Main stderr] E0516 10:12:14.861874  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:12:14.983 [error] [LS Main stderr] I0516 10:12:14.982974  2823 planner_generator.go:283] Requesting planner with 132 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:12:25.213 [error] [LS Main stderr] I0516 10:12:25.213045  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x95b701b4752199b5
+
+2026-05-16 10:12:25.300 [error] [LS Main stderr] I0516 10:12:25.300373  2823 planner_generator.go:283] Requesting planner with 133 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:12:34.135 [error] [LS Main stderr] I0516 10:12:34.135034  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x58218c75efd29736
+
+2026-05-16 10:14:45.763 [error] [LS Main stderr] E0516 10:14:45.762800  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:14:45.801 [error] [LS Main stderr] I0516 10:14:45.801667  2823 planner_generator.go:283] Requesting planner with 136 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:14:56.564 [error] [LS Main stderr] I0516 10:14:56.563212  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1fd6914051bce81
+
+2026-05-16 10:14:56.705 [error] [LS Main stderr] I0516 10:14:56.704755  2823 planner_generator.go:283] Requesting planner with 137 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:15:04.499 [error] [LS Main stderr] I0516 10:15:04.499413  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1f8da6275429935
+
+2026-05-16 10:15:04.704 [error] [LS Main stderr] I0516 10:15:04.704318  2823 planner_generator.go:283] Requesting planner with 140 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:15:13.959 [error] [LS Main stderr] I0516 10:15:13.958917  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4de7d172e44bcc59
+
+2026-05-16 10:15:14.424 [error] [LS Main stderr] I0516 10:15:14.424723  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x384128faa934685
+
+2026-05-16 10:15:15.274 [error] [LS Main stderr] I0516 10:15:15.274302  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5796a041f3707ad0
+
+2026-05-16 10:20:13.988 [error] [LS Main stderr] I0516 10:20:13.988028  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xda0f0bf99e8f04da
+
+2026-05-16 10:20:14.541 [error] [LS Main stderr] I0516 10:20:14.540677  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4825c3a7d728fcb7
+
+2026-05-16 10:25:13.887 [error] [LS Main stderr] I0516 10:25:13.886929  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7301fd413531fe58
+
+2026-05-16 10:25:14.496 [error] [LS Main stderr] I0516 10:25:14.496154  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3f0cec9713e6950e
+
+2026-05-16 10:26:37.873 [error] [LS Main stderr] I0516 10:26:37.873167  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x70294a30d7b89b3c
+
+2026-05-16 10:26:38.160 [error] [LS Main stderr] I0516 10:26:38.160270  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x96db3ef9db520fc8
+
+2026-05-16 10:27:35.960 [error] [LS Main stderr] E0516 10:27:35.960042  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:27:36.069 [error] [LS Main stderr] I0516 10:27:36.069529  2823 planner_generator.go:283] Requesting planner with 143 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:27:48.108 [error] [LS Main stderr] I0516 10:27:48.108213  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x26ba35af82893f70
+
+2026-05-16 10:27:50.752 [error] [LS Main stderr] I0516 10:27:50.752138  2823 planner_generator.go:283] Requesting planner with 144 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:27:58.708 [error] [LS Main stderr] I0516 10:27:58.708493  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb27a90743559cf34
+
+2026-05-16 10:27:58.867 [error] [LS Main stderr] I0516 10:27:58.867655  2823 planner_generator.go:283] Requesting planner with 146 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:28:07.876 [error] [LS Main stderr] I0516 10:28:07.874483  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x42032b62133151aa
+
+2026-05-16 10:28:27.665 [error] [LS Main stderr] E0516 10:28:27.665796  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:28:27.752 [error] [LS Main stderr] I0516 10:28:27.752701  2823 planner_generator.go:283] Requesting planner with 148 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:28:37.678 [error] [LS Main stderr] I0516 10:28:37.678543  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7928db02999ba678
+
+2026-05-16 10:28:44.747 [error] [LS Main stderr] I0516 10:28:44.747045  2823 planner_generator.go:283] Requesting planner with 151 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:28:50.349 [error] [LS Main stderr] I0516 10:28:50.349349  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xef7578346e0af497
+
+2026-05-16 10:28:52.555 [error] [LS Main stderr] I0516 10:28:52.554911  2823 planner_generator.go:283] Requesting planner with 154 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:28:57.212 [error] [LS Main stderr] I0516 10:28:57.212758  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x497dad9e0788357f
+
+2026-05-16 10:28:59.402 [error] [LS Main stderr] I0516 10:28:59.401990  2823 planner_generator.go:283] Requesting planner with 157 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:29:01.479 [error] [LS Main stderr] I0516 10:29:01.478239  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x19a2ef42bec3f6fb
+
+2026-05-16 10:29:01.654 [error] [LS Main stderr] I0516 10:29:01.654239  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x37e65b32842f2502
+
+2026-05-16 10:29:02.935 [error] [LS Main stderr] I0516 10:29:02.935509  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7380f15e72cbe487
+
+2026-05-16 10:29:04.652 [error] [LS Main stderr] I0516 10:29:04.652753  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8db80b3053637dea
+
+2026-05-16 10:29:34.260 [error] [LS Main stderr] I0516 10:29:34.260093  2823 planner_generator.go:283] Requesting planner with 159 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:29:38.941 [error] [LS Main stderr] I0516 10:29:38.941466  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x20af1d543131802
+
+2026-05-16 10:30:14.198 [error] [LS Main stderr] I0516 10:30:14.197913  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x977d320ad7b35399
+
+2026-05-16 10:30:14.628 [error] [LS Main stderr] I0516 10:30:14.627920  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x337a44f8927c3427
+
+2026-05-16 10:30:36.838 [error] [LS Main stderr] I0516 10:30:36.836665  2823 planner_generator.go:283] Requesting planner with 161 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:30:44.154 [error] [LS Main stderr] I0516 10:30:44.154528  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe9aa0610e4287cd
+
+2026-05-16 10:31:22.021 [error] [LS Main stderr] I0516 10:31:22.020780  2823 planner_generator.go:283] Requesting planner with 163 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:31:28.024 [error] [LS Main stderr] I0516 10:31:28.024357  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd2c21e71c0d06bfb
+
+2026-05-16 10:31:51.361 [error] [LS Main stderr] I0516 10:31:51.361267  2823 planner_generator.go:283] Requesting planner with 165 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:31:56.189 [error] [LS Main stderr] I0516 10:31:56.188969  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc4d94191f23387a5
+
+2026-05-16 10:32:10.549 [error] [LS Main stderr] I0516 10:32:10.548842  2823 planner_generator.go:283] Requesting planner with 167 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:32:17.644 [error] [LS Main stderr] I0516 10:32:17.644381  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbbe201f058f0bfbb
+
+2026-05-16 10:32:32.649 [error] [LS Main stderr] I0516 10:32:32.649130  2823 planner_generator.go:283] Requesting planner with 169 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:32:36.511 [error] [LS Main stderr] I0516 10:32:36.511425  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89b317b015ddbc5a
+
+2026-05-16 10:32:56.556 [error] [LS Main stderr] I0516 10:32:56.556688  2823 planner_generator.go:283] Requesting planner with 171 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:02.506 [error] [LS Main stderr] I0516 10:33:02.505827  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9780a95fd3515081
+
+2026-05-16 10:33:03.882 [error] [LS Main stderr] I0516 10:33:03.882139  2823 planner_generator.go:283] Requesting planner with 173 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:12.763 [error] [LS Main stderr] I0516 10:33:12.763047  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3f27c972af6ba56a
+
+2026-05-16 10:33:20.054 [error] [LS Main stderr] I0516 10:33:20.054165  2823 planner_generator.go:283] Requesting planner with 175 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:24.448 [error] [LS Main stderr] I0516 10:33:24.448025  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4dbbaeba2537efaa
+
+2026-05-16 10:33:27.784 [error] [LS Main stderr] I0516 10:33:27.783959  2823 planner_generator.go:283] Requesting planner with 177 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:31.817 [error] [LS Main stderr] I0516 10:33:31.817079  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4c09e73f60a2226b
+
+2026-05-16 10:33:33.237 [error] [LS Main stderr] I0516 10:33:33.237415  2823 planner_generator.go:283] Requesting planner with 179 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:37.141 [error] [LS Main stderr] I0516 10:33:37.141493  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31238b49008bfef9
+
+2026-05-16 10:33:41.831 [error] [LS Main stderr] I0516 10:33:41.831563  2823 planner_generator.go:283] Requesting planner with 181 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:46.382 [error] [LS Main stderr] I0516 10:33:46.382082  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9954e5597ef85d8
+
+2026-05-16 10:33:47.286 [error] [LS Main stderr] I0516 10:33:47.286480  2823 planner_generator.go:283] Requesting planner with 183 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:33:54.182 [error] [LS Main stderr] I0516 10:33:54.181759  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6121e7de970e2d37
+
+2026-05-16 10:34:00.592 [error] [LS Main stderr] I0516 10:34:00.592678  2823 planner_generator.go:283] Requesting planner with 185 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:34:06.070 [error] [LS Main stderr] I0516 10:34:06.069872  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x74363288d12ee7ef
+
+2026-05-16 10:34:08.128 [error] [LS Main stderr] I0516 10:34:08.128787  2823 planner_generator.go:283] Requesting planner with 187 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:34:14.475 [error] [LS Main stderr] I0516 10:34:14.475437  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa3fd445345a0d2bf
+
+2026-05-16 10:35:14.844 [error] [LS Main stderr] I0516 10:35:14.843277  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf9422e35cae67051
+
+2026-05-16 10:35:15.326 [error] [LS Main stderr] I0516 10:35:15.326305  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4e455be05376c711
+
+2026-05-16 10:40:14.298 [error] [LS Main stderr] I0516 10:40:14.296860  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5c53e9ed7f7e646f
+
+2026-05-16 10:40:14.797 [error] [LS Main stderr] I0516 10:40:14.797426  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa25882b915a1c88f
+
+2026-05-16 10:40:15.243 [error] [LS Main stderr] I0516 10:40:15.243021  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc0be954c1335357d
+
+2026-05-16 10:45:18.496 [error] [LS Main stderr] I0516 10:45:18.496028  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x18ac9ca31dceb137
+
+2026-05-16 10:45:21.474 [error] [LS Main stderr] I0516 10:45:21.474182  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x24314fd1dee5f3f8
+
+2026-05-16 10:45:25.712 [error] [LS Main stderr] E0516 10:45:25.712451  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:45:25.755 [error] [LS Main stderr] I0516 10:45:25.755671  2823 planner_generator.go:283] Requesting planner with 189 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:45:38.663 [error] [LS Main stderr] I0516 10:45:38.663102  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe8b6601f3c988263
+
+2026-05-16 10:45:46.632 [error] [LS Main stderr] I0516 10:45:46.632131  2823 planner_generator.go:283] Requesting planner with 191 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:46:05.386 [error] [LS Main stderr] E0516 10:46:05.386653  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:46:06.745 [error] [LS Main stderr] E0516 10:46:06.745844  2823 log.go:398] executor is not currently running
+
+2026-05-16 10:46:06.747 [error] [LS Main stderr] E0516 10:46:06.747344  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:50:20.310 [error] [LS Main stderr] I0516 10:50:20.310037  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x825266105f22734f
+
+2026-05-16 10:50:25.475 [error] [LS Main stderr] I0516 10:50:25.475350  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5a0233c7f79a83b0
+
+2026-05-16 10:50:53.669 [error] [LS Main stderr] E0516 10:50:53.669311  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:50:53.710 [error] [LS Main stderr] I0516 10:50:53.710392  2823 planner_generator.go:283] Requesting planner with 189 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:51:26.609 [error] [LS Main stderr] I0516 10:51:26.609576  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a59ffaa29825ef2
+
+2026-05-16 10:51:36.983 [error] [LS Main stderr] I0516 10:51:36.983420  2823 planner_generator.go:283] Requesting planner with 191 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:54:08.119 [error] [LS Main stderr] I0516 10:54:08.119677  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2d4c27af7d6ac878
+
+2026-05-16 10:54:20.744 [error] [LS Main stderr] I0516 10:54:20.744003  2823 planner_generator.go:283] Requesting planner with 193 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:55:14.950 [error] [LS Main stderr] I0516 10:55:14.950455  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x802810034237e1b2
+
+2026-05-16 10:55:15.463 [error] [LS Main stderr] I0516 10:55:15.463349  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x38ebc9ff1e3979b8
+
+2026-05-16 10:57:09.913 [error] [LS Main stderr] E0516 10:57:09.913070  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 10:57:09.960 [error] [LS Main stderr] I0516 10:57:09.959913  2823 planner_generator.go:283] Requesting planner with 195 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:57:23.495 [error] [LS Main stderr] I0516 10:57:23.494903  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf42bc99d5b8702f7
+
+2026-05-16 10:57:27.619 [error] [LS Main stderr] I0516 10:57:27.619029  2823 planner_generator.go:283] Requesting planner with 197 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 10:57:45.000 [error] [LS Main stderr] I0516 10:57:44.999374  2823 planner_generator.go:318] Encountered retryable api error. retrying in 5s. Error (): request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.100.38:53335->142.250.202.170:443: use of closed network connection: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.100.38:53335 -> 142.250.202.170:443: use of closed network connection
+
+2026-05-16 10:57:50.000 [error] [LS Main stderr] E0516 10:57:49.999915  2823 log.go:398] request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.100.38:53335->142.250.202.170:443: use of closed network connection: request failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse": write tcp 192.168.100.38:53335->142.250.202.170:443: use of closed network connection
+
+2026-05-16 10:57:50.026 [error] [LS Main stderr] I0516 10:57:50.026628  2823 planner_generator.go:283] Requesting planner with 198 chat messages at model retry attempt 1 and API retry attempt 2
+
+2026-05-16 10:58:45.929 [error] [LS Main stderr] E0516 10:58:45.928924  2823 client.go:55] Post "https://play.googleapis.com/log": read tcp 192.168.100.38:52793->216.239.36.223:443: read: operation timed out
+
+2026-05-16 10:58:46.654 [error] [LS Main stderr] I0516 10:58:46.654604  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x950686ec9f5b7836
+
+2026-05-16 10:59:03.076 [error] [LS Main stderr] I0516 10:59:03.075944  2823 planner_generator.go:283] Requesting planner with 200 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:00:14.320 [error] [LS Main stderr] I0516 11:00:14.320353  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x35d618f7415e9652
+
+2026-05-16 11:00:14.868 [error] [LS Main stderr] I0516 11:00:14.868600  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2c6ad076156e0dde
+
+2026-05-16 11:01:07.033 [error] [LS Main stderr] I0516 11:01:07.033462  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73f48ca305484f61
+
+2026-05-16 11:01:09.501 [error] [LS Main stderr] I0516 11:01:09.501322  2823 planner_generator.go:283] Requesting planner with 202 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:01:14.173 [error] [LS Main stderr] I0516 11:01:14.173675  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc4df29c33d0f468b
+
+2026-05-16 11:01:36.765 [error] [LS Main stderr] I0516 11:01:36.765317  2823 planner_generator.go:283] Requesting planner with 204 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:01:41.198 [error] [LS Main stderr] I0516 11:01:41.198221  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x45e33ebab2e2b572
+
+2026-05-16 11:02:13.352 [error] [LS Main stderr] I0516 11:02:13.352285  2823 planner_generator.go:283] Requesting planner with 207 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:02:17.605 [error] [LS Main stderr] I0516 11:02:17.605576  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc46ffa900f6d48c4
+
+2026-05-16 11:02:24.497 [error] [LS Main stderr] I0516 11:02:24.497737  2823 planner_generator.go:283] Requesting planner with 209 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:02:29.234 [error] [LS Main stderr] I0516 11:02:29.234133  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4cedd6f2c1f62052
+
+2026-05-16 11:02:31.786 [error] [LS Main stderr] I0516 11:02:31.786451  2823 planner_generator.go:283] Requesting planner with 211 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:02:36.261 [error] [LS Main stderr] I0516 11:02:36.260899  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5b06149d465a2dbf
+
+2026-05-16 11:05:14.065 [error] [LS Main stderr] I0516 11:05:14.064567  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x83a02b1646bec0ac
+
+2026-05-16 11:05:14.685 [error] [LS Main stderr] I0516 11:05:14.685100  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x343fdbff0aaae920
+
+2026-05-16 11:10:14.181 [error] [LS Main stderr] I0516 11:10:14.181596  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2827227c013aeefb
+
+2026-05-16 11:10:14.808 [error] [LS Main stderr] I0516 11:10:14.807848  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x28d5a33682832437
+
+2026-05-16 11:13:36.389 [error] [LS Main stderr] E0516 11:13:36.389145  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 11:13:39.761 [error] [LS Main stderr] E0516 11:13:39.761705  2823 log.go:398] executor is not currently running
+
+2026-05-16 11:13:39.764 [error] [LS Main stderr] E0516 11:13:39.764392  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 11:13:42.104 [error] [LS Main stderr] E0516 11:13:42.103457  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 11:13:43.346 [error] [LS Main stderr] E0516 11:13:43.346223  2823 log.go:398] executor is not currently running
+
+2026-05-16 11:13:43.348 [error] [LS Main stderr] E0516 11:13:43.348552  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 11:14:35.462 [error] [LS Main stderr] E0516 11:14:35.462235  2823 log.go:398] failed to check terminal shell support: internal: internal error
+
+2026-05-16 11:14:35.553 [error] [LS Main stderr] I0516 11:14:35.553634  2823 planner_generator.go:283] Requesting planner with 189 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:14:42.684 [error] [LS Main stderr] I0516 11:14:42.684266  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeecfbf13204a1407
+
+2026-05-16 11:14:57.346 [error] [LS Main stderr] I0516 11:14:57.346798  2823 planner_generator.go:283] Requesting planner with 191 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:03.573 [error] [LS Main stderr] I0516 11:15:03.573176  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a227b22ae1dd7e4
+
+2026-05-16 11:15:05.656 [error] [LS Main stderr] I0516 11:15:05.656466  2823 planner_generator.go:283] Requesting planner with 193 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:12.384 [error] [LS Main stderr] I0516 11:15:12.384008  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xba6a746eafab200b
+
+2026-05-16 11:15:14.180 [error] [LS Main stderr] I0516 11:15:14.180326  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfb5eaa3bd1ad36f2
+
+2026-05-16 11:15:14.528 [error] [LS Main stderr] I0516 11:15:14.527887  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa0f1e91db6388855
+
+2026-05-16 11:15:16.661 [error] [LS Main stderr] I0516 11:15:16.661428  2823 planner_generator.go:283] Requesting planner with 195 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:21.577 [error] [LS Main stderr] I0516 11:15:21.577763  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x88c08179348bad27
+
+2026-05-16 11:15:23.286 [error] [LS Main stderr] I0516 11:15:23.286060  2823 planner_generator.go:283] Requesting planner with 197 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:28.529 [error] [LS Main stderr] I0516 11:15:28.528891  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7792e3b072405409
+
+2026-05-16 11:15:30.513 [error] [LS Main stderr] I0516 11:15:30.511028  2823 planner_generator.go:283] Requesting planner with 199 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:36.056 [error] [LS Main stderr] I0516 11:15:36.055918  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf616360fe69ffe25
+
+2026-05-16 11:15:40.938 [error] [LS Main stderr] I0516 11:15:40.938452  2823 planner_generator.go:283] Requesting planner with 201 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:47.512 [error] [LS Main stderr] I0516 11:15:47.511683  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc1578ddb2e554044
+
+2026-05-16 11:15:49.424 [error] [LS Main stderr] I0516 11:15:49.424342  2823 planner_generator.go:283] Requesting planner with 203 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:15:54.469 [error] [LS Main stderr] I0516 11:15:54.469062  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a597ef5fd8e05d5
+
+2026-05-16 11:15:56.786 [error] [LS Main stderr] I0516 11:15:56.785888  2823 planner_generator.go:283] Requesting planner with 205 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:16:04.198 [error] [LS Main stderr] I0516 11:16:04.197935  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbfaf22b4936397f7
+
+2026-05-16 11:16:06.820 [error] [LS Main stderr] I0516 11:16:06.820522  2823 planner_generator.go:283] Requesting planner with 207 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:16:11.781 [error] [LS Main stderr] I0516 11:16:11.781177  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x927e471b71412c38
+
+2026-05-16 11:16:12.573 [error] [LS Main stderr] I0516 11:16:12.573725  2823 planner_generator.go:283] Requesting planner with 209 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:16:17.408 [error] [LS Main stderr] I0516 11:16:17.408367  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x135f42ef44083c1b
+
+2026-05-16 11:16:21.353 [error] [LS Main stderr] I0516 11:16:21.353840  2823 planner_generator.go:283] Requesting planner with 211 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:16:26.172 [error] [LS Main stderr] I0516 11:16:26.172011  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7c6183e3344d471e
+
+2026-05-16 11:16:32.212 [error] [LS Main stderr] I0516 11:16:32.212378  2823 planner_generator.go:283] Requesting planner with 213 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:16:38.864 [error] [LS Main stderr] I0516 11:16:38.864114  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1bae6168ebf2b1
+
+2026-05-16 11:16:56.643 [error] [LS Main stderr] I0516 11:16:56.643239  2823 planner_generator.go:283] Requesting planner with 215 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:17:01.966 [error] [LS Main stderr] I0516 11:17:01.965692  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9544ff2229b1f80a
+
+2026-05-16 11:17:12.700 [error] [LS Main stderr] I0516 11:17:12.700523  2823 planner_generator.go:283] Requesting planner with 217 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:17:14.232 [error] [LS Main stderr] I0516 11:17:14.232275  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe241d7dfc200875f
+
+2026-05-16 11:17:14.392 [error] [LS Main stderr] I0516 11:17:14.392037  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc8a34e303d311f7b
+
+2026-05-16 11:17:14.697 [error] [LS Main stderr] I0516 11:17:14.697098  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x307f8f572891678c
+
+2026-05-16 11:17:17.908 [error] [LS Main stderr] I0516 11:17:17.907818  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a536aa1059704a1
+
+2026-05-16 11:17:25.972 [error] [LS Main stderr] I0516 11:17:25.972332  2823 planner_generator.go:283] Requesting planner with 219 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:17:32.248 [error] [LS Main stderr] I0516 11:17:32.248011  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd5d7842c88a50a6d
+
+2026-05-16 11:17:37.931 [error] [LS Main stderr] I0516 11:17:37.931852  2823 planner_generator.go:283] Requesting planner with 221 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:17:42.911 [error] [LS Main stderr] I0516 11:17:42.911453  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x38dde8b45d01c004
+
+2026-05-16 11:17:48.179 [error] [LS Main stderr] I0516 11:17:48.179064  2823 planner_generator.go:283] Requesting planner with 223 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:17:54.381 [error] [LS Main stderr] I0516 11:17:54.381399  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5378ee5d6a8f6ce
+
+2026-05-16 11:17:56.650 [error] [LS Main stderr] I0516 11:17:56.650068  2823 planner_generator.go:283] Requesting planner with 225 chat messages at model retry attempt 1 and API retry attempt 1
+
+2026-05-16 11:18:02.040 [error] [LS Main stderr] I0516 11:18:02.039846  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb96f55af5d61cb85
+
+2026-05-16 11:20:17.683 [error] [LS Main stderr] I0516 11:20:17.682841  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfdd0fc891fabd875
+
+2026-05-16 11:20:21.647 [error] [LS Main stderr] I0516 11:20:21.647234  2823 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x77285f209c908644
+

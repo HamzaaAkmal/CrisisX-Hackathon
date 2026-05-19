@@ -1,0 +1,42 @@
+2026-05-12 15:42:43.942 [info] [main] Log level: Info
+2026-05-12 15:42:43.942 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-12 15:42:43.984 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-12 15:42:43.984 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 15:42:44.270 [info] > git rev-parse --show-toplevel [37ms]
+2026-05-12 15:42:44.386 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [115ms]
+2026-05-12 15:42:44.391 [info] [Model][openRepository] Opened repository (path): /Users/apple/Desktop/BetaApp/digipaws
+2026-05-12 15:42:44.392 [info] [Model][openRepository] Opened repository (real path): /Users/apple/Desktop/BetaApp/digipaws
+2026-05-12 15:42:44.392 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-12 15:42:44.421 [info] > git rev-parse --show-toplevel [23ms]
+2026-05-12 15:42:44.423 [info] > git config --get commit.template [25ms]
+2026-05-12 15:42:44.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/re-desgin refs/remotes/re-desgin [23ms]
+2026-05-12 15:42:44.444 [info] > git rev-parse --show-toplevel [22ms]
+2026-05-12 15:42:44.458 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [28ms]
+2026-05-12 15:42:44.464 [info] > git rev-parse --show-toplevel [18ms]
+2026-05-12 15:42:44.482 [info] > git rev-parse --show-toplevel [17ms]
+2026-05-12 15:42:44.492 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-12 15:42:44.504 [info] > git rev-parse --show-toplevel [11ms]
+2026-05-12 15:42:44.547 [info] > git rev-parse --show-toplevel [42ms]
+2026-05-12 15:42:44.576 [info] > git status -z -uall [147ms]
+2026-05-12 15:42:44.610 [info] > git rev-parse --show-toplevel [61ms]
+2026-05-12 15:42:44.653 [info] > git config --get commit.template [49ms]
+2026-05-12 15:42:44.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/re-desgin refs/remotes/re-desgin [56ms]
+2026-05-12 15:42:44.664 [info] > git rev-parse --show-toplevel [46ms]
+2026-05-12 15:42:44.777 [info] > git config --get --local branch.re-desgin.vscode-merge-base [122ms]
+2026-05-12 15:42:44.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/re-desgin refs/remotes/re-desgin [137ms]
+2026-05-12 15:42:44.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/browser_feature refs/remotes/origin/browser_feature [23ms]
+2026-05-12 15:42:44.830 [info] > git status -z -uall [49ms]
+2026-05-12 15:42:44.830 [info] > git rev-parse --show-toplevel [162ms]
+2026-05-12 15:42:44.830 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [47ms]
+2026-05-12 15:42:44.859 [info] > git rev-parse --show-toplevel [23ms]
+2026-05-12 15:42:44.899 [info] > git rev-parse --show-toplevel [39ms]
+2026-05-12 15:42:44.961 [info] > git check-ignore -v -z --stdin [52ms]
+2026-05-12 15:42:44.962 [info] > git rev-parse --show-toplevel [59ms]
+2026-05-12 15:42:44.990 [info] > git rev-parse --show-toplevel [27ms]
+2026-05-12 15:42:45.014 [info] > git rev-parse --show-toplevel [23ms]
+2026-05-12 15:42:45.015 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 15:42:45.061 [info] > git ls-files --stage -- app/src/main/assets/adult_sites.json [42ms]
+2026-05-12 15:42:45.082 [info] > git show --textconv :app/src/main/assets/adult_sites.json [65ms]
+2026-05-12 15:42:45.090 [info] > git cat-file -s 912df9a64645a2cac32aa20da23a775277adef76 [27ms]
+2026-05-12 15:42:45.509 [info] > git blame --root --incremental d1b56b9631c286b91493f0ed889a99ecc2256bc4 -- app/src/main/assets/adult_sites.json [232ms]
+2026-05-12 15:42:48.485 [info] > git check-ignore -v -z --stdin [100ms]

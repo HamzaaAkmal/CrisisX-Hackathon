@@ -1,0 +1,66 @@
+2026-05-16 09:35:13.890 [info] Extension host with pid 2828 started
+2026-05-16 09:35:13.890 [info] Skipping acquiring lock for /Users/apple/Library/Application Support/Antigravity/User/workspaceStorage/3141217bf160fa67ebfc0c8fe5409193.
+2026-05-16 09:35:13.904 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-16 09:35:13.927 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:35:13.950 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-16 09:35:14.047 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:35:14.076 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-16 09:35:14.158 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:35:14.169 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:35:14.176 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:35:14.209 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-16 09:35:14.329 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: google.antigravity
+2026-05-16 09:35:14.357 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-05-16 09:35:14.456 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-16 09:35:14.485 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-05-16 09:35:14.770 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-16 09:35:16.602 [info] Eager extensions activated
+2026-05-16 09:35:16.638 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:35:16.642 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:35:16.643 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-16 09:35:16.656 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-16 09:35:16.665 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-16 09:35:48.697 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:48.705 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:48.706 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:48.707 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:48.714 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:49.347 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:49.350 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:49.352 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:49.356 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:35:49.358 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:36:29.701 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2026-05-16 09:36:48.919 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:36:48.921 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:36:48.922 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:36.236 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:36.238 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:36.239 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:36.240 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:36.241 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:37.288 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:37.290 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:37.292 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:37.293 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:39:37.295 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:45:55.584 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:45:55.585 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:45:55.586 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:45:55.587 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 09:45:55.588 [warning] meta.pyrefly - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.delete'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-05-16 10:26:37.091 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-05-16 11:21:28.780 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-16 11:21:28.821 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/Users/apple/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-16 11:21:28.826 [info] Extension host with pid 2828 exiting with code 0

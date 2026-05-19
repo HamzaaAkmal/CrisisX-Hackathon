@@ -1,0 +1,11 @@
+2026-05-16 09:20:37.395 [error] Failed to set Cloud Code URL on Language Server: Language server client has not been initialized!
+2026-05-16 09:20:39.400 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 278aeaae4d2e5d95
+2026-05-16 09:20:39.443 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 24ee5f1381dbc26d
+2026-05-16 09:20:40.200 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 1f08efe27f321717
+2026-05-16 09:20:40.753 [info] [CloudCode] POST v1internal:onboardUser traceId: c2d34ad6f1f23c93
+2026-05-16 09:20:41.772 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: b60ec84a264a50f3
+2026-05-16 09:20:42.087 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 2f6fb84aaa06371c
+2026-05-16 09:25:38.208 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 176bec25423ebb10
+2026-05-16 09:25:38.750 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: b2d5ad315047a536
+2026-05-16 09:31:50.803 [error] Failed to make POST request: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: socket hang up
+2026-05-16 09:31:54.917 [error] Failed to fetch NUXes: request to https://daily-cloudcode-pa.googleapis.com/v1internal/cascadeNuxes failed, reason: socket hang up

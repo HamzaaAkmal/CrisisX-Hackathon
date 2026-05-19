@@ -1,0 +1,45 @@
+2026-05-19 17:44:05.753 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-19 17:44:05.754 [info] update#setState idle
+2026-05-19 17:44:05.754 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:56103
+2026-05-19 17:44:21.811 [info] Extension host with pid 27288 exited with code: 0, signal: unknown.
+2026-05-19 17:44:24.002 [info] Extension host with pid 27377 exited with code: 0, signal: unknown.
+2026-05-19 17:44:35.597 [info] update#setState checking for updates
+2026-05-19 17:44:36.713 [info] update#setState idle
+2026-05-19 17:45:09.089 [warning] [perf] profiling STARTED f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:45:14.125 [warning] [perf] profiling DONE f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:45:29.340 [warning] [perf] profiling STARTED f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:45:34.360 [warning] [perf] profiling DONE f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:45:49.559 [warning] [perf] profiling STARTED f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:45:54.578 [warning] [perf] profiling DONE f1e757b7-37ca-4f40-af10-a11f96c092c6
+2026-05-19 17:58:13.974 [warning] [perf] profiling STARTED 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 17:58:19.011 [warning] [perf] profiling DONE 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 17:58:34.956 [warning] [perf] profiling STARTED 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 17:58:39.989 [warning] [perf] profiling DONE 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 17:58:55.910 [warning] [perf] profiling STARTED 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 17:59:00.936 [warning] [perf] profiling DONE 181ac0e6-211f-4b55-8966-7720d27ff557
+2026-05-19 18:04:43.667 [warning] [perf] profiling STARTED 6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a
+2026-05-19 18:04:48.695 [warning] [perf] profiling DONE 6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a
+2026-05-19 18:05:06.551 [warning] [perf] profiling STARTED 6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a
+2026-05-19 18:05:11.616 [warning] [perf] profiling DONE 6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a
+2026-05-19 18:22:58.702 [warning] [perf] profiling STARTED 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:23:03.759 [warning] [perf] profiling DONE 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:23:20.074 [warning] [perf] profiling STARTED 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:23:25.172 [warning] [perf] profiling DONE 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:23:41.008 [warning] [perf] profiling STARTED 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:23:46.071 [warning] [perf] profiling DONE 70891868-b247-4271-968d-70e98ec2a960
+2026-05-19 18:31:38.917 [warning] [perf] profiling STARTED a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:31:43.959 [warning] [perf] profiling DONE a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:32:12.718 [warning] [perf] profiling STARTED a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:32:17.769 [warning] [perf] profiling DONE a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:32:33.248 [warning] [perf] profiling STARTED a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:32:38.314 [warning] [perf] profiling DONE a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f
+2026-05-19 18:34:55.253 [warning] [perf] profiling STARTED 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:35:00.305 [warning] [perf] profiling DONE 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:35:15.757 [warning] [perf] profiling STARTED 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:35:20.799 [warning] [perf] profiling DONE 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:35:36.127 [warning] [perf] profiling STARTED 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:35:41.172 [warning] [perf] profiling DONE 5ae7fd6f-f880-4636-a056-b75d7a9be774
+2026-05-19 18:44:35.597 [info] update#setState checking for updates
+2026-05-19 18:44:37.099 [info] update#setState idle
+2026-05-19 18:47:43.031 [info] Extension host with pid 36524 exited with code: 0, signal: unknown.
+2026-05-19 18:48:05.541 [info] Extension host with pid 27441 exited with code: 0, signal: unknown.

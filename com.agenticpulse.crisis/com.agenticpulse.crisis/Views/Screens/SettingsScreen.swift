@@ -64,7 +64,7 @@ struct SettingsScreen: View {
                                 }
                                 
                                 if status.status == "degraded" && status.statusKey == "agent_orchestrator" {
-                                    Text("The AI model may be experiencing high load. The system will automatically retry. You can also try submitting a new signal.")
+                                    Text("The primary AI model may be under high load. New submissions can still run and will retry through the Kimi fallback model.")
                                         .font(.caption2)
                                         .foregroundStyle(AppTheme.warning)
                                         .padding(.top, 4)

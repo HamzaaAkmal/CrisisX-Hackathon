@@ -1,0 +1,7 @@
+2026-05-16 09:20:37.341 [info] [Auth] Auth state changed to: uninitialized
+2026-05-16 09:20:37.395 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-16 09:20:37.395 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-16 09:20:42.089 [info] [Auth] Auth state changed to: signedIn
+2026-05-16 09:20:42.089 [info] [Auth] Auth state changed to: signedIn
+2026-05-16 09:20:42.089 [info] [Auth] AntigravityAuthMainService initialized
+2026-05-16 09:31:50.804 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: socket hang up

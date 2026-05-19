@@ -19,6 +19,14 @@ struct ReportCrisisScreen: View {
         app.repository.isRunActive(for: activeSignalId)
     }
 
+    private var activeSignalCanRetry: Bool {
+        guard let activeSignalId,
+              let run = app.repository.run(for: activeSignalId) else {
+            return false
+        }
+        return run.status == "failed"
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
@@ -80,15 +88,18 @@ struct ReportCrisisScreen: View {
                     Button {
                         if activeSignalRunning, activeSignalId != nil {
                             isPipelineSheetPresented = true
+                        } else if activeSignalCanRetry {
+                            focused = nil
+                            Task { await retryActiveSignal() }
                         } else {
                             focused = nil
                             Task { await submit() }
                         }
                     } label: {
-                        Label(activeSignalRunning ? "View Agent Progress" : "Submit to Agents", systemImage: activeSignalRunning ? "heart.fill" : "paperplane.fill")
+                        Label(submitButtonTitle, systemImage: submitButtonIcon)
                     }
-                    .buttonStyle(PrimaryButtonStyle(isDisabled: isSubmitDisabled))
-                    .disabled(isSubmitDisabled)
+                    .buttonStyle(PrimaryButtonStyle(isDisabled: isSubmitting))
+                    .disabled(isSubmitting)
 
                     if activeSignalRunning, activeSignalId != nil {
                         Button {
@@ -98,6 +109,13 @@ struct ReportCrisisScreen: View {
                                 .font(.subheadline.weight(.semibold))
                                 .foregroundStyle(AppTheme.blue)
                         }
+                    }
+
+                    if let pipelineError {
+                        Text(pipelineError)
+                            .font(.caption)
+                            .foregroundStyle(AppTheme.danger)
+                            .multilineTextAlignment(.center)
                     }
 
                     Text("CrisisAI stores the report as a live signal, then backend agents enrich it with configured APIs and write every decision to Supabase.")
@@ -141,9 +159,24 @@ struct ReportCrisisScreen: View {
         !sanitized(locationText).isEmpty
     }
 
-    private var isSubmitDisabled: Bool {
-        isSubmitting ||
-        (!activeSignalRunning && !canSubmit)
+    private var submitButtonTitle: String {
+        if activeSignalRunning {
+            return "View Agent Progress"
+        }
+        if activeSignalCanRetry {
+            return "Retry with Fallback"
+        }
+        return "Submit to Agents"
+    }
+
+    private var submitButtonIcon: String {
+        if activeSignalRunning {
+            return "heart.fill"
+        }
+        if activeSignalCanRetry {
+            return "arrow.triangle.2.circlepath"
+        }
+        return "paperplane.fill"
     }
 
     private func submit() async {
@@ -192,6 +225,31 @@ struct ReportCrisisScreen: View {
             }
             if activeSignalId != nil {
                 isPipelineSheetPresented = true
+            }
+        }
+    }
+
+    private func retryActiveSignal() async {
+        guard !isSubmitting, let activeSignalId else { return }
+
+        pipelineResponse = nil
+        pipelineError = nil
+        isSubmitting = true
+        isPipelineSheetPresented = true
+        defer { isSubmitting = false }
+
+        do {
+            let response = try await app.repository.processSignal(activeSignalId)
+            pipelineResponse = response["status"]?.stringValue == "completed" ? response : nil
+        } catch {
+            let message = error.localizedDescription
+            if message.localizedCaseInsensitiveContains("timed out") {
+                pipelineError = nil
+                app.repository.lastError = "Agent request is still syncing from Supabase. Keep the progress sheet open for live heartbeat updates."
+                await app.repository.loadAll()
+            } else {
+                pipelineError = message
+                app.repository.lastError = message
             }
         }
     }

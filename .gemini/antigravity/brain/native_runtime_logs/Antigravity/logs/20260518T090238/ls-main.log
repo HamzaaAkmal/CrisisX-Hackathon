@@ -1,0 +1,35 @@
+2026-05-18 09:02:38.991 [info] [LS Main] Starting language server from: /Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm
+2026-05-18 09:02:39.062 [info] [LS Main] Args: --csrf_token a70eca16-3363-4893-b4bb-6db73e34bb4d --extension_server_port 55131 --extension_server_csrf_token 3b851388-6372-4d55-9e35-099461f77b8b --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-18 09:02:39.104 [info] [LS Main] Process spawned with PID: 50236
+2026-05-18 09:02:39.882 [error] [LS Main stderr] I0518 09:02:39.881309 50236 server.go:1236] Starting language server process with pid 50236
+I0518 09:02:39.882718 50236 server.go:301] Setting GOMAXPROCS to 4
+
+2026-05-18 09:02:39.886 [error] [LS Main stderr] I0518 09:02:39.886580 50236 server.go:440] Language server will attempt to listen on host 127.0.0.1
+
+2026-05-18 09:02:39.888 [error] [LS Main stderr] I0518 09:02:39.887943 50236 server.go:454] Language server listening on random port at 55138 for HTTPS (gRPC)
+I0518 09:02:39.887970 50236 server.go:461] Language server listening on random port at 55139 for HTTP
+
+2026-05-18 09:02:40.130 [error] No LS client info found for local authority
+2026-05-18 09:02:40.609 [error] [LS Main stderr] I0518 09:02:40.608948 50236 server.go:433] Created extension server client at port 55131
+
+2026-05-18 09:02:40.723 [error] [LS Main stderr] I0518 09:02:40.716986 50236 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-18 09:02:40.834 [info] [LS Main] LS started on port 55138
+2026-05-18 09:02:40.847 [error] [LS Main stderr] I0518 09:02:40.843347 50236 server.go:1693] initialized server successfully in 961.136333ms
+
+2026-05-18 09:02:40.886 [error] [LS Main stderr] 2026/05/18 09:02:40 http: TLS handshake error from 127.0.0.1:55155: EOF
+
+2026-05-18 09:02:40.890 [error] [LS Main stderr] 2026/05/18 09:02:40 http: TLS handshake error from 127.0.0.1:55156: EOF
+
+2026-05-18 09:02:40.890 [error] [LS Main stderr] 2026/05/18 09:02:40 http: TLS handshake error from 127.0.0.1:55153: EOF
+
+2026-05-18 09:02:42.363 [error] [LS Main stderr] I0518 09:02:42.363525 50236 http_helpers.go:151] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x26ae0b7f014a28ef
+
+2026-05-18 09:02:43.801 [error] [LS Main stderr] I0518 09:02:43.799823 50236 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3e8027ec2dae32e9
+
+2026-05-18 09:02:43.841 [error] [LS Main stderr] I0518 09:02:43.819289 50236 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd2dc8d80360c8fe9
+
+2026-05-18 09:02:44.982 [error] [LS Main stderr] I0518 09:02:44.975312 50236 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1ff5d4cf90eac481
+
+2026-05-18 09:02:45.763 [error] [LS Main stderr] I0518 09:02:45.763576 50236 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb09c763af1be8571
+

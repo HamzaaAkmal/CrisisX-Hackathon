@@ -1,0 +1,38 @@
+2026-05-19 17:44:10.033 [info] Render performance baseline is 29ms
+2026-05-19 17:44:27.594 [info] Render performance baseline is 14ms
+2026-05-19 17:45:08.489 [warning] Renderer reported VERY LONG TASK (155ms), starting profiling session 'f1e757b7-37ca-4f40-af10-a11f96c092c6'
+2026-05-19 17:58:13.569 [warning] Renderer reported VERY LONG TASK (202ms), starting profiling session '181ac0e6-211f-4b55-8966-7720d27ff557'
+2026-05-19 18:04:43.400 [warning] Renderer reported VERY LONG TASK (331ms), starting profiling session '6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a'
+2026-05-19 18:05:19.628 [error] 
+	 at L (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:36949)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:35941)
+	 at C (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2267)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2457)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:10311)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-19 18:05:19.634 [error] 
+	 at deserializeRequestMixedArgs (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:43938)
+	 at L (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:36949)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:35941)
+	 at C (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2267)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2457)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:10311)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-19 18:05:19.636 [error] 
+	 at postMessage
+	 at send (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13407)
+	 at M (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:37872)
+	 at L (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:36949)
+	 at (anonymous) (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8501:35941)
+	 at C (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2267)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2791:2457)
+	 at fire (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5077:10311)
+	 at l.onmessage (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:8512:13334)
+2026-05-19 18:05:19.637 [error] 
+	 at (anonymous) (node:electron/js2c/sandbox_bundle:2:114669)
+	 at onMessage (node:electron/js2c/sandbox_bundle:2:123814)
+2026-05-19 18:05:19.789 [info] Stored profile to DISK 'file:///var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/renderer-24aff9.cpuprofile.json' 6fcfb5d3-7cd6-43c6-a90d-eefd6ba92d4a
+2026-05-19 18:22:57.975 [warning] Renderer reported VERY LONG TASK (297ms), starting profiling session '70891868-b247-4271-968d-70e98ec2a960'
+2026-05-19 18:26:58.614 [info] Render performance baseline is 20ms
+2026-05-19 18:31:38.366 [warning] Renderer reported VERY LONG TASK (5061ms), starting profiling session 'a5a0b5f2-92c1-48d2-9ab0-4cfc8945b80f'
+2026-05-19 18:34:53.977 [warning] Renderer reported VERY LONG TASK (335ms), starting profiling session '5ae7fd6f-f880-4636-a056-b75d7a9be774'

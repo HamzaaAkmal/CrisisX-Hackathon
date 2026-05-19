@@ -1,0 +1,51 @@
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.023 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.024 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-16 09:20:38.105 [error] [createInstance] ooe depends on UNKNOWN service agentSessions.: Error: [createInstance] ooe depends on UNKNOWN service agentSessions.
+    at jrs.y (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:4186)
+    at jrs.o (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1360)
+    at jrs.createInstance (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new Bei (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:6603:8181)
+    at new G6n (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:6603:15815)
+    at jrs.o (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new _ei (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:6603:18528)
+    at jrs.o (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+2026-05-16 09:20:38.467 [info] Started local extension host with pid 1437.
+2026-05-16 09:20:38.778 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-05-16 09:20:38.778 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-16 09:20:38.806 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-16 09:20:38.806 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-16 09:20:38.807 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-05-16 09:20:38.807 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-05-16 09:20:38.808 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-05-16 09:27:54.680 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: http://localhost:49542/proxy/unleash/client/features
+	at Timeout.<anonymous> (/Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/dist/extension.js:2:812821)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-05-16 09:31:14.473 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: http://localhost:49542/proxy/unleash/client/features
+	at Timeout.<anonymous> (/Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/dist/extension.js:2:812821)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-05-16 09:32:00.781 [error] Model is disposed!
+2026-05-16 09:32:02.517 [error] Model is disposed!
+2026-05-16 09:32:23.497 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: http://localhost:49542/proxy/unleash/client/features
+	at Timeout.<anonymous> (/Applications/Antigravity.app/Contents/Resources/app/extensions/antigravity/dist/extension.js:2:812821)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-05-16 09:35:07.772 [warning] [backup tracker] suspended, ignoring unregister event file:///Users/apple/Desktop/clicky-main/test_omniparser.py 

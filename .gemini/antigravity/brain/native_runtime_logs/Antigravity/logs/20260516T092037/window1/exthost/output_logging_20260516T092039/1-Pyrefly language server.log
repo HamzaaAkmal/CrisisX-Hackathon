@@ -1,0 +1,849 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (1)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.15s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(3))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.05s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.14s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (2)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.25s (0.14s waiting)
+ INFO We should cancel request RequestId(I32(7))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.08s waiting)
+ INFO We should cancel request RequestId(I32(11))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.05s waiting)
+ INFO We should cancel request RequestId(I32(8))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.05s waiting)
+ INFO We should cancel request RequestId(I32(9))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.05s waiting)
+ INFO Request textDocument/codeAction (3) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.40s waiting)
+ INFO Request textDocument/inlayHint (4) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.40s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (5)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.33s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (6)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.33s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.33s waiting)
+ INFO Request textDocument/codeAction (7) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.30s waiting)
+ INFO Request textDocument/codeAction (8) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.08s waiting)
+ INFO Request textDocument/foldingRange (9) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.07s waiting)
+ INFO Request textDocument/codeLens (10) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.07s waiting)
+ INFO Request textDocument/documentSymbol (11) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.07s waiting)
+ INFO Request textDocument/codeAction (12) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.05s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.05s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (13)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (14)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (15)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (16)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (17)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (18)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (19)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (20)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (21)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (22)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.22s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (23)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (24)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py opened, prepare to validate open files.
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 8 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.18s (0.00s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.17s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.17s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.17s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.16s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.16s waiting)
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.16s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/patch_downloader.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 3 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/visual_router.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/patch_downloader.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 8 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.03s (0.16s waiting)
+ INFO Request textDocument/codeAction (25) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.08s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Request textDocument/semanticTokens/full (26) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.02s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (27)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(27))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (28)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (29)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (30)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (31)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (32)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/visual_router.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.01
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.01, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/patch_downloader.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Handling non-canceled request textDocument/hover (33)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.02s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (34)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (35)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (36)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (37)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (38)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (39)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (40)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py changed, prepare to validate open files.
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidChangeTextDocument` in 0.05s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (41)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (42)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (43)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (44)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 7 file(s) changed (0 created, 7 modified, 0 removed, 0 unknown)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (45)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Streamed 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.02
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Request textDocument/semanticTokens/full (46) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (47)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (48)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (49)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (50)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 11 file(s) changed (0 created, 0 modified, 11 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.07
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.01s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (51)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (52)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentHighlight (53)
+ INFO Language server processed event `LspRequest(textDocument/documentHighlight)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (54)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (55)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (56)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (57)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (58)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (59)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (60)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (61)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (62)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (63)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (64)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (65)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (66)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (67)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (68)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (69)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (70)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (71)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (72)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (73)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (74)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (75)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (76)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (77)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (78)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (79)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (80)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (81)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (82)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (83)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (84)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (85)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (86)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (87)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (88)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (89)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (90)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (91)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (92)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (93)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (94)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (95)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (96)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (97)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (98)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (99)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (100)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (101)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (102)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (103)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (104)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (105)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (106)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (107)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (108)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (109)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (110)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.03s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (111)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.02s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (112)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (113)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (114)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (115)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (116)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (117)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (118)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (119)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (120)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (121)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (122)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/hardware.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/hardware.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (123)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (124)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (125)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (126)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (127)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (128)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (129)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (130)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (131)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (132)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (133)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (134)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (135)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (136)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (137)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (138)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (139)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/hardware.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (140)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (141)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (142)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (143)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (144)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (145)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (146)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (147)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (148)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (149)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (150)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (151)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (152)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (153)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (154)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (155)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/hardware.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.02s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (156)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (157)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (158)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (159)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (160)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (161)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (162)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (163)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (164)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/hardware.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/screen_capture.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/screen_capture.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (165)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (166)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (167)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (168)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (169)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (170)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (171)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (172)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (173)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (174)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (175)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (176)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/screen_capture.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (177)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (178)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (179)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (180)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (181)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (182)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (183)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (184)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (185)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (186)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (187)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (188)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (189)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (190)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (191)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/screen_capture.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/tts.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/tts.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (192)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (193)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (194)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (195)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (196)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (197)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (198)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (199)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (200)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (201)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (202)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/tts.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/cursor.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/cursor.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (203)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (204)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (205)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (206)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (207)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (208)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (209)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (210)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (211)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (212)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/cursor.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (213)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (214)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (215)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (216)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (217)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (218)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (219)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (220)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (221)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (222)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/cursor.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.02s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (223)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.02s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (224)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.01s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (225)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.01s waiting)
+ INFO Request textDocument/semanticTokens/full (226) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.01s waiting)
+ INFO Request textDocument/inlayHint (227) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (228)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (229)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (230)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (231)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (232)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (233)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (234)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (235)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (236)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/cursor.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (237)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (238)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (239)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (240)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (241)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (242)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (243)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (244)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (245)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (246)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (247)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (248)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (249)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (250)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (251)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (252)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (253)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (254)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/hover (255)
+ INFO Language server processed event `LspRequest(textDocument/hover)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (256)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (257)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py changed, prepare to validate open files.
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidChangeTextDocument` in 0.02s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (258)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (0 created, 1 modified, 0 removed, 0 unknown)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.01
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (259)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO File /Users/apple/Desktop/clicky-main/test_omniparser.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/test_omniparser.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (260)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (1 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.04
+ INFO Published 2 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/brain.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/stt.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/test_omniparser.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/config.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/downloader.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/runtime_bootstrap.py
+ INFO Published 0 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/ui/onboarding.py
+ INFO Published 1 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/main.py
+ INFO Published 5 diagnostics for file:///Users/apple/Desktop/clicky-main/leanring-buddy/clicky/omniparser_wrapper.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (261)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)

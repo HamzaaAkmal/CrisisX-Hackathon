@@ -1,0 +1,33 @@
+2026-05-15 16:57:02.373 [info] [Auth] Auth state changed to: uninitialized
+2026-05-15 16:57:02.431 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-15 16:57:02.431 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-15 16:57:06.472 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 17:57:03.724 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 18:52:02.657 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 18:52:03.944 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 20:47:04.552 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 20:47:07.607 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 21:47:02.788 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 21:47:04.002 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 22:28:26.476 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 22:28:48.592 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 23:27:23.529 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 23:27:28.013 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 00:27:05.806 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 00:27:08.172 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 01:32:51.068 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 01:32:52.522 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 02:42:05.899 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 02:42:08.011 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 03:43:04.461 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 03:43:05.817 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 04:44:04.536 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 04:44:06.102 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 05:45:04.925 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 05:45:07.795 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 06:42:26.234 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 06:42:27.682 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 07:47:06.007 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 07:47:08.655 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 08:47:04.501 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-16 08:47:05.696 [info] OAuth token changed, executing antigravity.handleAuthRefresh

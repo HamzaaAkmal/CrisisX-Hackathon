@@ -1,0 +1,95 @@
+2026-05-19 17:44:39.763 [info] [Manager] [DEBUG bootstrap-window] cssModules: undefined (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-19 17:44:39.764 [info] [Manager] [DEBUG bootstrap-window] esModule: jetskiAgent/main (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-19 17:44:39.764 [info] [Manager] [DEBUG bootstrap-window] baseUrl: [object URL] (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-19 17:44:39.764 [info] [Manager] [DEBUG bootstrap-window] new URL: vscode-file://vscode-app/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-05-19 17:44:40.344 [info] [Manager] [FileWatch:undefined] connecting... (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:3662)
+2026-05-19 18:02:28.419 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:2776)
+2026-05-19 18:03:02.368 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:2776)
+2026-05-19 18:03:19.381 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:03:51.978 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:2776)
+2026-05-19 18:05:46.882 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:05:49.763 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4563)
+2026-05-19 18:06:00.187 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.scala (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.189 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.erlang (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.189 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.elixir (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.189 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.twig (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.189 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.yang (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.189 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.abap (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.postscript (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope text.haml (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.graphql (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.js.jquery (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope text.slim (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.243 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.asm (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.x86 (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.x86_64 (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.arm (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.glsl (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope text.html.javadoc (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.sass (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.less (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.244 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.stylus (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.249 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.gnuplot (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.249 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.asy (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.249 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.haskell (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.251 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.asymptote (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.251 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.dot (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.251 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.cmake (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.251 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.kconfig (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:00.251 [info] [Manager] [TMGrammarFactory] TRACE: No grammar found for scope source.dts (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4564)
+2026-05-19 18:06:19.671 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:07:04.604 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4563)
+2026-05-19 18:07:06.154 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4563)
+2026-05-19 18:10:36.873 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:10:36.988 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:10:42.487 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-05-19 18:10:45.389 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/Applications/Antigravity.app/Contents/Resources/app/out/jetskiAgent/main.js:4563)
+2026-05-19 18:10:45.754 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/Applications/Antigravity.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)

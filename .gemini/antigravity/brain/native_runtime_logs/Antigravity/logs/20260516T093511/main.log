@@ -1,0 +1,38 @@
+2026-05-16 09:35:11.959 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-16 09:35:11.959 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:50471
+2026-05-16 09:35:11.959 [info] update#setState idle
+2026-05-16 09:35:41.904 [info] update#setState checking for updates
+2026-05-16 09:35:42.454 [info] update#setState idle
+2026-05-16 10:26:37.484 [warning] [perf] profiling STARTED 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:26:42.518 [warning] [perf] profiling DONE 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:26:57.776 [warning] [perf] profiling STARTED 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:27:02.803 [warning] [perf] profiling DONE 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:27:18.042 [warning] [perf] profiling STARTED 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:27:23.070 [warning] [perf] profiling DONE 14ef023b-b275-4ea8-bf32-dee8c191a9e4
+2026-05-16 10:33:55.175 [warning] [perf] profiling STARTED 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:34:00.229 [warning] [perf] profiling DONE 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:34:16.237 [warning] [perf] profiling STARTED 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:34:21.270 [warning] [perf] profiling DONE 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:34:37.246 [warning] [perf] profiling STARTED 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:34:42.306 [warning] [perf] profiling DONE 61953430-1719-4477-8308-282711d7e88f
+2026-05-16 10:35:41.993 [info] update#setState checking for updates
+2026-05-16 10:35:42.698 [info] update#setState idle
+2026-05-16 10:45:44.370 [warning] [perf] profiling STARTED 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:45:49.423 [warning] [perf] profiling DONE 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:46:04.708 [warning] [perf] profiling STARTED 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:46:09.752 [warning] [perf] profiling DONE 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:46:25.258 [warning] [perf] profiling STARTED 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:46:30.289 [warning] [perf] profiling DONE 40e637c1-74a6-4770-a92f-491e692ba8a4
+2026-05-16 10:56:11.525 [warning] [perf] profiling STARTED 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 10:56:16.567 [warning] [perf] profiling DONE 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 10:56:32.255 [warning] [perf] profiling STARTED 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 10:56:37.286 [warning] [perf] profiling DONE 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 10:56:53.262 [warning] [perf] profiling STARTED 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 10:56:58.304 [warning] [perf] profiling DONE 6efc9a6f-c199-44d1-be3c-11832e46668d
+2026-05-16 11:02:18.919 [warning] [perf] profiling STARTED bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:02:23.967 [warning] [perf] profiling DONE bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:02:39.284 [warning] [perf] profiling STARTED bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:02:44.316 [warning] [perf] profiling DONE bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:03:00.283 [warning] [perf] profiling STARTED bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:03:05.316 [warning] [perf] profiling DONE bc66b252-c11d-4db9-ba80-9290b6449785
+2026-05-16 11:21:28.828 [info] Extension host with pid 2828 exited with code: 0, signal: unknown.

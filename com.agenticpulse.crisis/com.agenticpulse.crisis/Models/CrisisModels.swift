@@ -265,6 +265,12 @@ struct SupabaseSession: Codable, Hashable {
     var accessToken: String
     var refreshToken: String?
     var expiresIn: Int?
+    var expiresAt: Int?
     var tokenType: String?
     var user: SupabaseUser
+
+    var shouldRefresh: Bool {
+        guard let expiresAt else { return false }
+        return Date().timeIntervalSince1970 > Double(expiresAt - 60)
+    }
 }

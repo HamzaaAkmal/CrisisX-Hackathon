@@ -1,0 +1,26 @@
+2026-05-19 18:26:55.510 [info] [main] Log level: Info
+2026-05-19 18:26:55.510 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2026-05-19 18:26:55.567 [info] [main] Using git "2.53.0" from "/opt/homebrew/bin/git"
+2026-05-19 18:26:55.567 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-19 18:26:55.871 [info] > git rev-parse --show-toplevel [22ms]
+2026-05-19 18:26:55.928 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [56ms]
+2026-05-19 18:26:55.933 [info] [Model][openRepository] Opened repository (path): /Users/apple/Desktop/clicky-main
+2026-05-19 18:26:55.933 [info] [Model][openRepository] Opened repository (real path): /Users/apple/Desktop/clicky-main
+2026-05-19 18:26:55.933 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-19 18:26:56.007 [info] > git config --get commit.template [70ms]
+2026-05-19 18:26:56.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [68ms]
+2026-05-19 18:26:56.011 [info] > git rev-parse --show-toplevel [73ms]
+2026-05-19 18:26:56.044 [info] > git rev-parse --show-toplevel [28ms]
+2026-05-19 18:26:56.053 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [43ms]
+2026-05-19 18:26:56.075 [info] > git rev-parse --show-toplevel [28ms]
+2026-05-19 18:26:56.079 [info] > git status -z -uall [70ms]
+2026-05-19 18:26:56.111 [info] > git rev-parse --show-toplevel [33ms]
+2026-05-19 18:26:56.113 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-19 18:26:56.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [32ms]
+2026-05-19 18:26:56.166 [info] > git config --get commit.template [68ms]
+2026-05-19 18:26:56.178 [info] > git config --get --local branch.master.vscode-merge-base [51ms]
+2026-05-19 18:26:56.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [71ms]
+2026-05-19 18:26:56.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [29ms]
+2026-05-19 18:26:56.219 [info] > git status -z -uall [38ms]
+2026-05-19 18:26:56.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [39ms]
+2026-05-19 18:26:56.507 [info] > git check-ignore -v -z --stdin [24ms]

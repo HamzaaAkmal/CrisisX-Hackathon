@@ -29,6 +29,25 @@ final class SupabaseService: ObservableObject {
         session = stored
     }
 
+    func refreshSessionIfNeeded(force: Bool = false) async throws {
+        guard let current = session else { return }
+        guard force || current.shouldRefresh else { return }
+        guard let refreshToken = current.refreshToken, !refreshToken.isEmpty else {
+            signOut()
+            throw APIError.server(status: 401, message: "Saved session expired. Please sign in again.")
+        }
+
+        let data = try await request(
+            path: "/auth/v1/token",
+            method: "POST",
+            queryItems: [URLQueryItem(name: "grant_type", value: "refresh_token")],
+            body: ["refresh_token": refreshToken],
+            authenticated: false
+        )
+        let refreshed = try decodeSession(data)
+        try persist(refreshed)
+    }
+
     func signIn(email: String, password: String) async throws -> SupabaseSession {
         let data = try await request(
             path: "/auth/v1/token",
@@ -151,7 +170,8 @@ final class SupabaseService: ObservableObject {
         queryItems: [URLQueryItem] = [],
         body: Any? = nil,
         authenticated: Bool = true,
-        extraHeaders: [String: String] = [:]
+        extraHeaders: [String: String] = [:],
+        hasRetriedAfterRefresh: Bool = false
     ) async throws -> Data {
         guard config.isSupabaseConfigured else {
             throw APIError.missingConfiguration("SUPABASE_ANON_KEY")
@@ -165,24 +185,36 @@ final class SupabaseService: ObservableObject {
         }
         guard let url = components?.url else { throw APIError.invalidResponse }
 
-        var request = URLRequest(url: url)
-        request.httpMethod = method
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = method
         let timeoutInterval = Self.timeoutInterval(for: normalizedPath)
-        request.timeoutInterval = timeoutInterval
-        request.setValue(config.supabaseAnonKey, forHTTPHeaderField: "apikey")
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-        request.setValue("Bearer \(authenticated ? (session?.accessToken ?? config.supabaseAnonKey) : config.supabaseAnonKey)", forHTTPHeaderField: "Authorization")
-        extraHeaders.forEach { request.setValue($0.value, forHTTPHeaderField: $0.key) }
+        urlRequest.timeoutInterval = timeoutInterval
+        urlRequest.setValue(config.supabaseAnonKey, forHTTPHeaderField: "apikey")
+        urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        urlRequest.setValue("application/json", forHTTPHeaderField: "Accept")
+        urlRequest.setValue("Bearer \(authenticated ? (session?.accessToken ?? config.supabaseAnonKey) : config.supabaseAnonKey)", forHTTPHeaderField: "Authorization")
+        extraHeaders.forEach { urlRequest.setValue($0.value, forHTTPHeaderField: $0.key) }
 
         if let body {
-            request.httpBody = try JSONSerialization.data(withJSONObject: body, options: [])
+            urlRequest.httpBody = try JSONSerialization.data(withJSONObject: body, options: [])
         }
 
         do {
-            let (data, response) = try await urlSession.data(for: request)
+            let (data, response) = try await urlSession.data(for: urlRequest)
             guard let http = response as? HTTPURLResponse else { throw APIError.invalidResponse }
             guard (200..<300).contains(http.statusCode) else {
+                if authenticated, http.statusCode == 401, !hasRetriedAfterRefresh, !normalizedPath.hasPrefix("/auth/v1/") {
+                    try await refreshSessionIfNeeded(force: true)
+                    return try await request(
+                        path: path,
+                        method: method,
+                        queryItems: queryItems,
+                        body: body,
+                        authenticated: authenticated,
+                        extraHeaders: extraHeaders,
+                        hasRetriedAfterRefresh: true
+                    )
+                }
                 throw APIError.server(status: http.statusCode, message: Self.errorMessage(from: data))
             }
             return data

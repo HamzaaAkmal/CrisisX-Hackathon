@@ -1,0 +1,11 @@
+- [x] Analyze challenge prompt and derive CIRO product scope.
+- [x] Create SwiftUI app shell with package name `com.agenticpulse.crisis`.
+- [x] Add Supabase email auth login/signup flow.
+- [x] Add light blue shared theme and consistent screen layout.
+- [x] Create Live Crisis Map, Report Crisis, Signal Inbox, Incident Detail, Response Plan, Agent Trace, Simulation Outcome, and Settings screens.
+- [x] Create Supabase migration with required CIRO tables, RLS, indexes, timestamps, JSONB payloads, and realtime status fields.
+- [x] Create Supabase Edge Function orchestrator for the multi-agent pipeline.
+- [x] Add structured tool definitions and database logging for agent decisions and tool calls.
+- [x] Add README with architecture, keys, migration instructions, Antigravity usage, assumptions, and demo steps.
+- [x] Verify the app and backend paths use `/Users/apple/Desktop/Crisis`.
+

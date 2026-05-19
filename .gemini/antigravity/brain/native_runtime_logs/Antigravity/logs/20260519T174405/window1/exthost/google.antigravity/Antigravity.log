@@ -1,0 +1,50 @@
+2026-05-19 17:44:08.842 [info] I0519 17:44:08.842571 27304 server.go:1236] Starting language server process with pid 27304
+2026-05-19 17:44:08.843 [info] I0519 17:44:08.842697 27304 server.go:301] Setting GOMAXPROCS to 4
+2026-05-19 17:44:08.843 [info] I0519 17:44:08.843292 27304 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-19 17:44:08.843 [info] I0519 17:44:08.843377 27304 server.go:454] Language server listening on random port at 56141 for HTTPS (gRPC)
+2026-05-19 17:44:08.843 [info] I0519 17:44:08.843393 27304 server.go:461] Language server listening on random port at 56142 for HTTP
+2026-05-19 17:44:09.438 [info] I0519 17:44:09.438553 27304 server.go:433] Created extension server client at port 56140
+2026-05-19 17:44:09.927 [info] I0519 17:44:09.926433 27304 cascade_manager.go:773] Reactive state is disabled
+2026-05-19 17:44:09.962 [info] (Antigravity) 2026-05-19 17:44:09.961 [INFO]: Language server started
+2026-05-19 17:44:09.995 [info] I0519 17:44:09.977492 27304 server.go:1693] initialized server successfully in 1.134623083s
+2026-05-19 17:44:10.033 [info] (Antigravity) 2026-05-19 17:44:10.033 [INFO]: LS lspClient started successfully
+2026-05-19 17:44:11.772 [info] I0519 17:44:11.771727 27304 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfdd2cb1d8b7255ee
+2026-05-19 17:44:12.505 [info] I0519 17:44:12.505046 27304 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd03fa162f858b64b
+2026-05-19 17:44:12.878 [info] I0519 17:44:12.878614 27304 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xac78a0ff52ff309c
+2026-05-19 17:44:25.769 [info] I0519 17:44:25.769236 27468 server.go:1236] Starting language server process with pid 27468
+2026-05-19 17:44:25.769 [info] I0519 17:44:25.769424 27468 server.go:301] Setting GOMAXPROCS to 4
+2026-05-19 17:44:25.773 [info] I0519 17:44:25.771046 27468 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-19 17:44:25.773 [info] I0519 17:44:25.771224 27468 server.go:454] Language server listening on random port at 56235 for HTTPS (gRPC)
+2026-05-19 17:44:25.773 [info] I0519 17:44:25.771263 27468 server.go:461] Language server listening on random port at 56236 for HTTP
+2026-05-19 17:44:26.919 [info] I0519 17:44:26.918868 27468 server.go:433] Created extension server client at port 56233
+2026-05-19 17:44:26.931 [info] I0519 17:44:26.930866 27468 cascade_manager.go:773] Reactive state is disabled
+2026-05-19 17:44:26.944 [info] (Antigravity) 2026-05-19 17:44:26.943 [INFO]: Language server started
+2026-05-19 17:44:26.957 [info] I0519 17:44:26.951538 27468 server.go:1693] initialized server successfully in 1.182119083s
+2026-05-19 17:44:27.070 [info] (Antigravity) 2026-05-19 17:44:27.070 [INFO]: LS lspClient started successfully
+2026-05-19 17:44:29.246 [info] I0519 17:44:29.246089 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb38ba39952ab3f04
+2026-05-19 17:44:30.473 [info] I0519 17:44:30.473119 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7702ff7e58346586
+2026-05-19 17:49:28.189 [info] I0519 17:49:28.189219 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc155722401bac354
+2026-05-19 17:49:28.664 [info] I0519 17:49:28.664336 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xee3f792cf2cbe064
+2026-05-19 17:55:27.676 [info] I0519 17:55:27.675673 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd2fa82c3de1d7e8d
+2026-05-19 17:55:28.275 [info] I0519 17:55:28.273249 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe62c3aa9aeaa828b
+2026-05-19 18:00:31.304 [info] (Antigravity) 2026-05-19 18:00:31.303 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-19 18:01:27.809 [info] I0519 18:01:27.808206 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1cbf5f7e9a106e2d
+2026-05-19 18:01:28.443 [info] I0519 18:01:28.441529 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x66a97277d82ab6e6
+2026-05-19 18:06:54.321 [info] E0519 18:06:54.320835 27468 log.go:398] while decoding file, failed to detect charset with sufficient confidence
+2026-05-19 18:07:27.537 [info] I0519 18:07:27.536721 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x907291f7b6106dfd
+2026-05-19 18:07:28.606 [info] I0519 18:07:28.606009 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5ce8aa8ae109f932
+2026-05-19 18:13:27.672 [info] I0519 18:13:27.672049 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8bf2bc1bbfd10b41
+2026-05-19 18:13:28.239 [info] I0519 18:13:28.238943 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7bf22fa653a27fd1
+2026-05-19 18:19:27.781 [info] I0519 18:19:27.780386 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfae8e060c03606b4
+2026-05-19 18:19:29.202 [info] I0519 18:19:29.201978 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf86f8a5e7566f86
+2026-05-19 18:25:27.513 [info] I0519 18:25:27.493988 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8c06b46e2f1e41fe
+2026-05-19 18:25:28.392 [info] I0519 18:25:28.391733 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x842953281752e593
+2026-05-19 18:30:29.285 [info] I0519 18:30:29.279853 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2448b6ed3543d404
+2026-05-19 18:36:28.702 [info] I0519 18:36:28.683503 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x287368ba83f069b2
+2026-05-19 18:36:34.454 [info] I0519 18:36:34.445667 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc86fe0239e73ff2f
+2026-05-19 18:42:27.888 [info] I0519 18:42:27.887437 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe6d08c18cbd3f4ed
+2026-05-19 18:42:28.421 [info] I0519 18:42:28.418928 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8c1c23021816e68e
+2026-05-19 18:44:27.803 [info] I0519 18:44:27.802565 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8de06f6d1afb1585
+2026-05-19 18:44:28.314 [info] I0519 18:44:28.314143 27468 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbf98dc1dec362870
+2026-05-19 18:48:04.134 [info] I0519 18:48:04.081540 27468 server.go:1956] Exit requested on language server process 27468
+2026-05-19 18:48:04.422 [info] I0519 18:48:04.340383 27468 server.go:1897] Language server shutting down

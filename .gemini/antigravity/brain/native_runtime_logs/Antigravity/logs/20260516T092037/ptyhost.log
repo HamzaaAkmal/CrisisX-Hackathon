@@ -1,0 +1,4 @@
+2026-05-16 09:20:38.923 [info] Revived process, old id 3141217bf160fa67ebfc0c8fe5409193-16 -> new id 1
+2026-05-16 09:20:38.968 [info] Expanding terminal instance, old id 3141217bf160fa67ebfc0c8fe5409193-17 -> new id undefined
+2026-05-16 09:20:38.969 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty 17 on pty host
+2026-05-16 09:20:39.303 [error] Failed to set sticky bit on /private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh: Error: ENOENT: no such file or directory, chmod '/private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh'

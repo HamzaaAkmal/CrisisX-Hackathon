@@ -1,0 +1,2 @@
+2026-05-19 17:44:08.682 [error] Failed to set sticky bit on /private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh: Error: ENOENT: no such file or directory, chmod '/private/var/folders/yn/f3f63rx13xx1vwwn0bzv3z_w0000gn/T/apple-antigravity-zsh'
+2026-05-19 17:45:24.159 [info] Persistent process "2": The reconnection grace time of 1m has expired, shutting down pid "27399"

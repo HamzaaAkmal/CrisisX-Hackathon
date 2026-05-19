@@ -1,0 +1,2 @@
+2026-05-16 10:56:09.834 [error] #58: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED
+2026-05-16 10:56:13.051 [error] #59: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
