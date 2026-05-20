@@ -1,4 +1,4 @@
-# CrisisAI (CIRO) Technical Documentation
+# CrisisX AI Technical Documentation
 
 ## 1. Project Overview
 
@@ -219,8 +219,8 @@ The Edge Function runs a deterministic pipeline with explicit logging:
 - Align AI provider configuration between documentation and Edge Function settings.
 - Add integration points for real dispatch systems while keeping strict safety boundaries.
 
-## 11. Company
-- Agentic Pulse
+## 11. Team Name
+- CrisisX AI
   ## Team
 - Hamza Akmal
 - Abdullah Saif
