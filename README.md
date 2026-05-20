@@ -342,8 +342,7 @@ The Edge Function runs a deterministic pipeline with explicit logging:
 - Align AI provider configuration between documentation and Edge Function settings.
 - Add integration points for real dispatch systems while keeping strict safety boundaries.
 
-## 11. Team Name
-- CrisisX AI
+## 11. Team CrisisX AI
 - Hamza Akmal
 - Abdullah Saif
 - Kamran Ashraf
