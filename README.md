@@ -86,6 +86,127 @@ The backend is a single Edge Function with a layered agent pipeline and a struct
 - Async agent orchestration with stale-run recovery and queued processing.
 - UI data loads are bounded (`limit` queries) and throttled reloads (450ms).
 
+### Architecture diagrams
+
+#### System architecture
+```mermaid
+flowchart TB
+    User["Mobile User / Judge"] --> IOS["CrisisX iOS App<br/>SwiftUI"]
+
+    IOS --> Auth["Supabase Auth<br/>Email Login"]
+    IOS --> Maps["Google Maps SDK<br/>Live Crisis Map"]
+    IOS --> Repo["CrisisRepository<br/>Local State + Cache"]
+
+    Repo --> Cache["Local Cache<br/>Instant First Load"]
+    Repo --> SupabaseREST["Supabase REST / PostgREST"]
+    Repo --> Realtime["Supabase Realtime<br/>WebSocket Updates"]
+    Repo --> EdgeFn["Supabase Edge Function<br/>ciro-agent"]
+
+    EdgeFn --> Postgres["Supabase Postgres"]
+    SupabaseREST --> Postgres
+    Realtime --> Postgres
+
+    EdgeFn --> GoogleAPIs["Google APIs<br/>Geocoding / Routes"]
+    EdgeFn --> Weather["OpenWeather API"]
+    EdgeFn --> Search["Exa Search"]
+    EdgeFn --> LLM["Groq / LLM Reasoning"]
+
+    Postgres --> Tables["Signals<br/>Incidents<br/>Evidence<br/>Actions<br/>Tickets<br/>Agent Logs"]
+```
+
+#### Agentic workflow architecture
+```mermaid
+flowchart LR
+    Signal["User Report / Backend Signal"] --> Start["Start Processing<br/>ciro-agent"]
+
+    Start --> Normalize["Signal Normalizer Agent"]
+    Normalize --> Geo["Geo Resolver Agent"]
+    Geo --> Evidence["Evidence Agent<br/>Weather / Routes / Search"]
+    Evidence --> Detect["Crisis Detector Agent"]
+    Detect --> Severity["Severity Agent"]
+    Severity --> Planner["Response Planner Agent"]
+    Planner --> Booking["Mock Provider Booking Agent"]
+    Booking --> Simulation["Simulation Agent"]
+    Simulation --> Trace["Trace Agent"]
+
+    Booking --> Rank["Rank 3 Mock Providers<br/>ETA + Distance + Availability<br/>Capacity + Crisis Fit"]
+    Rank --> Select["Select Top Provider"]
+    Select --> Dispatch["Create Mock Dispatch Ticket"]
+    Dispatch --> State["Resource State Change<br/>available -> assigned_mock"]
+
+    Trace --> Logs["Agent Logs + Tool Calls"]
+    Dispatch --> Tickets["Emergency Tickets"]
+    Planner --> Actions["Response Actions"]
+    Simulation --> Metrics["Simulation Metrics"]
+
+    Logs --> UI["Agent Trace UI"]
+    Tickets --> UI
+    Actions --> UI
+    Metrics --> UI
+```
+
+#### Data sync and cache architecture
+```mermaid
+flowchart TB
+    Launch["App Launch / App Becomes Active"] --> Restore["Restore Local Cache"]
+    Restore --> InstantUI["Instant Dashboard Render<br/>Incidents / Signals / Actions"]
+
+    Launch --> Refresh["Background Supabase Refresh"]
+    Refresh --> Fetch["Fetch Bounded Tables<br/>signals, incidents, actions,<br/>logs, tickets, resources"]
+    Fetch --> Merge["Merge By Primary Key"]
+    Merge --> SaveCache["Save Last-Known-Good Cache"]
+    Merge --> UpdateUI["Update SwiftUI State"]
+
+    Supabase["Supabase Postgres"] --> Realtime["Realtime Table Events"]
+    Realtime --> Debounce["450ms Reload Debounce"]
+    Debounce --> Refresh
+
+    Fetch -->|Success| Live["Live Data Mode"]
+    Fetch -->|Failure| Cached["Keep Cached / Demo Data<br/>No Blocking Error Screen"]
+
+    Live --> UpdateUI
+    Cached --> InstantUI
+
+    UpdateUI --> Screens["Map<br/>Inbox<br/>Incident Detail<br/>Response Plan<br/>Agent Trace<br/>Simulation"]
+```
+
+#### Runtime sequence
+```mermaid
+sequenceDiagram
+    autonumber
+    participant User as User / Judge
+    participant App as CrisisX iOS App
+    participant Cache as Local Cache
+    participant Repo as CrisisRepository
+    participant SB as Supabase
+    participant Fn as ciro-agent Edge Function
+    participant APIs as External APIs / LLM
+
+    User->>App: Open app
+    App->>Cache: Restore last-known-good snapshot
+    Cache-->>App: Cached incidents, signals, actions
+    App-->>User: Render dashboard instantly
+
+    App->>Repo: Start background refresh
+    Repo->>SB: Fetch bounded tables
+    SB-->>Repo: Fresh rows or recoverable error
+    Repo->>Cache: Persist successful snapshot
+    Repo-->>App: Publish merged SwiftUI state
+    App-->>User: Update UI without tab switching
+
+    User->>App: Submit crisis report
+    App->>SB: Insert signal
+    App->>Fn: start_processing(signal_id)
+    Fn->>SB: Create agent_run and logs
+    Fn->>APIs: Geocode, weather, routes, search, reasoning
+    APIs-->>Fn: Evidence and structured context
+    Fn->>SB: Write incident, evidence, actions, tickets, trace
+    SB-->>Repo: Realtime table event
+    Repo->>SB: Debounced refresh
+    Repo-->>App: Updated incident + trace + mock dispatch
+    App-->>User: Show response plan and confirmation
+```
+
 ## 4. Technologies Used
 
 | Area | Technology | Purpose |
